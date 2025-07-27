@@ -322,7 +322,7 @@ CLEARANCE: EYES ONLY
 </td>
 <td align="center">
 
-[![Web Portal](https://img.shields.io/badge/🌐_WEB_PORTAL-FF6B6B?style=for-the-badge&logo=firefox&logoColor=white&labelColor=1a3300)]([Your website])
+[![Web Portal](https://img.shields.io/badge/🌐_WEB_PORTAL-FF6B6B?style=for-the-badge&logo=firefox&logoColor=white&labelColor=1a3300)](https://bezaleelpaul.github.io/)
 
 </td>
 </tr>
