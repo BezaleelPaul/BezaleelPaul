@@ -14,7 +14,7 @@
 ```
 <div align="center">
   
-![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&text=BEZALEEL+PAUL+N&fontSize=40&fontColor=ffffff&desc=⚡+CYBER+OPERATIVE+⚡&descAlignY=65)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:ff0080,50:00ffff,100:ff0080&height=180&text=BEZALEEL+PAUL+N&fontSize=45&fontColor=ffffff&animation=twinkling&desc=⚡+CYBER+OPERATIVE+⚡&descAlignY=65)
 
 </div>
 
@@ -296,7 +296,11 @@ CLEARANCE: EYES ONLY
 └─────────────────────────────────────────────────────────────┘
 ```
 
-![Digital Trophies](https://github-profile-trophy.vercel.app/?username=BezaleelPaul&theme=synthwave&no-frame=false&no-bg=false&margin-w=4&row=2&column=4&border_color=ff0080&title_color=00ffff)
+<div align="center">
+
+### 🏆 DIGITAL TROPHIES 🏆
+[![Digital Trophies](https://github-profile-trophy.vercel.app/?username=BezaleelPaul&theme=onedark&title_color=00ffff&text_color=ffffff&border_color=ff0080&row=2&column=4&margin-w=15&margin-h=15)](https://github.com/ryo-ma/github-profile-trophy)
+
 
 </div>
 
@@ -358,6 +362,6 @@ CLEARANCE: EYES ONLY
 
 <sub>*🔐 This terminal session is secured with quantum encryption. All data transmissions are protected by advanced cybersecurity protocols. 🔐*</sub>
 
-![Terminal End](https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif)
+![Matrix Exit](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTJjY2VhOGQwY2I3ZGI1ZThiMzBjYzJhZGVlY2NmYzY0MWRhYmUxYmNmYjYyOTFmZTJjYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26n6WywJyh39n1pBu/giphy.gif)
 
 </div>
