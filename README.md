@@ -341,7 +341,7 @@ CLEARANCE: EYES ONLY
 ### 💾 **CONNECTION LOG** 💾
 
 <p align="center">
-  <img src="https://profile-counter.glitch.me/BezaleelPaul/count.svg?color=ff0080&style=for-the-badge&background=0d1117" alt="Terminal Sessions" />
+  <img src="https://count.getloli.com/get/@BezaleelPaul?theme=moebooru" alt="Visitor Count" />
 </p>
 
 ```
