@@ -1,5 +1,7 @@
 <div align="center">
 
+
+
 # ⚡ NEURAL LINK ESTABLISHED ⚡
 
 ```
@@ -10,8 +12,11 @@
 ██║  ██║██║  ██║╚██████╗██║  ██╗███████╗██║  ██║       ██║   ███████╗██║  ██║██║ ╚═╝ ██║██║██║ ╚████║██║  ██║███████╗
 ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝       ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝
 ```
+<div align="center">
+  
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&text=BEZALEEL+PAUL+N&fontSize=40&fontColor=ffffff&desc=⚡+CYBER+OPERATIVE+⚡&descAlignY=65)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff0080,25:00ffff,50:ff0080,75:00ffff,100:ff0080&height=180&section=header&text=◉%20BEZALEEL PAUL N%20◉&fontSize=45&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=⚡%20CYBER%20OPERATIVE%20⚡&descAlignY=55&descAlign=50&descSize=20" alt="Cyberpunk Header" />
+</div>
 
 ```
 🔥 SYSTEM BREACH DETECTED 🔥
@@ -92,7 +97,7 @@ NEURAL_LINK=ACTIVE
 ### 💻 **CORE SYSTEMS**
 <div style="background: linear-gradient(135deg, #0d1117 0%, #1a0033 50%, #330066 100%); padding: 20px; border: 2px solid #ff0080; border-radius: 15px;">
 
-![Primary Arsenal](https://skillicons.dev/icons?i=[Your skills]&theme=dark)
+![Primary Arsenal](https://skillicons.dev/icons?i=python,js,html,css,react,nodejs,git,bash,flutter,firebase,tensorflow&theme=dark)
 
 ```
 STATUS: LOADED
@@ -107,8 +112,7 @@ THREAT: MAXIMUM
 ### 🛡️ **FRAMEWORKS**
 <div style="background: linear-gradient(135deg, #0d1117 0%, #001a33 50%, #003366 100%); padding: 20px; border: 2px solid #00ffff; border-radius: 15px;">
 
-![Framework Shield](https://img.shields.io/badge/SHIELD-Python, JavaScript, HTML, CSS, React, Node.js, FastAPI, SQLite, Flutter, Git, Bash, OpenAI APIs, CustomTkinter, PyQt5, Godot, TensorFlow (basic), Firebase-00ffff?style=for-the-badge&logo=shield&logoColor=white)
-
+![SHIELD](https://img.shields.io/badge/SHIELD-Python,_JavaScript,_HTML,_CSS,_React,_Node.js,_FastAPI,_SQLite,_Flutter,_Git,_Bash,_OpenAI_APIs,_CustomTkinter,_PyQt5,_Godot,_TensorFlow_(basic),_Firebase-00ffff?style=for-the-badge&logo=shield&logoColor=white) 
 ```
 STATUS: ACTIVE
 DEFENSE: ONLINE
@@ -122,7 +126,7 @@ DEFENSE: ONLINE
 ### ⚡ **EXPLOITS**
 <div style="background: linear-gradient(135deg, #0d1117 0%, #1a3300 50%, #336600 100%); padding: 20px; border: 2px solid #00ff00; border-radius: 15px;">
 
-![Exploit Kit](https://img.shields.io/badge/EXPLOIT-Programming using AI-00ff00?style=for-the-badge&logo=bug&logoColor=white)
+![EXPLOIT](https://img.shields.io/badge/EXPLOIT-Programming_using_AI-00ff00?style=for-the-badge&logo=bug&logoColor=white)  
 
 ```
 STATUS: LEARNING
