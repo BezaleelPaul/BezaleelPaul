@@ -198,7 +198,7 @@ Customizable File Types: Easily add new file types and their extensions through 
 Copy or Move Files: Option to copy files instead of moving them, providing flexibility.
 Dark Theme: A sleek Discord-like theme for modern aesthetics.*
 
-[![ACCESS TERMINAL](https://img.shields.io/badge/🔓_ACCESS_TERMINAL-ff0080?style=for-the-badge&logo=terminal&logoColor=white)]([Your project1Link])
+[![ACCESS TERMINAL](https://img.shields.io/badge/🔓_ACCESS_TERMINAL-ff0080?style=for-the-badge&logo=terminal&logoColor=white)](https://github.com/BezaleelPaul/File-Organizer)
 
 </td>
 <td width="50%" align="center">
