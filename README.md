@@ -320,8 +320,7 @@ CLEARANCE: EYES ONLY
 <tr>
 <td align="center">
 
-[![LinkedIn Terminal](https://img.shields.io/badge/💼_LINKEDIN_TERMINAL-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1a0033)]([www.linkedin.com/in/
-bezaleel-paul-7b114b307])
+[![LinkedIn Terminal](https://img.shields.io/badge/💼_LINKEDIN_TERMINAL-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1a0033)]([www.linkedin.com/in/bezaleel-paul-7b114b307])
 
 </td>
 <td align="center">
