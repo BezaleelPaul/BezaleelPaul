@@ -174,8 +174,18 @@ LEVEL: QUANTUM
 <tr>
 <td width="50%" align="center">
 
-### 🔥 **OPERATION PHOENIX**
+### 📂 **OPERATION PHOENIX**
 #### 💻 File Organizer 💻
+[Repo](https://github.com/BezaleelPaul/File-Organizer)
+
+**One-line:** Smart GUI tool to automatically sort files by extension and preferences.
+
+**Tech:** Python, Tkinter
+
+**Highlights:**
+- Copy or move files with a toggle
+- Add custom file extensions through GUI
+- Dark theme with clean, modern UX
 
 <div align="center">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=BezaleelPaul&repo=File Organizer&theme=synthwave&bg_color=0d1117&border_color=ff0080&title_color=00ffff&text_color=ffffff&icon_color=ff0080&hide_border=true&border_radius=10" width="100%">
@@ -204,7 +214,17 @@ Dark Theme: A sleek Discord-like theme for modern aesthetics.*
 <td width="50%" align="center">
 
 ### ⚡ **OPERATION NEON**
-#### 💻 [Your project2Name] 💻
+#### 💻 BESCOM-Calculator 💻
+[Live Demo](https://bezaleelpaul.github.io/BESCOM-Calculator/) • [Repo](https://github.com/BezaleelPaul/BESCOM-Calculator)
+
+**One-line:** Domestic electricity bill calculator with accurate BESCOM tariff slabs.
+
+**Tech:** HTML, CSS, JavaScript
+
+**Highlights:**
+- Calculates monthly electricity bills accurately
+- User-friendly interactive UI
+- Live demo hosted on GitHub Pages
 
 <div align="center">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=BezaleelPaul&repo=[Your project2Name]&theme=synthwave&bg_color=0d1117&border_color=00ffff&title_color=ff0080&text_color=ffffff&icon_color=00ffff&hide_border=true&border_radius=10" width="100%">
@@ -228,7 +248,17 @@ STATUS: BREACHING FIREWALL
 <td colspan="2" align="center">
 
 ### 🌐 **OPERATION MATRIX**
-#### 💻 [Your project3Name] 💻
+#### 💻 Maclaurin-Visualizer 💻
+[Repo](https://github.com/BezaleelPaul/Maclaurin-Visualizer)
+
+**One-line:** Interactive visualization tool to teach Maclaurin series convergence.
+
+**Tech:** JavaScript, HTML, Canvas
+
+**Highlights:**
+- Real-time visualization of series partial sums
+- Slider controls for degree and function selection
+- Great for learning and teaching mathematics
 
 <div align="center">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=BezaleelPaul&repo=[Your project3Name]&theme=synthwave&bg_color=0d1117&border_color=00ff00&title_color=ff4444&text_color=ffffff&icon_color=00ff00&hide_border=true&border_radius=10" width="60%">
