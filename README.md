@@ -310,6 +310,30 @@ CLEARANCE: EYES ONLY
 </tr>
 </table>
 
+<div align="center">
+
+## 🏆 COMPETITIVE PROGRAMMING PROTOCOLS 🏆
+
+*Accessing ranking databases...*
+
+[![Codeforces](https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/BezaleelPaulN)
+[![CodeChef](https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/bezaleelpauln)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/LavaElixir)
+[![HackerRank](https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/bezaleel321)
+
+<br/>
+
+### 📊 STATS OVERVIEW
+
+<p align="center">
+  <img src="https://codeforces-readme-stats.vercel.app/api/card?username=BezaleelPaulN&theme=synthwave" />
+  <br/>
+  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=Rating&query=result%5B0%5D.rating&url=https%3A%2F%2Fcodeforces.com%2Fapi%2Fuser.info%3Fhandles%3DBezaleelPaulN&color=ff0080&labelColor=1a0033&logo=codeforces" />
+  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=Rank&query=result%5B0%5D.rank&url=https%3A%2F%2Fcodeforces.com%2Fapi%2Fuser.info%3Fhandles%3DBezaleelPaulN&color=00ffff&labelColor=1a0033&logo=codeforces" />
+</p>
+
+</div>
+
 ### 🔥 **NEURAL NETWORK STATUS** 🔥
 
 <div align="center">
