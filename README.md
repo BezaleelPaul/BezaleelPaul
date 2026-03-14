@@ -268,7 +268,7 @@ STATUS: STRESS_TEST_ACTIVE
 CLEARANCE: PHYSIO_EYES_ONLY
 ```
 
-[![ENTER MATRIX](https://img.shields.io/badge/🌐_ENTER_MATRIX-00ff00?style=for-the-badge&logo=matrix&logoColor=black)](https://github.com/BezaleelPaul/Maclaurin-Visualizer)
+[![ENTER MATRIX](https://img.shields.io/badge/🌐_ENTER_MATRIX-00ff00?style=for-the-badge&logo=matrix&logoColor=black)](https://github.com/BezaleelPaul/bnmit-nadicare-health)
 
 </td>
 </tr>
