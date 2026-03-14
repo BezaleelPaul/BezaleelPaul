@@ -248,7 +248,7 @@ STATUS: BREACHING FIREWALL
 ### 🌐 **OPERATION HEALTH**
 #### 💻 NADICARE TWIN ENGINE
 
-[![Repo](https://img.shields.io/badge/REPO-00ff00?style=for-the-badge&logo=github&logoColor=black)]([https://github.com/BezaleelPaul/Maclaurin-Visualizer](https://github.com/BezaleelPaul/bnmit-nadicare-health))
+[![Repo](https://img.shields.io/badge/REPO-00ff00?style=for-the-badge&logo=github&logoColor=black)](https://github.com/BezaleelPaul/bnmit-nadicare-health)
 
 **One-liner:** AI-driven digital twin for real-time cardiac performance modeling and stress recovery.
 
