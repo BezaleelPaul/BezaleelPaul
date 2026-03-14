@@ -245,27 +245,27 @@ STATUS: BREACHING FIREWALL
 <tr>
 <td colspan="2" align="center">
 
-### 🌐 **OPERATION MATRIX**
-#### 💻 Maclaurin-Visualizer
+### 🌐 **OPERATION HEALTH**
+#### 💻 NADICARE TWIN ENGINE
 
-[![Repo](https://img.shields.io/badge/REPO-00ff00?style=for-the-badge&logo=github&logoColor=black)](https://github.com/BezaleelPaul/Maclaurin-Visualizer)
+[![Repo](https://img.shields.io/badge/REPO-00ff00?style=for-the-badge&logo=github&logoColor=black)]([https://github.com/BezaleelPaul/Maclaurin-Visualizer](https://github.com/BezaleelPaul/bnmit-nadicare-health))
 
-**One-liner:** Interactive visualization tool to teach Maclaurin series convergence.
+**One-liner:** AI-driven digital twin for real-time cardiac performance modeling and stress recovery.
 
-**Tech Stack:** `JavaScript` `HTML` `Canvas`
+**Tech Stack:** `Python` `Streamlit` `XGBoost` `Plotly` `HTML` `Canvas`
 
 **Highlights:**
-- Real-time visualization of series partial sums
-- Slider controls for degree and function selection
-- Great for learning and teaching mathematics
+-Digital Twin Modeling: Real-time simulation of heart rate response to exercise, stress, and recovery.
+-Predictive Analytics: Implements XGBoost algorithms to forecast recovery windows and physiological safety limits.
+-Performance Visualization: Dynamic Plotly dashboards comparing actual vs. predicted cardiac load for performance optimization.
 
 ```bash
-┌─[TOP_SECRET]─[OPERATION_MATRIX]
+┌─[TOP_SECRET]─[OPERATION_NADICARE]
 └──╼ $ cat mission_brief.txt
-THREAT LEVEL: ████████████ MAXIMUM
-ENCRYPTION: NEURAL_LINK
-STATUS: ACCESSING THE MATRIX
-CLEARANCE: EYES ONLY
+THREAT LEVEL: ████████████ CRITICAL_CARDIAC
+ENCRYPTION: BIOMETRIC_LINK
+STATUS: STRESS_TEST_ACTIVE
+CLEARANCE: PHYSIO_EYES_ONLY
 ```
 
 [![ENTER MATRIX](https://img.shields.io/badge/🌐_ENTER_MATRIX-00ff00?style=for-the-badge&logo=matrix&logoColor=black)](https://github.com/BezaleelPaul/Maclaurin-Visualizer)
