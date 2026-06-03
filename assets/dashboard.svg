@@ -1,0 +1,138 @@
+<svg viewBox="0 0 800 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="db-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#070a0e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="area-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#39ff14;stop-opacity:0.35" />
+      <stop offset="100%" style="stop-color:#39ff14;stop-opacity:0.0" />
+    </linearGradient>
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <style>
+      .bg-card {
+        fill: url(#db-grad);
+        stroke: #39ff14;
+        stroke-width: 1.5;
+        stroke-opacity: 0.3;
+        rx: 10px;
+      }
+      .stat-panel {
+        stroke: #30363d;
+        stroke-width: 1;
+        fill: none;
+        rx: 8px;
+      }
+      .sec-title {
+        font-family: 'JetBrains Mono', 'Fira Code', monospace;
+        font-size: 14px;
+        fill: #39ff14;
+        font-weight: bold;
+        letter-spacing: 2px;
+      }
+      .metric-title {
+        font-family: 'JetBrains Mono', 'Fira Code', monospace;
+        font-size: 11px;
+        fill: #8b949e;
+        letter-spacing: 1px;
+      }
+      .metric-value {
+        font-family: 'JetBrains Mono', 'Fira Code', monospace;
+        font-size: 24px;
+        fill: #39ff14;
+        font-weight: 800;
+        filter: drop-shadow(0 0 4px rgba(57, 255, 20, 0.4));
+      }
+      .chart-line {
+        stroke: #39ff14;
+        stroke-width: 2.5;
+        fill: none;
+        filter: url(#glow);
+      }
+      .chart-axis {
+        stroke: #30363d;
+        stroke-width: 1;
+        stroke-opacity: 0.5;
+      }
+      .axis-label {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 9px;
+        fill: #8b949e;
+      }
+    </style>
+  </defs>
+
+  <!-- Background card -->
+  <rect x="2" y="2" width="796" height="256" class="bg-card" />
+
+  <!-- Left Stats Panel -->
+  <rect x="20" y="20" width="280" height="220" class="stat-panel" />
+  <text x="35" y="45" class="sec-title">// DIAGNOSTICS</text>
+  
+  <!-- Metric 1: Total contributions -->
+  <text x="35" y="85" class="metric-title">TOTAL COMMITS (30D)</text>
+  <text x="35" y="115" class="metric-value">30</text>
+  
+  <!-- Metric 2: Streak -->
+  <text x="35" y="145" class="metric-title">CURRENT ACTIVE STREAK</text>
+  <text x="35" y="175" class="metric-value">2 DAYS</text>
+  
+  <!-- Metric 3: Today's activity -->
+  <text x="35" y="205" class="metric-title">TODAY'S ACTIVITY</text>
+  <text x="35" y="235" class="metric-value">0 COMMITS</text>
+
+  <!-- Right Chart Panel -->
+  <rect x="320" y="20" width="460" height="220" class="stat-panel" />
+  <text x="335" y="45" class="sec-title">// ACTIVITY HEATMAP &amp; TRENDS (30D)</text>
+  
+  <!-- Grid Lines -->
+  <line x1="340" y1="130" x2="760" y2="130" class="chart-axis" stroke-dasharray="2 2" />
+  <line x1="340" y1="210" x2="760" y2="210" class="chart-axis" />
+  
+  <!-- Area & Line charts -->
+  <polygon points="340,210 340,210 354,166 368,210 383,210 397,210 412,210 426,210 441,210 455,210 470,210 484,210 499,210 513,210 528,210 542,210 557,130 571,210 586,210 600,210 615,210 629,210 644,210 658,210 673,166 687,210 702,210 716,210 731,148 745,175 760,210 760,210" fill="url(#area-grad)" />
+  <polyline points="340,210 354,166 368,210 383,210 397,210 412,210 426,210 441,210 455,210 470,210 484,210 499,210 513,210 528,210 542,210 557,130 571,210 586,210 600,210 615,210 629,210 644,210 658,210 673,166 687,210 702,210 716,210 731,148 745,175 760,210" class="chart-line" />
+  
+  <!-- Axis Labels -->
+  <text x="340" y="222" class="axis-label" text-anchor="start">30d ago</text>
+  <text x="760" y="222" class="axis-label" text-anchor="end">today</text>
+  <text x="770" y="134" class="axis-label" text-anchor="start">max: 9</text>
+
+  <!-- Heatmap Row -->
+  <rect x="340" y="230" width="12" height="12" fill="#161b22" opacity="1" rx="2"/>
+    <rect x="356" y="230" width="12" height="12" fill="#00a300" opacity="0.9" rx="2"/>
+    <rect x="372" y="230" width="12" height="12" fill="#161b22" opacity="1" rx="2"/>
+    <rect x="388" y="230" width="12" height="12" fill="#161b22" opacity="1" rx="2"/>
+    <rect x="404" y="230" width="12" height="12" fill="#161b22" opacity="1" rx="2"/>
+    <rect x="420" y="230" width="12" height="12" fill="#161b22" opacity="1" rx="2"/>
+    <rect x="436" y="230" width="12" height="12" fill="#161b22" opacity="1" rx="2"/>
+    <rect x="452" y="230" width="12" height="12" fill="#161b22" opacity="1" rx="2"/>
+    <rect x="468" y="230" width="12" height="12" fill="#161b22" opacity="1" rx="2"/>
+    <rect x="484" y="230" width="12" height="12" fill="#161b22" opacity="1" rx="2"/>
+    <rect x="500" y="230" width="12" height="12" fill="#161b22" opacity="1" rx="2"/>
+    <rect x="516" y="230" width="12" height="12" fill="#161b22" opacity="1" rx="2"/>
+    <rect x="532" y="230" width="12" height="12" fill="#161b22" opacity="1" rx="2"/>
+    <rect x="548" y="230" width="12" height="12" fill="#161b22" opacity="1" rx="2"/>
+    <rect x="564" y="230" width="12" height="12" fill="#161b22" opacity="1" rx="2"/>
+    <rect x="580" y="230" width="12" height="12" fill="#39ff14" opacity="1" rx="2"/>
+    <rect x="596" y="230" width="12" height="12" fill="#161b22" opacity="1" rx="2"/>
+    <rect x="612" y="230" width="12" height="12" fill="#161b22" opacity="1" rx="2"/>
+    <rect x="628" y="230" width="12" height="12" fill="#161b22" opacity="1" rx="2"/>
+    <rect x="644" y="230" width="12" height="12" fill="#161b22" opacity="1" rx="2"/>
+    <rect x="660" y="230" width="12" height="12" fill="#161b22" opacity="1" rx="2"/>
+    <rect x="676" y="230" width="12" height="12" fill="#161b22" opacity="1" rx="2"/>
+    <rect x="692" y="230" width="12" height="12" fill="#161b22" opacity="1" rx="2"/>
+    <rect x="708" y="230" width="12" height="12" fill="#00a300" opacity="0.9" rx="2"/>
+    <rect x="724" y="230" width="12" height="12" fill="#161b22" opacity="1" rx="2"/>
+    <rect x="740" y="230" width="12" height="12" fill="#161b22" opacity="1" rx="2"/>
+    <rect x="756" y="230" width="12" height="12" fill="#161b22" opacity="1" rx="2"/>
+    <rect x="772" y="230" width="12" height="12" fill="#39ff14" opacity="1" rx="2"/>
+    <rect x="788" y="230" width="12" height="12" fill="#00a300" opacity="0.9" rx="2"/>
+    <rect x="804" y="230" width="12" height="12" fill="#161b22" opacity="1" rx="2"/>
+</svg>
