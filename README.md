@@ -184,7 +184,7 @@ Projects are continuously being built. Check back often, or visit my [GitHub rep
 
 <br/>
 
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=BezaleelPaul&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=8)
+<!-- Trophies removed — github-profile-trophy.vercel.app is permanently down with 402 error -->
 
 </div>
 
@@ -194,13 +194,14 @@ Projects are continuously being built. Check back often, or visit my [GitHub rep
 
 <div align="center">
 
-![BezaleelPaul's GitHub Stats](https://github-readme-stats.vercel.app/api?username=BezaleelPaul&show_icons=true&count_private=true&title_color=39ff14&icon_color=39ff14&text_color=c9d1d9&bg_color=0d1117&hide_border=true&border_radius=10)
-&nbsp;
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=BezaleelPaul&layout=compact&title_color=39ff14&text_color=c9d1d9&bg_color=0d1117&hide_border=true&border_radius=10)
+[![Followers](https://img.shields.io/github/followers/BezaleelPaul?style=for-the-badge&logo=github&logoColor=white&label=Followers&labelColor=161b22&color=39ff14)](https://github.com/BezaleelPaul)
+[![Stars](https://img.shields.io/github/stars/BezaleelPaul?style=for-the-badge&logo=github&logoColor=white&label=Stars&labelColor=161b22&color=39ff14)](https://github.com/BezaleelPaul)
+[![Repos](https://img.shields.io/badge/dynamic/json?style=for-the-badge&logo=github&logoColor=white&label=Repos&labelColor=161b22&color=39ff14&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2FBezaleelPaul)](https://github.com/BezaleelPaul)
 
 <br/>
 
-![GitHub Streak](https://streak-stats.demolab.com?user=BezaleelPaul&theme=dark&hide_border=true&border_radius=10&background=0d1117&sideLabels=c9d1d9&ring=39ff14&fire=39ff14&currStreakNum=39ff14&sideNums=c9d1d9&dates=8b949e)
+[![Top Lang](https://img.shields.io/github/languages/top/BezaleelPaul/BezaleelPaul?style=for-the-badge&label=Top+Lang&labelColor=161b22&color=39ff14)](https://github.com/BezaleelPaul)
+[![Last Commit](https://img.shields.io/github/last-commit/BezaleelPaul/BezaleelPaul?style=for-the-badge&label=Last+Commit&labelColor=161b22&color=39ff14)](https://github.com/BezaleelPaul)
 
 </div>
 
