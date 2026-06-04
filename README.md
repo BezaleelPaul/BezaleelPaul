@@ -39,7 +39,7 @@
   "name"        : "Bezaleel Paul N",
   "alias"       : "BezForge",
   "location"    : "Bangalore, India",
-  "status"      : "🟢 Online — last pushed to BezaleelPaul 5m ago",
+  "status"      : "🟢 Online — last pushed to BezaleelPaul 9m ago",
   "focus"       : ["AI/ML", "Full-Stack", "Competitive Programming"],
   "personality" : "Builder · Creator · Thinker",
   "mission"     : "I code what motivates me — on the spot. I enjoy the arts,\n                   contemplative thought, and multi-faceted, intellectually\n                   demanding, and imaginatively rigorous projects."
@@ -184,7 +184,7 @@ Projects are continuously being built. Check back often, or visit my [GitHub rep
 
 <br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=BezaleelPaul&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=8" width="100%" />
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=BezaleelPaul&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=8)
 
 </div>
 
@@ -194,13 +194,13 @@ Projects are continuously being built. Check back often, or visit my [GitHub rep
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=BezaleelPaul&show_icons=true&count_private=true&title_color=39ff14&icon_color=39ff14&text_color=c9d1d9&bg_color=0d1117&hide_border=true&border_radius=10" />
+![BezaleelPaul's GitHub Stats](https://github-readme-stats.vercel.app/api?username=BezaleelPaul&show_icons=true&count_private=true&title_color=39ff14&icon_color=39ff14&text_color=c9d1d9&bg_color=0d1117&hide_border=true&border_radius=10)
 &nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BezaleelPaul&layout=compact&title_color=39ff14&text_color=c9d1d9&bg_color=0d1117&hide_border=true&border_radius=10" />
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=BezaleelPaul&layout=compact&title_color=39ff14&text_color=c9d1d9&bg_color=0d1117&hide_border=true&border_radius=10)
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=BezaleelPaul&theme=dark&hide_border=true&border_radius=10&background=0d1117&sideLabels=c9d1d9&ring=39ff14&fire=39ff14&currStreakNum=39ff14&sideNums=c9d1d9&dates=8b949e" />
+![GitHub Streak](https://streak-stats.demolab.com?user=BezaleelPaul&theme=dark&hide_border=true&border_radius=10&background=0d1117&sideLabels=c9d1d9&ring=39ff14&fire=39ff14&currStreakNum=39ff14&sideNums=c9d1d9&dates=8b949e)
 
 </div>
 

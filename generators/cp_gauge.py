@@ -171,10 +171,10 @@ def generate_cp_gauge():
   <text x="366" y="195" class="stat-plain" font-size="13">#{lc_data["ranking"]:,}</text>
 
   <g transform="translate(610, 55)">
-    <circle cx="75" cy="75" r="70" fill="none" stroke="#161b22" stroke-width="6" />
-    <circle cx="75" cy="75" r="70" fill="none" stroke="{rank_color}" stroke-width="6" stroke-dasharray="440" stroke-dashoffset="{440 - int((gauge_rating / 3000.0) * 440)}" stroke-linecap="round" filter="url(#glow)">
-      <animate attributeName="stroke-dashoffset" from="440" to="{440 - int((gauge_rating / 3000.0) * 440)}" dur="1.5s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
-    </circle>
+    <path d="M 14.38,110 A 70,70 0 1 1 135.62,110" class="dial-bg" />
+    <path d="M 14.38,110 A 70,70 0 1 1 135.62,110" class="dial-fill" stroke-dasharray="293" stroke-dashoffset="293">
+      <animate attributeName="stroke-dashoffset" from="293" to="{293 - int((gauge_rating / 3000.0) * 293)}" dur="1.5s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
+    </path>
 
     <text x="75" y="68" class="dial-val">{rating}</text>
     <text x="75" y="85" class="dial-label">CF RATING</text>
@@ -184,11 +184,11 @@ def generate_cp_gauge():
     </line>
     <circle cx="75" cy="75" r="6" fill="#ff4444" />
     <circle cx="75" cy="75" r="2.5" fill="#0d1117" />
-  </g>
 
-  <text x="366" y="212" class="dial-label" text-anchor="start" font-size="9" fill="#8b949e">0</text>
-  <text x="610" y="170" class="dial-label" font-size="8">1500</text>
-  <text x="755" y="212" class="dial-label" text-anchor="end" font-size="9" fill="#8b949e">3000</text>
+    <text x="14" y="124" class="dial-label" text-anchor="start" font-size="8">0</text>
+    <text x="135" y="124" class="dial-label" text-anchor="end" font-size="8">3000</text>
+    <text x="75" y="18" class="dial-label" font-size="7">1500</text>
+  </g>
 </svg>'''
 
     os.makedirs("assets", exist_ok=True)
