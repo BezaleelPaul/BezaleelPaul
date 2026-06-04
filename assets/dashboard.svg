@@ -42,7 +42,7 @@
   <text x="30" y="208" class="metric-value">1.0/DAY</text>
 
   <text x="30" y="238" class="metric-title">TODAY SO FAR</text>
-  <text x="30" y="258" class="metric-value">3 COMMITS</text>
+  <text x="30" y="258" class="metric-value">4 COMMITS</text>
 
   <text x="185" y="238" class="metric-title">BEST DAY</text>
   <text x="185" y="258" class="metric-value" font-size="16">9 <tspan font-size="10" fill="#8b949e">(2026-05-20)</tspan></text>
@@ -55,10 +55,10 @@
   <line x1="360" y1="130" x2="760" y2="130" class="chart-axis" />
   <line x1="360" y1="220" x2="760" y2="220" class="chart-axis" />
 
-  <polygon points="360,220 360,210 373,220 387,220 401,220 415,220 428,220 442,220 456,220 470,220 484,220 497,220 511,220 525,220 539,220 553,130 566,220 580,220 594,220 608,220 622,220 635,220 649,220 663,170 677,220 691,220 704,220 718,150 732,180 746,210 760,190 760,220" fill="url(#area-grad)" />
-  <polyline points="360,210 373,220 387,220 401,220 415,220 428,220 442,220 456,220 470,220 484,220 497,220 511,220 525,220 539,220 553,130 566,220 580,220 594,220 608,220 622,220 635,220 649,220 663,170 677,220 691,220 704,220 718,150 732,180 746,210 760,190" class="chart-line" />
+  <polygon points="360,220 360,220 373,220 387,220 401,220 415,220 428,220 442,220 456,220 470,220 484,220 497,220 511,220 525,220 539,220 553,130 566,220 580,220 594,220 608,220 622,220 635,220 649,220 663,170 677,220 691,220 704,220 718,150 732,180 746,210 760,180 760,220" fill="url(#area-grad)" />
+  <polyline points="360,220 373,220 387,220 401,220 415,220 428,220 442,220 456,220 470,220 484,220 497,220 511,220 525,220 539,220 553,130 566,220 580,220 594,220 608,220 622,220 635,220 649,220 663,170 677,220 691,220 704,220 718,150 732,180 746,210 760,180" class="chart-line" />
 
-  <circle cx="760" cy="190" r="4" fill="#39ff14" filter="url(#glow)">
+  <circle cx="760" cy="180" r="4" fill="#39ff14" filter="url(#glow)">
     <animate attributeName="r" values="4;6;4" dur="2s" repeatCount="indefinite"/>
   </circle>
 
@@ -67,7 +67,7 @@
 
   <text x="366" y="262" class="axis-label">30-DAY HEATMAP:</text>
 
-  <rect x="360" y="240" width="10" height="10" fill="#0e4429" opacity="0.7" rx="2"/>
+  <rect x="360" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
     <rect x="373" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
     <rect x="386" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
     <rect x="399" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>

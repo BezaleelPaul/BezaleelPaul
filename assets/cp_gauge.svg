@@ -78,9 +78,7 @@
     <text x="75" y="68" class="dial-val">959</text>
     <text x="75" y="85" class="dial-label">CF RATING</text>
 
-    <line x1="75" y1="75" x2="75" y2="20" stroke="#ff4444" stroke-width="2.5" stroke-linecap="round" transform-origin="75 75">
-      <animateTransform attributeName="transform" type="rotate" from="-120 75 75" to="-43.28 75 75" dur="1.5s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
-    </line>
+    <line x1="75" y1="75" x2="75" y2="20" stroke="#ff4444" stroke-width="2.5" stroke-linecap="round" transform="rotate(-43.28 75 75)" />
     <circle cx="75" cy="75" r="6" fill="#ff4444" />
     <circle cx="75" cy="75" r="2.5" fill="#0d1117" />
 
