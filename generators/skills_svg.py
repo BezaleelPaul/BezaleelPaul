@@ -35,10 +35,10 @@ def generate_skills():
             ]
         },
         {
-            "category": "TOOLS & OPS",
+            "category": "TOOLS &amp; OPS",
             "icon": "🛠️",
             "items": [
-                {"name": "Git & GitHub", "level": 90, "color": "#F05032"},
+                {"name": "Git &amp; GitHub", "level": 90, "color": "#F05032"},
                 {"name": "Firebase", "level": 70, "color": "#FFCA28"},
                 {"name": "SQL / NoSQL", "level": 65, "color": "#4479A1"},
                 {"name": "Docker", "level": 45, "color": "#2496ED"},

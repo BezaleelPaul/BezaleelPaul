@@ -161,9 +161,9 @@
   <rect x="402" y="232" width="370" height="200" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1" />
   <rect x="402" y="232" width="370" height="32" rx="8" fill="#161b22" />
   <rect x="402" y="256" width="370" height="8" fill="#161b22" />
-  <text x="416" y="253" font-family="'JetBrains Mono', monospace" font-size="13" fill="#39ff14" font-weight="bold" letter-spacing="2">TOOLS & OPS</text>
+  <text x="416" y="253" font-family="'JetBrains Mono', monospace" font-size="13" fill="#39ff14" font-weight="bold" letter-spacing="2">TOOLS &amp; OPS</text>
   <text x="758" y="253" font-family="monospace" font-size="13" fill="#8b949e" text-anchor="end">🛠️</text>
-  <text x="416" y="290" font-family="'JetBrains Mono', monospace" font-size="11" fill="#c9d1d9">Git & GitHub</text>
+  <text x="416" y="290" font-family="'JetBrains Mono', monospace" font-size="11" fill="#c9d1d9">Git &amp; GitHub</text>
   <rect x="502" y="280" width="255" height="8" rx="4" fill="#161b22" />
   <rect x="502" y="280" width="0" height="8" rx="4" fill="#F05032" opacity="0.85">
     <animate attributeName="width" from="0" to="229" dur="1.5s" begin="0.0s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>

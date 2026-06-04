@@ -47,7 +47,7 @@ def generate_footer():
   </rect>
 
   <text x="400" y="90" class="sub-text">
-    &copy; {year} BEZALEEL PAUL N  ·  Last updated: {ts}  ·  Profile auto-generates every 6h
+    &#169; {year} BEZALEEL PAUL N  ·  Last updated: {ts}  ·  Profile auto-generates every 6h
   </text>
 </svg>'''
 
