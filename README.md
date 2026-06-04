@@ -1,6 +1,5 @@
 <div align="center">
 
-<!-- GLITCH HEADER SVG -->
 ![Header](assets/header.svg)
 
 </div>
@@ -15,7 +14,7 @@
 │   ██████╔╝███████╗   ██║  ██║  ██║███████╗███████╗███████╗███████╗  │
 │   ╚═════╝ ╚══════╝   ╚═╝  ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝╚══════╝  │
 │                                                                      │
-│         [ SYSTEM BOOT COMPLETE ]  [ ALL MODULES ONLINE ]            │
+│         [ SYSTEM BOOT COMPLETE ]  [ ALL MODULES ONLINE ]             │
 │                                                                      │
 └──────────────────────────────────────────────────────────────────────┘
 ```
@@ -31,7 +30,7 @@
 ## `$ whoami`
 
 ```bash
-┌─[bezaleel@terminal]─[~]
+┌─[bezaleel@forge]─[~]
 └──╼ $ cat profile.json
 ```
 
@@ -40,14 +39,22 @@
   "name"        : "Bezaleel Paul N",
   "alias"       : "BezForge",
   "location"    : "Bangalore, India",
-  "status"      : "🟢 Online — last pushed to BezaleelPaul 20h ago",
+  "status"      : "🟢 Online — last pushed to BezaleelPaul 21h ago",
   "focus"       : ["AI/ML", "Full-Stack", "Competitive Programming"],
   "personality" : "Builder · Creator · Thinker",
-  "mission"     : "I code what motivates me — on the spot. I enjoy the arts,
-                   contemplative thought, and multi-faceted, intellectually
-                   demanding, and imaginatively rigorous projects."
+  "mission"     : "I code what motivates me — on the spot. I enjoy the arts,\n                   contemplative thought, and multi-faceted, intellectually\n                   demanding, and imaginatively rigorous projects."
 }
 ```
+
+---
+
+## `$ cat ./github-analytics`
+
+<div align="center">
+
+![GitHub Stats](assets/github_stats.svg)
+
+</div>
 
 ---
 
@@ -55,7 +62,6 @@
 
 <div align="center">
 
-<!-- ANIMATED SKILLS SVG -->
 ![Skills](assets/skills.svg)
 
 </div>
@@ -65,7 +71,21 @@
 ## `$ ls ./projects --classified`
 
 <details open>
-<summary><b>[01] File Organizer</b> ━━━━ ● Active ━━━━ <code>Python · Tkinter</code></summary>
+<summary><b>[01] NADICARE Twin Engine</b> ━━━━ ● Active ━━━━ <code>Python · Streamlit · XGBoost</code></summary>
+<br/>
+
+> AI-driven digital twin for real-time cardiac performance modeling and stress recovery.
+
+**Key Features:**
+- **Digital Twin Modeling** — Real-time simulation of heart rate response to exercise, stress, and recovery
+- **Predictive Analytics** — XGBoost algorithms to forecast recovery windows and physiological safety limits
+- **Performance Visualization** — Dynamic Plotly dashboards comparing actual vs. predicted cardiac load
+
+[![Repo](https://img.shields.io/badge/VIEW_REPO-161b22?style=for-the-badge&logo=github&logoColor=39ff14)](https://github.com/BezaleelPaul/bnmit-nadicare-health)
+</details>
+
+<details open>
+<summary><b>[02] File Organizer</b> ━━━━ ● Active ━━━━ <code>Python · Tkinter</code></summary>
 <br/>
 
 > Smart GUI tool to automatically sort files by extension and user preferences.
@@ -79,7 +99,7 @@
 </details>
 
 <details open>
-<summary><b>[02] BESCOM Calculator</b> ━━━━ ● Active ━━━━ <code>HTML · CSS · JavaScript</code></summary>
+<summary><b>[03] BESCOM Calculator</b> ━━━━ ● Active ━━━━ <code>HTML · CSS · JavaScript</code></summary>
 <br/>
 
 > Domestic electricity bill calculator with accurate BESCOM tariff slabs.
@@ -89,21 +109,19 @@
 - User-friendly interactive UI
 - Live hosted on GitHub Pages
 
-[![Demo](https://img.shields.io/badge/LIVE_DEMO-161b22?style=for-the-badge&logo=googlechrome&logoColor=39ff14)](https://bezaleelpaul.github.io/BESCOM-Calculator/) [![Repo](https://img.shields.io/badge/VIEW_REPO-161b22?style=for-the-badge&logo=github&logoColor=39ff14)](https://github.com/BezaleelPaul/BESCOM-Calculator)
+[![Demo](https://img.shields.io/badge/LIVE_DEMO-161b22?style=for-the-badge&logo=googlechrome&logoColor=39ff14)](https://bezaleelpaul.github.io/BESCOM-Calculator/)
+[![Repo](https://img.shields.io/badge/VIEW_REPO-161b22?style=for-the-badge&logo=github&logoColor=39ff14)](https://github.com/BezaleelPaul/BESCOM-Calculator)
 </details>
 
-<details open>
-<summary><b>[03] NADICARE Twin Engine</b> ━━━━ ● Active ━━━━ <code>Python · Streamlit · XGBoost</code></summary>
 <br/>
 
-> AI-driven digital twin for real-time cardiac performance modeling and stress recovery.
+<details>
+<summary><b>📂 More Projects</b></summary>
+<br/>
 
-**Key Features:**
-- **Digital Twin Modeling** — Real-time simulation of heart rate response to exercise, stress, and recovery
-- **Predictive Analytics** — XGBoost algorithms to forecast recovery windows and physiological safety limits
-- **Performance Visualization** — Dynamic Plotly dashboards comparing actual vs. predicted cardiac load
+<!-- Hidden projects appear on click — keeping the profile clean but giving depth -->
+Projects are continuously being built. Check back often, or visit my [GitHub repositories](https://github.com/BezaleelPaul?tab=repositories) for the full list.
 
-[![Repo](https://img.shields.io/badge/VIEW_REPO-161b22?style=for-the-badge&logo=github&logoColor=39ff14)](https://github.com/BezaleelPaul/bnmit-nadicare-health)
 </details>
 
 ---
@@ -112,8 +130,17 @@
 
 <div align="center">
 
-<!-- LIVE DIAGNOSTICS DASHBOARD -->
 ![Diagnostics](assets/dashboard.svg)
+
+</div>
+
+---
+
+## `$ cat ./recent-activity`
+
+<div align="center">
+
+![Activity](assets/activity.svg)
 
 </div>
 
@@ -129,12 +156,11 @@
 [![HackerRank](https://img.shields.io/badge/HackerRank-bezaleel321-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white&labelColor=161b22)](https://www.hackerrank.com/bezaleel321)
 [![Kaggle](https://img.shields.io/badge/Kaggle-bezaleelpaul-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white&labelColor=161b22)](https://www.kaggle.com/bezaleelpaul)
 
-<br/><br/>
+<br/>
 
-<!-- CODEFORCES GAUGE DIAL -->
-![Codeforces Gauge](assets/cp_gauge.svg)
+![CP Gauge](assets/cp_gauge.svg)
 
-<br/><br/>
+<br/>
 
 **LeetCode Performance**
 
@@ -144,11 +170,46 @@
 
 ---
 
+## `$ curl -s "https://github-contributions"`
+
+<div align="center">
+
+### Contribution Activity
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=BezaleelPaul&bg_color=0d1117&color=39ff14&line=39ff14&point=39ff14&area=true&area_color=39ff14&hide_border=true&custom_title=GitHub%20Contribution%20Graph&radius=8" width="95%" />
+
+<br/><br/>
+
+![Contribution Snake](https://github.com/BezaleelPaul/BezaleelPaul/raw/output/github-contribution-grid-snake.svg)
+
+<br/>
+
+[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=BezaleelPaul&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=8)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
+
+---
+
+## `$ curl -s "https://api.githubstats.com"`
+
+<div align="center">
+
+[![BezaleelPaul's GitHub Stats](https://github-readme-stats.vercel.app/api?username=BezaleelPaul&show_icons=true&count_private=true&title_color=39ff14&icon_color=39ff14&text_color=c9d1d9&bg_color=0d1117&hide_border=true&border_radius=10)](https://github.com/anuraghazra/github-readme-stats)
+&nbsp;
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=BezaleelPaul&layout=compact&title_color=39ff14&text_color=c9d1d9&bg_color=0d1117&hide_border=true&border_radius=10)](https://github.com/anuraghazra/github-readme-stats)
+
+<br/>
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=BezaleelPaul&theme=dark&hide_border=true&border_radius=10&background=0d1117&sideLabels=c9d1d9&ring=39ff14&fire=39ff14&currStreakNum=39ff14&sideNums=c9d1d9&dates=8b949e)](https://git.io/streak-stats)
+
+</div>
+
+---
+
 ## `$ ping ./connect`
 
 <div align="center">
 
-<!-- HOLOGRAM CONNECT CARD -->
 ![Connect](assets/connect.svg)
 
 <br/>
@@ -156,16 +217,15 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-bezaleel--paul-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=161b22)](https://www.linkedin.com/in/bezaleel-paul-7b114b307)
 [![Kaggle](https://img.shields.io/badge/Kaggle-bezaleelpaul-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white&labelColor=161b22)](https://www.kaggle.com/bezaleelpaul)
 [![Portfolio](https://img.shields.io/badge/Portfolio-bezaleelpaul.github.io-39ff14?style=for-the-badge&logo=githubpages&logoColor=black&labelColor=161b22)](https://bezaleelpaul.github.io/)
+[![Email](https://img.shields.io/badge/EMAIL_ME-161b22?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:bezaleel321@gmail.com)
 
 <br/>
 
 [![Visitors](https://komarev.com/ghpvc/?username=BezaleelPaul&label=PROFILE+VIEWS&color=39ff14&style=for-the-badge&abbreviated=true)](https://github.com/BezaleelPaul)
 
-</div>
+<br/>
 
 ---
-
-<div align="center">
 
 ```
 ┌──────────────────────────────────────────────────────────────┐
@@ -178,7 +238,6 @@
 └──────────────────────────────────────────────────────────────┘
 ```
 
-<!-- CUSTOM FOOTER SVG -->
 ![Footer](assets/footer.svg)
 
 </div>

@@ -1,171 +1,211 @@
-<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 788 448" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="card-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="skills-bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#070a0e;stop-opacity:1" />
     </linearGradient>
-    <filter id="neon-glow" x="-10%" y="-10%" width="120%" height="120%">
-      <feGaussianBlur stdDeviation="2" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
     <style>
       .bg-rect {
-        fill: url(#card-grad);
+        fill: url(#skills-bg);
         stroke: #39ff14;
         stroke-width: 1.5;
-        stroke-opacity: 0.3;
+        stroke-opacity: 0.2;
         rx: 10px;
-      }
-      .group-title {
-        font-family: 'JetBrains Mono', 'Fira Code', monospace;
-        font-size: 14px;
-        fill: #39ff14;
-        font-weight: bold;
-        letter-spacing: 2px;
-      }
-      .skill-label {
-        font-family: 'JetBrains Mono', 'Fira Code', monospace;
-        font-size: 13px;
-        fill: #c9d1d9;
-      }
-      .skill-percent {
-        font-family: 'JetBrains Mono', 'Fira Code', monospace;
-        font-size: 12px;
-        fill: #39ff14;
-        font-weight: bold;
-      }
-      .bar-bg {
-        fill: #161b22;
-        rx: 3px;
-      }
-      .bar-fill {
-        fill: #39ff14;
-        filter: url(#neon-glow);
-        rx: 3px;
-      }
-      .panel-border {
-        stroke: #30363d;
-        stroke-width: 1;
-        fill: none;
-        rx: 8px;
       }
     </style>
   </defs>
 
-  <!-- Outer container -->
-  <rect x="2" y="2" width="796" height="396" class="bg-rect" />
+  <rect x="2" y="2" width="784" height="444" class="bg-rect" />
 
-  <!-- Subdecorative grid pattern -->
-  <path d="M 400,10 L 400,390 M 10,200 L 790,200" stroke="#30363d" stroke-opacity="0.5" stroke-dasharray="4 4" stroke-width="1"/>
-  <!-- Card for LANGUAGES -->
-  <rect x="20" y="20" width="370" height="170" class="panel-border" />
-  <text x="35" y="45" class="group-title">// LANGUAGES</text>
-  <text x="35" y="80" class="skill-label">Python</text>
-  <rect x="130" y="70" width="220" height="10" class="bar-bg"/>
-  <rect x="130" y="70" width="0" height="10" class="bar-fill">
-    <animate attributeName="width" from="0" to="198" dur="1.2s" begin="0.0s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
+  <rect x="16" y="16" width="370" height="200" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+  <rect x="16" y="16" width="370" height="32" rx="8" fill="#161b22" />
+  <rect x="16" y="40" width="370" height="8" fill="#161b22" />
+  <text x="30" y="37" font-family="'JetBrains Mono', monospace" font-size="13" fill="#39ff14" font-weight="bold" letter-spacing="2">LANGUAGES</text>
+  <text x="372" y="37" font-family="monospace" font-size="13" fill="#8b949e" text-anchor="end"></></text>
+  <text x="30" y="74" font-family="'JetBrains Mono', monospace" font-size="11" fill="#c9d1d9">Python</text>
+  <rect x="116" y="64" width="255" height="8" rx="4" fill="#161b22" />
+  <rect x="116" y="64" width="0" height="8" rx="4" fill="#3776AB" opacity="0.85">
+    <animate attributeName="width" from="0" to="234" dur="1.5s" begin="0.0s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
   </rect>
-  <text x="360" y="80" class="skill-percent">90%</text>
-  <text x="35" y="108" class="skill-label">JavaScript</text>
-  <rect x="130" y="98" width="220" height="10" class="bar-bg"/>
-  <rect x="130" y="98" width="0" height="10" class="bar-fill">
-    <animate attributeName="width" from="0" to="176" dur="1.2s" begin="0.1s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
+  <rect x="116" y="64" width="234" height="8" rx="4" fill="#3776AB" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="2s" begin="0.0s" repeatCount="indefinite"/>
   </rect>
-  <text x="360" y="108" class="skill-percent">80%</text>
-  <text x="35" y="136" class="skill-label">TypeScript</text>
-  <rect x="130" y="126" width="220" height="10" class="bar-bg"/>
-  <rect x="130" y="126" width="0" height="10" class="bar-fill">
-    <animate attributeName="width" from="0" to="132" dur="1.2s" begin="0.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
+  <text x="379" y="74" font-family="'JetBrains Mono', monospace" font-size="10" fill="#8b949e" text-anchor="end">92%</text>
+  <text x="30" y="103" font-family="'JetBrains Mono', monospace" font-size="11" fill="#c9d1d9">JavaScript</text>
+  <rect x="116" y="93" width="255" height="8" rx="4" fill="#161b22" />
+  <rect x="116" y="93" width="0" height="8" rx="4" fill="#F7DF1E" opacity="0.85">
+    <animate attributeName="width" from="0" to="209" dur="1.5s" begin="0.15s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
   </rect>
-  <text x="360" y="136" class="skill-percent">60%</text>
-  <text x="35" y="164" class="skill-label">HTML / CSS</text>
-  <rect x="130" y="154" width="220" height="10" class="bar-bg"/>
-  <rect x="130" y="154" width="0" height="10" class="bar-fill">
-    <animate attributeName="width" from="0" to="187" dur="1.2s" begin="0.3s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
+  <rect x="116" y="93" width="209" height="8" rx="4" fill="#F7DF1E" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="2s" begin="0.15s" repeatCount="indefinite"/>
   </rect>
-  <text x="360" y="164" class="skill-percent">85%</text>
-  <!-- Card for FRAMEWORKS -->
-  <rect x="410" y="20" width="370" height="170" class="panel-border" />
-  <text x="425" y="45" class="group-title">// FRAMEWORKS</text>
-  <text x="425" y="80" class="skill-label">React</text>
-  <rect x="520" y="70" width="220" height="10" class="bar-bg"/>
-  <rect x="520" y="70" width="0" height="10" class="bar-fill">
-    <animate attributeName="width" from="0" to="154" dur="1.2s" begin="0.4s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
+  <text x="379" y="103" font-family="'JetBrains Mono', monospace" font-size="10" fill="#8b949e" text-anchor="end">82%</text>
+  <text x="30" y="132" font-family="'JetBrains Mono', monospace" font-size="11" fill="#c9d1d9">TypeScript</text>
+  <rect x="116" y="122" width="255" height="8" rx="4" fill="#161b22" />
+  <rect x="116" y="122" width="0" height="8" rx="4" fill="#3178C6" opacity="0.85">
+    <animate attributeName="width" from="0" to="165" dur="1.5s" begin="0.3s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
   </rect>
-  <text x="750" y="80" class="skill-percent">70%</text>
-  <text x="425" y="108" class="skill-label">Node.js</text>
-  <rect x="520" y="98" width="220" height="10" class="bar-bg"/>
-  <rect x="520" y="98" width="0" height="10" class="bar-fill">
-    <animate attributeName="width" from="0" to="154" dur="1.2s" begin="0.5s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
+  <rect x="116" y="122" width="165" height="8" rx="4" fill="#3178C6" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="2s" begin="0.3s" repeatCount="indefinite"/>
   </rect>
-  <text x="750" y="108" class="skill-percent">70%</text>
-  <text x="425" y="136" class="skill-label">FastAPI</text>
-  <rect x="520" y="126" width="220" height="10" class="bar-bg"/>
-  <rect x="520" y="126" width="0" height="10" class="bar-fill">
-    <animate attributeName="width" from="0" to="132" dur="1.2s" begin="0.6s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
+  <text x="379" y="132" font-family="'JetBrains Mono', monospace" font-size="10" fill="#8b949e" text-anchor="end">65%</text>
+  <text x="30" y="161" font-family="'JetBrains Mono', monospace" font-size="11" fill="#c9d1d9">HTML / CSS</text>
+  <rect x="116" y="151" width="255" height="8" rx="4" fill="#161b22" />
+  <rect x="116" y="151" width="0" height="8" rx="4" fill="#E34F26" opacity="0.85">
+    <animate attributeName="width" from="0" to="216" dur="1.5s" begin="0.44999999999999996s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
   </rect>
-  <text x="750" y="136" class="skill-percent">60%</text>
-  <text x="425" y="164" class="skill-label">Flutter</text>
-  <rect x="520" y="154" width="220" height="10" class="bar-bg"/>
-  <rect x="520" y="154" width="0" height="10" class="bar-fill">
-    <animate attributeName="width" from="0" to="110" dur="1.2s" begin="0.7s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
+  <rect x="116" y="151" width="216" height="8" rx="4" fill="#E34F26" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="2s" begin="0.44999999999999996s" repeatCount="indefinite"/>
   </rect>
-  <text x="750" y="164" class="skill-percent">50%</text>
-  <!-- Card for AI / ML -->
-  <rect x="20" y="210" width="370" height="170" class="panel-border" />
-  <text x="35" y="235" class="group-title">// AI / ML</text>
-  <text x="35" y="270" class="skill-label">TensorFlow</text>
-  <rect x="130" y="260" width="220" height="10" class="bar-bg"/>
-  <rect x="130" y="260" width="0" height="10" class="bar-fill">
-    <animate attributeName="width" from="0" to="121" dur="1.2s" begin="0.8s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
+  <text x="379" y="161" font-family="'JetBrains Mono', monospace" font-size="10" fill="#8b949e" text-anchor="end">85%</text>
+  <text x="30" y="190" font-family="'JetBrains Mono', monospace" font-size="11" fill="#c9d1d9">C / C++</text>
+  <rect x="116" y="180" width="255" height="8" rx="4" fill="#161b22" />
+  <rect x="116" y="180" width="0" height="8" rx="4" fill="#00599C" opacity="0.85">
+    <animate attributeName="width" from="0" to="140" dur="1.5s" begin="0.6s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
   </rect>
-  <text x="360" y="270" class="skill-percent">55%</text>
-  <text x="35" y="298" class="skill-label">XGBoost</text>
-  <rect x="130" y="288" width="220" height="10" class="bar-bg"/>
-  <rect x="130" y="288" width="0" height="10" class="bar-fill">
-    <animate attributeName="width" from="0" to="143" dur="1.2s" begin="0.9s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
+  <rect x="116" y="180" width="140" height="8" rx="4" fill="#00599C" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="2s" begin="0.6s" repeatCount="indefinite"/>
   </rect>
-  <text x="360" y="298" class="skill-percent">65%</text>
-  <text x="35" y="326" class="skill-label">OpenAI API</text>
-  <rect x="130" y="316" width="220" height="10" class="bar-bg"/>
-  <rect x="130" y="316" width="0" height="10" class="bar-fill">
-    <animate attributeName="width" from="0" to="132" dur="1.2s" begin="1.0s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
+  <text x="379" y="190" font-family="'JetBrains Mono', monospace" font-size="10" fill="#8b949e" text-anchor="end">55%</text>
+  <rect x="402" y="16" width="370" height="200" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+  <rect x="402" y="16" width="370" height="32" rx="8" fill="#161b22" />
+  <rect x="402" y="40" width="370" height="8" fill="#161b22" />
+  <text x="416" y="37" font-family="'JetBrains Mono', monospace" font-size="13" fill="#39ff14" font-weight="bold" letter-spacing="2">FRAMEWORKS</text>
+  <text x="758" y="37" font-family="monospace" font-size="13" fill="#8b949e" text-anchor="end">⚡</text>
+  <text x="416" y="74" font-family="'JetBrains Mono', monospace" font-size="11" fill="#c9d1d9">React</text>
+  <rect x="502" y="64" width="255" height="8" rx="4" fill="#161b22" />
+  <rect x="502" y="64" width="0" height="8" rx="4" fill="#61DAFB" opacity="0.85">
+    <animate attributeName="width" from="0" to="183" dur="1.5s" begin="0.0s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
   </rect>
-  <text x="360" y="326" class="skill-percent">60%</text>
-  <text x="35" y="354" class="skill-label">Streamlit</text>
-  <rect x="130" y="344" width="220" height="10" class="bar-bg"/>
-  <rect x="130" y="344" width="0" height="10" class="bar-fill">
-    <animate attributeName="width" from="0" to="154" dur="1.2s" begin="1.1s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
+  <rect x="502" y="64" width="183" height="8" rx="4" fill="#61DAFB" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="2s" begin="0.0s" repeatCount="indefinite"/>
   </rect>
-  <text x="360" y="354" class="skill-percent">70%</text>
-  <!-- Card for TOOLS -->
-  <rect x="410" y="210" width="370" height="170" class="panel-border" />
-  <text x="425" y="235" class="group-title">// TOOLS</text>
-  <text x="425" y="270" class="skill-label">Git</text>
-  <rect x="520" y="260" width="220" height="10" class="bar-bg"/>
-  <rect x="520" y="260" width="0" height="10" class="bar-fill">
-    <animate attributeName="width" from="0" to="198" dur="1.2s" begin="1.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
+  <text x="765" y="74" font-family="'JetBrains Mono', monospace" font-size="10" fill="#8b949e" text-anchor="end">72%</text>
+  <text x="416" y="103" font-family="'JetBrains Mono', monospace" font-size="11" fill="#c9d1d9">Node.js</text>
+  <rect x="502" y="93" width="255" height="8" rx="4" fill="#161b22" />
+  <rect x="502" y="93" width="0" height="8" rx="4" fill="#339933" opacity="0.85">
+    <animate attributeName="width" from="0" to="178" dur="1.5s" begin="0.15s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
   </rect>
-  <text x="750" y="270" class="skill-percent">90%</text>
-  <text x="425" y="298" class="skill-label">Firebase</text>
-  <rect x="520" y="288" width="220" height="10" class="bar-bg"/>
-  <rect x="520" y="288" width="0" height="10" class="bar-fill">
-    <animate attributeName="width" from="0" to="154" dur="1.2s" begin="1.3s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
+  <rect x="502" y="93" width="178" height="8" rx="4" fill="#339933" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="2s" begin="0.15s" repeatCount="indefinite"/>
   </rect>
-  <text x="750" y="298" class="skill-percent">70%</text>
-  <text x="425" y="326" class="skill-label">SQLite</text>
-  <rect x="520" y="316" width="220" height="10" class="bar-bg"/>
-  <rect x="520" y="316" width="0" height="10" class="bar-fill">
-    <animate attributeName="width" from="0" to="132" dur="1.2s" begin="1.4s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
+  <text x="765" y="103" font-family="'JetBrains Mono', monospace" font-size="10" fill="#8b949e" text-anchor="end">70%</text>
+  <text x="416" y="132" font-family="'JetBrains Mono', monospace" font-size="11" fill="#c9d1d9">FastAPI</text>
+  <rect x="502" y="122" width="255" height="8" rx="4" fill="#161b22" />
+  <rect x="502" y="122" width="0" height="8" rx="4" fill="#009688" opacity="0.85">
+    <animate attributeName="width" from="0" to="158" dur="1.5s" begin="0.3s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
   </rect>
-  <text x="750" y="326" class="skill-percent">60%</text>
-  <text x="425" y="354" class="skill-label">Godot</text>
-  <rect x="520" y="344" width="220" height="10" class="bar-bg"/>
-  <rect x="520" y="344" width="0" height="10" class="bar-fill">
-    <animate attributeName="width" from="0" to="110" dur="1.2s" begin="1.5s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
+  <rect x="502" y="122" width="158" height="8" rx="4" fill="#009688" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="2s" begin="0.3s" repeatCount="indefinite"/>
   </rect>
-  <text x="750" y="354" class="skill-percent">50%</text>
+  <text x="765" y="132" font-family="'JetBrains Mono', monospace" font-size="10" fill="#8b949e" text-anchor="end">62%</text>
+  <text x="416" y="161" font-family="'JetBrains Mono', monospace" font-size="11" fill="#c9d1d9">Flutter</text>
+  <rect x="502" y="151" width="255" height="8" rx="4" fill="#161b22" />
+  <rect x="502" y="151" width="0" height="8" rx="4" fill="#02569B" opacity="0.85">
+    <animate attributeName="width" from="0" to="127" dur="1.5s" begin="0.44999999999999996s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
+  </rect>
+  <rect x="502" y="151" width="127" height="8" rx="4" fill="#02569B" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="2s" begin="0.44999999999999996s" repeatCount="indefinite"/>
+  </rect>
+  <text x="765" y="161" font-family="'JetBrains Mono', monospace" font-size="10" fill="#8b949e" text-anchor="end">50%</text>
+  <text x="416" y="190" font-family="'JetBrains Mono', monospace" font-size="11" fill="#c9d1d9">Streamlit</text>
+  <rect x="502" y="180" width="255" height="8" rx="4" fill="#161b22" />
+  <rect x="502" y="180" width="0" height="8" rx="4" fill="#FF4B4B" opacity="0.85">
+    <animate attributeName="width" from="0" to="173" dur="1.5s" begin="0.6s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
+  </rect>
+  <rect x="502" y="180" width="173" height="8" rx="4" fill="#FF4B4B" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="2s" begin="0.6s" repeatCount="indefinite"/>
+  </rect>
+  <text x="765" y="190" font-family="'JetBrains Mono', monospace" font-size="10" fill="#8b949e" text-anchor="end">68%</text>
+  <rect x="16" y="232" width="370" height="200" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+  <rect x="16" y="232" width="370" height="32" rx="8" fill="#161b22" />
+  <rect x="16" y="256" width="370" height="8" fill="#161b22" />
+  <text x="30" y="253" font-family="'JetBrains Mono', monospace" font-size="13" fill="#39ff14" font-weight="bold" letter-spacing="2">AI / ML</text>
+  <text x="372" y="253" font-family="monospace" font-size="13" fill="#8b949e" text-anchor="end">🧠</text>
+  <text x="30" y="290" font-family="'JetBrains Mono', monospace" font-size="11" fill="#c9d1d9">TensorFlow</text>
+  <rect x="116" y="280" width="255" height="8" rx="4" fill="#161b22" />
+  <rect x="116" y="280" width="0" height="8" rx="4" fill="#FF6F00" opacity="0.85">
+    <animate attributeName="width" from="0" to="147" dur="1.5s" begin="0.0s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
+  </rect>
+  <rect x="116" y="280" width="147" height="8" rx="4" fill="#FF6F00" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="2s" begin="0.0s" repeatCount="indefinite"/>
+  </rect>
+  <text x="379" y="290" font-family="'JetBrains Mono', monospace" font-size="10" fill="#8b949e" text-anchor="end">58%</text>
+  <text x="30" y="319" font-family="'JetBrains Mono', monospace" font-size="11" fill="#c9d1d9">XGBoost</text>
+  <rect x="116" y="309" width="255" height="8" rx="4" fill="#161b22" />
+  <rect x="116" y="309" width="0" height="8" rx="4" fill="#39B54A" opacity="0.85">
+    <animate attributeName="width" from="0" to="165" dur="1.5s" begin="0.15s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
+  </rect>
+  <rect x="116" y="309" width="165" height="8" rx="4" fill="#39B54A" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="2s" begin="0.15s" repeatCount="indefinite"/>
+  </rect>
+  <text x="379" y="319" font-family="'JetBrains Mono', monospace" font-size="10" fill="#8b949e" text-anchor="end">65%</text>
+  <text x="30" y="348" font-family="'JetBrains Mono', monospace" font-size="11" fill="#c9d1d9">OpenAI API</text>
+  <rect x="116" y="338" width="255" height="8" rx="4" fill="#161b22" />
+  <rect x="116" y="338" width="0" height="8" rx="4" fill="#74AA9C" opacity="0.85">
+    <animate attributeName="width" from="0" to="158" dur="1.5s" begin="0.3s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
+  </rect>
+  <rect x="116" y="338" width="158" height="8" rx="4" fill="#74AA9C" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="2s" begin="0.3s" repeatCount="indefinite"/>
+  </rect>
+  <text x="379" y="348" font-family="'JetBrains Mono', monospace" font-size="10" fill="#8b949e" text-anchor="end">62%</text>
+  <text x="30" y="377" font-family="'JetBrains Mono', monospace" font-size="11" fill="#c9d1d9">Scikit-learn</text>
+  <rect x="116" y="367" width="255" height="8" rx="4" fill="#161b22" />
+  <rect x="116" y="367" width="0" height="8" rx="4" fill="#F7931E" opacity="0.85">
+    <animate attributeName="width" from="0" to="153" dur="1.5s" begin="0.44999999999999996s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
+  </rect>
+  <rect x="116" y="367" width="153" height="8" rx="4" fill="#F7931E" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="2s" begin="0.44999999999999996s" repeatCount="indefinite"/>
+  </rect>
+  <text x="379" y="377" font-family="'JetBrains Mono', monospace" font-size="10" fill="#8b949e" text-anchor="end">60%</text>
+  <rect x="402" y="232" width="370" height="200" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+  <rect x="402" y="232" width="370" height="32" rx="8" fill="#161b22" />
+  <rect x="402" y="256" width="370" height="8" fill="#161b22" />
+  <text x="416" y="253" font-family="'JetBrains Mono', monospace" font-size="13" fill="#39ff14" font-weight="bold" letter-spacing="2">TOOLS & OPS</text>
+  <text x="758" y="253" font-family="monospace" font-size="13" fill="#8b949e" text-anchor="end">🛠️</text>
+  <text x="416" y="290" font-family="'JetBrains Mono', monospace" font-size="11" fill="#c9d1d9">Git & GitHub</text>
+  <rect x="502" y="280" width="255" height="8" rx="4" fill="#161b22" />
+  <rect x="502" y="280" width="0" height="8" rx="4" fill="#F05032" opacity="0.85">
+    <animate attributeName="width" from="0" to="229" dur="1.5s" begin="0.0s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
+  </rect>
+  <rect x="502" y="280" width="229" height="8" rx="4" fill="#F05032" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="2s" begin="0.0s" repeatCount="indefinite"/>
+  </rect>
+  <text x="765" y="290" font-family="'JetBrains Mono', monospace" font-size="10" fill="#8b949e" text-anchor="end">90%</text>
+  <text x="416" y="319" font-family="'JetBrains Mono', monospace" font-size="11" fill="#c9d1d9">Firebase</text>
+  <rect x="502" y="309" width="255" height="8" rx="4" fill="#161b22" />
+  <rect x="502" y="309" width="0" height="8" rx="4" fill="#FFCA28" opacity="0.85">
+    <animate attributeName="width" from="0" to="178" dur="1.5s" begin="0.15s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
+  </rect>
+  <rect x="502" y="309" width="178" height="8" rx="4" fill="#FFCA28" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="2s" begin="0.15s" repeatCount="indefinite"/>
+  </rect>
+  <text x="765" y="319" font-family="'JetBrains Mono', monospace" font-size="10" fill="#8b949e" text-anchor="end">70%</text>
+  <text x="416" y="348" font-family="'JetBrains Mono', monospace" font-size="11" fill="#c9d1d9">SQL / NoSQL</text>
+  <rect x="502" y="338" width="255" height="8" rx="4" fill="#161b22" />
+  <rect x="502" y="338" width="0" height="8" rx="4" fill="#4479A1" opacity="0.85">
+    <animate attributeName="width" from="0" to="165" dur="1.5s" begin="0.3s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
+  </rect>
+  <rect x="502" y="338" width="165" height="8" rx="4" fill="#4479A1" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="2s" begin="0.3s" repeatCount="indefinite"/>
+  </rect>
+  <text x="765" y="348" font-family="'JetBrains Mono', monospace" font-size="10" fill="#8b949e" text-anchor="end">65%</text>
+  <text x="416" y="377" font-family="'JetBrains Mono', monospace" font-size="11" fill="#c9d1d9">Docker</text>
+  <rect x="502" y="367" width="255" height="8" rx="4" fill="#161b22" />
+  <rect x="502" y="367" width="0" height="8" rx="4" fill="#2496ED" opacity="0.85">
+    <animate attributeName="width" from="0" to="114" dur="1.5s" begin="0.44999999999999996s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
+  </rect>
+  <rect x="502" y="367" width="114" height="8" rx="4" fill="#2496ED" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="2s" begin="0.44999999999999996s" repeatCount="indefinite"/>
+  </rect>
+  <text x="765" y="377" font-family="'JetBrains Mono', monospace" font-size="10" fill="#8b949e" text-anchor="end">45%</text>
+  <text x="416" y="406" font-family="'JetBrains Mono', monospace" font-size="11" fill="#c9d1d9">Linux CLI</text>
+  <rect x="502" y="396" width="255" height="8" rx="4" fill="#161b22" />
+  <rect x="502" y="396" width="0" height="8" rx="4" fill="#FCC624" opacity="0.85">
+    <animate attributeName="width" from="0" to="191" dur="1.5s" begin="0.6s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
+  </rect>
+  <rect x="502" y="396" width="191" height="8" rx="4" fill="#FCC624" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="2s" begin="0.6s" repeatCount="indefinite"/>
+  </rect>
+  <text x="765" y="406" font-family="'JetBrains Mono', monospace" font-size="10" fill="#8b949e" text-anchor="end">75%</text>
 </svg>

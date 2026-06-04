@@ -1,172 +1,91 @@
-<svg viewBox="0 0 800 260" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 800 240" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="cp-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="cp-bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#070a0e;stop-opacity:1" />
     </linearGradient>
-    <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
+    <filter id="glow">
       <feGaussianBlur stdDeviation="3" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
-    <filter id="needle-glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="1.5" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <style>
-      .bg-card {
-        fill: url(#cp-grad);
-        stroke: #39ff14;
-        stroke-width: 1.5;
-        stroke-opacity: 0.3;
-        rx: 10px;
-      }
-      .stat-panel {
-        stroke: #30363d;
-        stroke-width: 1;
-        fill: none;
-        rx: 8px;
-      }
-      .sec-title {
-        font-family: 'JetBrains Mono', 'Fira Code', monospace;
-        font-size: 14px;
-        fill: #39ff14;
-        font-weight: bold;
-        letter-spacing: 2px;
-      }
-      .cf-handle {
-        font-family: 'JetBrains Mono', monospace;
-        font-size: 18px;
-        fill: #c9d1d9;
-        font-weight: bold;
-      }
-      .stat-label {
-        font-family: 'JetBrains Mono', monospace;
-        font-size: 11px;
-        fill: #8b949e;
-        letter-spacing: 1px;
-      }
-      .stat-val-rating {
-        font-family: 'JetBrains Mono', monospace;
-        font-size: 26px;
-        font-weight: 800;
-        fill: #8b949e;
-        filter: drop-shadow(0 0 4px #8b949e55);
-      }
-      .stat-val-rank {
-        font-family: 'JetBrains Mono', monospace;
-        font-size: 16px;
-        font-weight: bold;
-        fill: #8b949e;
-      }
-      .stat-val-max {
-        font-family: 'JetBrains Mono', monospace;
-        font-size: 13px;
-        fill: #c9d1d9;
-      }
-      .max-highlight {
-        color: #8b949e;
-        font-weight: bold;
-        fill: #8b949e;
-      }
-      .dial-bg {
-        stroke: #161b22;
-        stroke-width: 8;
-        fill: none;
-        stroke-linecap: round;
-      }
-      .dial-fill {
-        stroke: #39ff14;
-        stroke-width: 8;
-        fill: none;
-        stroke-linecap: round;
-        filter: url(#neon-glow);
-        stroke-dasharray: 400;
-        stroke-dashoffset: 400;
-      }
-      .needle {
-        stroke: #ff3333;
-        stroke-width: 3;
-        stroke-linecap: round;
-        filter: url(#needle-glow);
-      }
-      .needle-cap {
-        fill: #ff3333;
-        stroke: #0d1117;
-        stroke-width: 2;
-      }
-      .dial-label {
-        font-family: 'JetBrains Mono', monospace;
-        font-size: 10px;
-        fill: #8b949e;
-        text-anchor: middle;
-      }
-      .dial-center-val {
-        font-family: 'JetBrains Mono', monospace;
-        font-size: 22px;
-        font-weight: bold;
-        fill: #c9d1d9;
-        text-anchor: middle;
-      }
+      .bg-card { fill: url(#cp-bg); stroke: #39ff14; stroke-width: 1.5; stroke-opacity: 0.25; rx: 10px; }
+      .panel { stroke: #30363d; stroke-width: 1; fill: none; rx: 8px; }
+      .sec-title { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 13px; fill: #39ff14; font-weight: bold; letter-spacing: 2px; }
+      .stat-label { font-family: 'JetBrains Mono', monospace; font-size: 10px; fill: #8b949e; letter-spacing: 1px; }
+      .stat-val { font-family: 'JetBrains Mono', monospace; font-size: 20px; font-weight: 800; fill: #8b949e; filter: drop-shadow(0 0 4px #8b949e55); }
+      .stat-rank { font-family: 'JetBrains Mono', monospace; font-size: 14px; font-weight: bold; fill: #8b949e; }
+      .stat-plain { font-family: 'JetBrains Mono', monospace; font-size: 14px; fill: #c9d1d9; }
+      .lc-easy { fill: #00b8a3; }
+      .lc-medium { fill: #ffc01e; }
+      .lc-hard { fill: #ff375f; }
+      .dial-label { font-family: 'JetBrains Mono', monospace; font-size: 9px; fill: #8b949e; text-anchor: middle; }
+      .dial-val { font-family: 'JetBrains Mono', monospace; font-size: 22px; font-weight: bold; fill: #c9d1d9; text-anchor: middle; }
+      .dial-bg { stroke: #161b22; stroke-width: 8; fill: none; stroke-linecap: round; }
+      .dial-fill { stroke: #8b949e; stroke-width: 8; fill: none; stroke-linecap: round; filter: url(#glow); stroke-dasharray: 400; stroke-dashoffset: 400; }
+      .needle { stroke: #ff4444; stroke-width: 3; stroke-linecap: round; }
+      .needle-cap { fill: #ff4444; stroke: #0d1117; stroke-width: 2; }
     </style>
   </defs>
 
-  <!-- Background card -->
-  <rect x="2" y="2" width="796" height="256" class="bg-card" />
+  <rect x="2" y="2" width="796" height="236" class="bg-card" />
 
-  <!-- Left Stats Panel -->
-  <rect x="20" y="20" width="400" height="220" class="stat-panel" />
-  <text x="35" y="45" class="sec-title">// COMPETITIVE PROGRAMMING</text>
-  
-  <text x="35" y="80" class="cf-handle">BezaleelPaulN</text>
-  
-  <!-- Current Rating / Rank -->
-  <text x="35" y="115" class="stat-label">CODEFORCES RATING</text>
-  <text x="35" y="145" class="stat-val-rating">959</text>
-  <text x="120" y="142" class="stat-val-rank">[NEWBIE]</text>
-  
-  <!-- Max Rating -->
-  <text x="35" y="180" class="stat-label">MAX RATING RECORD</text>
-  <text x="35" y="205" class="stat-val-max">959 <tspan class="max-highlight">[NEWBIE]</tspan></text>
-  
-  <!-- Small hint -->
-  <text x="35" y="225" class="stat-label" font-size="9" fill="#58a6ff">Updates automatically every 6 hours</text>
+  <rect x="16" y="16" width="320" height="208" class="panel" />
+  <text x="30" y="38" class="sec-title">// CODEFORCES</text>
+  <line x1="30" y1="46" x2="322" y2="46" stroke="#30363d" stroke-width="0.5" />
 
-  <!-- Right Gauge Panel -->
-  <rect x="440" y="20" width="340" height="220" class="stat-panel" />
-  <text x="455" y="45" class="sec-title">// RATING GAUGE</text>
-  
-  <!-- Gauge Arc Background -->
-  <path d="M 487.7,187.5 A 95,95 0 1 1 652.3,187.5" class="dial-bg" />
-  
-  <!-- Gauge Arc Fill (Animated using SVG SMIL) -->
-  <path d="M 487.7,187.5 A 95,95 0 1 1 652.3,187.5" class="dial-fill">
-    <!-- Animated fill arc based on rating percentage (max 3000 rating = 400 stroke-dashoffset) -->
-    <animate attributeName="stroke-dashoffset" from="400" to="273" dur="1.5s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
-  </path>
-  
-  <!-- Ticks or labels on the dial -->
-  <text x="480" y="202" class="dial-label">0</text>
-  <text x="570" y="38" class="dial-label">1500</text>
-  <text x="660" y="202" class="dial-label">3000</text>
-  
-  <!-- Rating display inside dial -->
-  <text x="570" y="175" class="dial-center-val">959</text>
-  <text x="570" y="190" class="dial-label" font-size="8">CF RATING</text>
-  
-  <!-- Needle -->
-  <g>
-    <!-- Rotate needle from -120 to target angle (default pointing straight up, which is 0 degrees) -->
-    <!-- The transform origin is the center of rotation (cx, cy) = (570, 140) -->
-    <line x1="570" y1="140" x2="570" y2="60" class="needle">
-      <animateTransform attributeName="transform" type="rotate" from="-120 570 140" to="-43.28 570 140" dur="1.5s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
+  <text x="30" y="70" class="stat-label" fill="#39ff14" font-weight="bold" font-size="14">BezaleelPaulN</text>
+
+  <text x="30" y="100" class="stat-label">CURRENT RATING</text>
+  <text x="30" y="125" class="stat-val">959</text>
+  <text x="130" y="123" class="stat-rank">[NEWBIE]</text>
+
+  <text x="30" y="155" class="stat-label">PEAK RATING</text>
+  <text x="30" y="175" class="stat-plain">959 <tspan fill="#8b949e" font-weight="bold">[NEWBIE]</tspan></text>
+
+  <text x="30" y="205" class="stat-label" font-size="9" fill="#58a6ff">Syncs every 6 hours · Codeforces API</text>
+
+  <rect x="352" y="16" width="432" height="208" class="panel" />
+  <text x="366" y="38" class="sec-title">// LEETCODE &amp; CP GAUGE</text>
+  <line x1="366" y1="46" x2="770" y2="46" stroke="#30363d" stroke-width="0.5" />
+
+  <text x="366" y="68" class="stat-label" fill="#FFA116" font-weight="bold" font-size="13">LavaElixir</text>
+
+  <text x="366" y="92" class="stat-label">PROBLEMS SOLVED</text>
+  <text x="366" y="118" class="stat-plain" font-size="26" font-weight="800" fill="#FFA116">170</text>
+
+  <rect x="366" y="132" width="36" height="16" rx="3" fill="#00b8a3" opacity="0.3" />
+  <text x="384" y="144" font-family="'JetBrains Mono', monospace" font-size="10" fill="#00b8a3" text-anchor="middle" font-weight="bold">E</text>
+  <text x="408" y="144" font-family="'JetBrains Mono', monospace" font-size="11" fill="#c9d1d9">72</text>
+
+  <rect x="440" y="132" width="36" height="16" rx="3" fill="#ffc01e" opacity="0.3" />
+  <text x="458" y="144" font-family="'JetBrains Mono', monospace" font-size="10" fill="#ffc01e" text-anchor="middle" font-weight="bold">M</text>
+  <text x="482" y="144" font-family="'JetBrains Mono', monospace" font-size="11" fill="#c9d1d9">11</text>
+
+  <rect x="514" y="132" width="36" height="16" rx="3" fill="#ff375f" opacity="0.3" />
+  <text x="532" y="144" font-family="'JetBrains Mono', monospace" font-size="10" fill="#ff375f" text-anchor="middle" font-weight="bold">H</text>
+  <text x="556" y="144" font-family="'JetBrains Mono', monospace" font-size="11" fill="#c9d1d9">2</text>
+
+  <text x="366" y="175" class="stat-label">GLOBAL RANKING</text>
+  <text x="366" y="195" class="stat-plain" font-size="13">#1,739,031</text>
+
+  <g transform="translate(610, 55)">
+    <circle cx="75" cy="75" r="70" fill="none" stroke="#161b22" stroke-width="6" />
+    <circle cx="75" cy="75" r="70" fill="none" stroke=#8b949e stroke-width="6" stroke-dasharray="440" stroke-dashoffset="300" stroke-linecap="round" filter="url(#glow)">
+      <animate attributeName="stroke-dashoffset" from="440" to="300" dur="1.5s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
+    </circle>
+
+    <text x="75" y="68" class="dial-val">959</text>
+    <text x="75" y="85" class="dial-label">CF RATING</text>
+
+    <line x1="75" y1="75" x2="75" y2="20" stroke="#ff4444" stroke-width="2.5" stroke-linecap="round" transform-origin="75 75">
+      <animateTransform attributeName="transform" type="rotate" from="-120 75 75" to="-43.28 75 75" dur="1.5s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
     </line>
-    <circle cx="570" cy="140" r="8" class="needle-cap" />
-    <circle cx="570" cy="140" r="3" fill="#0d1117" />
+    <circle cx="75" cy="75" r="6" fill="#ff4444" />
+    <circle cx="75" cy="75" r="2.5" fill="#0d1117" />
   </g>
+
+  <text x="366" y="212" class="dial-label" text-anchor="start" font-size="9" fill="#8b949e">0</text>
+  <text x="610" y="170" class="dial-label" font-size="8">1500</text>
+  <text x="755" y="212" class="dial-label" text-anchor="end" font-size="9" fill="#8b949e">3000</text>
 </svg>

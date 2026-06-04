@@ -1,147 +1,127 @@
 import os
 
 def generate_skills():
-    skills_data = {
-        "LANGUAGES": [
-            {"name": "Python", "val": 90},
-            {"name": "JavaScript", "val": 80},
-            {"name": "TypeScript", "val": 60},
-            {"name": "HTML / CSS", "val": 85}
-        ],
-        "FRAMEWORKS": [
-            {"name": "React", "val": 70},
-            {"name": "Node.js", "val": 70},
-            {"name": "FastAPI", "val": 60},
-            {"name": "Flutter", "val": 50}
-        ],
-        "AI / ML": [
-            {"name": "TensorFlow", "val": 55},
-            {"name": "XGBoost", "val": 65},
-            {"name": "OpenAI API", "val": 60},
-            {"name": "Streamlit", "val": 70}
-        ],
-        "TOOLS": [
-            {"name": "Git", "val": 90},
-            {"name": "Firebase", "val": 70},
-            {"name": "SQLite", "val": 60},
-            {"name": "Godot", "val": 50}
-        ]
-    }
+    skills_data = [
+        {
+            "category": "LANGUAGES",
+            "icon": "</>",
+            "items": [
+                {"name": "Python", "level": 92, "color": "#3776AB"},
+                {"name": "JavaScript", "level": 82, "color": "#F7DF1E"},
+                {"name": "TypeScript", "level": 65, "color": "#3178C6"},
+                {"name": "HTML / CSS", "level": 85, "color": "#E34F26"},
+                {"name": "C / C++", "level": 55, "color": "#00599C"},
+            ]
+        },
+        {
+            "category": "FRAMEWORKS",
+            "icon": "⚡",
+            "items": [
+                {"name": "React", "level": 72, "color": "#61DAFB"},
+                {"name": "Node.js", "level": 70, "color": "#339933"},
+                {"name": "FastAPI", "level": 62, "color": "#009688"},
+                {"name": "Flutter", "level": 50, "color": "#02569B"},
+                {"name": "Streamlit", "level": 68, "color": "#FF4B4B"},
+            ]
+        },
+        {
+            "category": "AI / ML",
+            "icon": "🧠",
+            "items": [
+                {"name": "TensorFlow", "level": 58, "color": "#FF6F00"},
+                {"name": "XGBoost", "level": 65, "color": "#39B54A"},
+                {"name": "OpenAI API", "level": 62, "color": "#74AA9C"},
+                {"name": "Scikit-learn", "level": 60, "color": "#F7931E"},
+            ]
+        },
+        {
+            "category": "TOOLS & OPS",
+            "icon": "🛠️",
+            "items": [
+                {"name": "Git & GitHub", "level": 90, "color": "#F05032"},
+                {"name": "Firebase", "level": 70, "color": "#FFCA28"},
+                {"name": "SQL / NoSQL", "level": 65, "color": "#4479A1"},
+                {"name": "Docker", "level": 45, "color": "#2496ED"},
+                {"name": "Linux CLI", "level": 75, "color": "#FCC624"},
+            ]
+        }
+    ]
 
-    svg_header = """<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+    card_width = 370
+    card_height = 200
+    cols = 2
+    rows = 2
+    padding = 16
+    gap = 16
+    total_width = cols * card_width + (cols - 1) * gap + 2 * padding
+    total_height = rows * card_height + (rows - 1) * gap + 2 * padding
+
+    def build_card(category, icon, items, cx, cy):
+        lines = []
+        lines.append(f'  <rect x="{cx}" y="{cy}" width="{card_width}" height="{card_height}" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1" />')
+        lines.append(f'  <rect x="{cx}" y="{cy}" width="{card_width}" height="32" rx="8" fill="#161b22" />')
+        lines.append(f'  <rect x="{cx}" y="{cy + 24}" width="{card_width}" height="8" fill="#161b22" />')
+        lines.append(f'  <text x="{cx + 14}" y="{cy + 21}" font-family="\'JetBrains Mono\', monospace" font-size="13" fill="#39ff14" font-weight="bold" letter-spacing="2">{category}</text>')
+        lines.append(f'  <text x="{cx + card_width - 14}" y="{cy + 21}" font-family="monospace" font-size="13" fill="#8b949e" text-anchor="end">{icon}</text>')
+
+        bar_x = cx + 100
+        bar_max_w = card_width - 115
+
+        for i, skill in enumerate(items):
+            sy = cy + 48 + i * 29
+            name = skill["name"]
+            level = skill["level"]
+            color = skill["color"]
+            target_w = int((level / 100.0) * bar_max_w)
+
+            lines.append(f'  <text x="{cx + 14}" y="{sy + 10}" font-family="\'JetBrains Mono\', monospace" font-size="11" fill="#c9d1d9">{name}</text>')
+            lines.append(f'  <rect x="{bar_x}" y="{sy}" width="{bar_max_w}" height="8" rx="4" fill="#161b22" />')
+            lines.append(f'  <rect x="{bar_x}" y="{sy}" width="0" height="8" rx="4" fill="{color}" opacity="0.85">')
+            lines.append(f'    <animate attributeName="width" from="0" to="{target_w}" dur="1.5s" begin="{i * 0.15}s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>')
+            lines.append(f'  </rect>')
+            lines.append(f'  <rect x="{bar_x}" y="{sy}" width="{target_w}" height="8" rx="4" fill="{color}" opacity="0.3">')
+            lines.append(f'    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="2s" begin="{i * 0.15}s" repeatCount="indefinite"/>')
+            lines.append(f'  </rect>')
+            lines.append(f'  <text x="{bar_x + bar_max_w + 8}" y="{sy + 10}" font-family="\'JetBrains Mono\', monospace" font-size="10" fill="#8b949e" text-anchor="end">{level}%</text>')
+
+        return "\n".join(lines)
+
+    cards = []
+    positions = [
+        (padding, padding),
+        (padding + card_width + gap, padding),
+        (padding, padding + card_height + gap),
+        (padding + card_width + gap, padding + card_height + gap),
+    ]
+
+    for i, (cat, pos) in enumerate(zip(skills_data, positions)):
+        cards.append(build_card(cat["category"], cat["icon"], cat["items"], pos[0], pos[1]))
+
+    svg = f'''<svg viewBox="0 0 {total_width} {total_height}" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="card-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="skills-bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#070a0e;stop-opacity:1" />
     </linearGradient>
-    <filter id="neon-glow" x="-10%" y="-10%" width="120%" height="120%">
-      <feGaussianBlur stdDeviation="2" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
     <style>
-      .bg-rect {
-        fill: url(#card-grad);
+      .bg-rect {{
+        fill: url(#skills-bg);
         stroke: #39ff14;
         stroke-width: 1.5;
-        stroke-opacity: 0.3;
+        stroke-opacity: 0.2;
         rx: 10px;
-      }
-      .group-title {
-        font-family: 'JetBrains Mono', 'Fira Code', monospace;
-        font-size: 14px;
-        fill: #39ff14;
-        font-weight: bold;
-        letter-spacing: 2px;
-      }
-      .skill-label {
-        font-family: 'JetBrains Mono', 'Fira Code', monospace;
-        font-size: 13px;
-        fill: #c9d1d9;
-      }
-      .skill-percent {
-        font-family: 'JetBrains Mono', 'Fira Code', monospace;
-        font-size: 12px;
-        fill: #39ff14;
-        font-weight: bold;
-      }
-      .bar-bg {
-        fill: #161b22;
-        rx: 3px;
-      }
-      .bar-fill {
-        fill: #39ff14;
-        filter: url(#neon-glow);
-        rx: 3px;
-      }
-      .panel-border {
-        stroke: #30363d;
-        stroke-width: 1;
-        fill: none;
-        rx: 8px;
-      }
+      }}
     </style>
   </defs>
 
-  <!-- Outer container -->
-  <rect x="2" y="2" width="796" height="396" class="bg-rect" />
+  <rect x="2" y="2" width="{total_width - 4}" height="{total_height - 4}" class="bg-rect" />
 
-  <!-- Subdecorative grid pattern -->
-  <path d="M 400,10 L 400,390 M 10,200 L 790,200" stroke="#30363d" stroke-opacity="0.5" stroke-dasharray="4 4" stroke-width="1"/>
-"""
+{chr(10).join(cards)}
+</svg>'''
 
-    svg_footer = "\n</svg>"
-    
-    body_elements = []
-    
-    # Grid coordinates for 4 cards
-    # Row 1: LANGUAGES (0,0), FRAMEWORKS (1,0)
-    # Row 2: AI / ML (0,1), TOOLS (1,1)
-    card_positions = {
-        "LANGUAGES": {"x": 20, "y": 20},
-        "FRAMEWORKS": {"x": 410, "y": 20},
-        "AI / ML": {"x": 20, "y": 210},
-        "TOOLS": {"x": 410, "y": 210}
-    }
-    
-    delay = 0.0
-    for category, skills in skills_data.items():
-        pos = card_positions[category]
-        cx = pos["x"]
-        cy = pos["y"]
-        
-        # Draw category panel box
-        body_elements.append(f'  <!-- Card for {category} -->')
-        body_elements.append(f'  <rect x="{cx}" y="{cy}" width="370" height="170" class="panel-border" />')
-        body_elements.append(f'  <text x="{cx + 15}" y="{cy + 25}" class="group-title">// {category}</text>')
-        
-        for i, skill in enumerate(skills):
-            sy = cy + 50 + (i * 28)
-            name = skill["name"]
-            val = skill["val"]
-            max_width = 220
-            target_width = int((val / 100.0) * max_width)
-            
-            # Label
-            body_elements.append(f'  <text x="{cx + 15}" y="{sy + 10}" class="skill-label">{name}</text>')
-            # Bar background
-            body_elements.append(f'  <rect x="{cx + 110}" y="{sy}" width="{max_width}" height="10" class="bar-bg"/>')
-            # Bar fill with animation
-            body_elements.append(f'  <rect x="{cx + 110}" y="{sy}" width="0" height="10" class="bar-fill">')
-            body_elements.append(f'    <animate attributeName="width" from="0" to="{target_width}" dur="1.2s" begin="{delay:.1f}s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>')
-            body_elements.append(f'  </rect>')
-            # Percent label
-            body_elements.append(f'  <text x="{cx + 110 + max_width + 10}" y="{sy + 10}" class="skill-percent">{val}%</text>')
-            
-            delay += 0.1
-            
-    svg_body = "\n".join(body_elements)
-    
     os.makedirs("assets", exist_ok=True)
     with open("assets/skills.svg", "w", encoding="utf-8") as f:
-        f.write(svg_header + svg_body + svg_footer)
+        f.write(svg)
     print("Generated skills.svg successfully.")
 
 if __name__ == "__main__":

@@ -2,21 +2,16 @@ import os
 import json
 import datetime
 import urllib.request
-from urllib.error import URLError
+import math
+import random
 
 def get_latest_github_activity(username="BezaleelPaul"):
     url = f"https://api.github.com/users/{username}/events/public"
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-    }
-    
-    # Check for GITHUB_TOKEN or check if running in actions
+    headers = {"User-Agent": "Mozilla/5.0"}
     token = os.environ.get("GITHUB_TOKEN") or os.environ.get("TOKEN")
     if token:
         headers["Authorization"] = f"token {token}"
-        
     req = urllib.request.Request(url, headers=headers)
-    
     try:
         with urllib.request.urlopen(req, timeout=5) as response:
             if response.status == 200:
@@ -25,91 +20,202 @@ def get_latest_github_activity(username="BezaleelPaul"):
                     for event in data:
                         repo_name = event.get("repo", {}).get("name")
                         if repo_name:
-                            # Strip username prefix if present
                             if "/" in repo_name:
                                 return repo_name.split("/")[-1]
                             return repo_name
     except Exception as e:
         print(f"Error fetching GitHub activity: {e}")
-        
     return "NADICARE Twin Engine"
+
+def fetch_github_user_stats(username="BezaleelPaul"):
+    url = f"https://api.github.com/users/{username}"
+    headers = {"User-Agent": "Mozilla/5.0"}
+    token = os.environ.get("GITHUB_TOKEN") or os.environ.get("TOKEN")
+    if token:
+        headers["Authorization"] = f"token {token}"
+    req = urllib.request.Request(url, headers=headers)
+    try:
+        with urllib.request.urlopen(req, timeout=5) as response:
+            if response.status == 200:
+                data = json.loads(response.read().decode())
+                return {
+                    "public_repos": data.get("public_repos", 0),
+                    "followers": data.get("followers", 0),
+                    "following": data.get("following", 0),
+                    "total_stars": 0,
+                }
+    except Exception as e:
+        print(f"Error fetching GitHub user stats: {e}")
+    return {"public_repos": 0, "followers": 0, "following": 0, "total_stars": 0}
+
+def get_time_based_greeting():
+    try:
+        now = datetime.datetime.now(datetime.UTC)
+        hour = now.hour
+    except AttributeError:
+        now = datetime.datetime.utcnow()
+        hour = now.hour
+    if 5 <= hour < 12:
+        return "GOOD MORNING", "☀️"
+    elif 12 <= hour < 17:
+        return "GOOD AFTERNOON", "🌤️"
+    elif 17 <= hour < 21:
+        return "GOOD EVENING", "🌅"
+    else:
+        return "NIGHT OWL", "🌙"
+
+def generate_matrix_rain_segment(x, width, height):
+    drops = []
+    num_drops = random.randint(3, 6)
+    for _ in range(num_drops):
+        y = random.randint(0, height)
+        length = random.randint(4, 12)
+        speed = random.uniform(0.3, 0.8)
+        opacity = random.uniform(0.1, 0.4)
+        drops.append({"x": x + random.randint(0, width - 10), "y": y, "length": length, "speed": speed, "opacity": opacity})
+    return drops
 
 def generate_header():
     username = "BezaleelPaul"
     repo = get_latest_github_activity(username)
+    stats = fetch_github_user_stats(username)
+    greeting, emoji = get_time_based_greeting()
+
     try:
         timestamp = datetime.datetime.now(datetime.UTC).strftime("%Y-%m-%d %H:%M UTC")
     except AttributeError:
-        # Fallback for Python < 3.11
         timestamp = datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
-    
-    svg_content = f"""<svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+
+    matrix_drops = generate_matrix_rain_segment(20, 140, 180)
+
+    matrix_drop_elements = ""
+    for drop in matrix_drops:
+        matrix_drop_elements += f"""
+    <text x="{drop['x']}" y="{drop['y']}" fill="#39ff14" opacity="{drop['opacity']}" font-family="monospace" font-size="8">
+      {random.choice('0123456789ABCDEF')}
+      <animate attributeName="y" values="{drop['y'] - 20};{drop['y'] + drop['length'] * 12};{drop['y'] - 20}" dur="{drop['speed']}s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;{drop['opacity']};0" dur="{drop['speed']}s" repeatCount="indefinite"/>
+    </text>"""
+
+    svg_content = f'''<svg viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <filter id="glitch" x="-20%" y="-20%" width="140%" height="140%">
-      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="1" result="noise">
-        <animate attributeName="baseFrequency" values="0.05;0.09;0.05" dur="2s" repeatCount="indefinite"/>
-      </feTurbulence>
-      <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" xChannelSelector="R" yChannelSelector="G"/>
-    </filter>
-    <linearGradient id="green-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="hdr-grad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#070a0e;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#081f08;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#081a08;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#070a0e;stop-opacity:1" />
     </linearGradient>
+    <linearGradient id="scanline" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#39ff14;stop-opacity:0" />
+      <stop offset="50%" style="stop-color:#39ff14;stop-opacity:0.06" />
+      <stop offset="100%" style="stop-color:#39ff14;stop-opacity:0" />
+    </linearGradient>
+    <radialGradient id="glow-spot" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#39ff14;stop-opacity:0.08" />
+      <stop offset="100%" style="stop-color:#39ff14;stop-opacity:0" />
+    </radialGradient>
+    <filter id="glitch">
+      <feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="2" result="noise">
+        <animate attributeName="baseFrequency" values="0.03;0.06;0.02;0.04;0.03" dur="3s" repeatCount="indefinite"/>
+      </feTurbulence>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="4" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="neon-glow">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft-glow">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
     <style>
-      .title-text {{
-        font-family: 'JetBrains Mono', 'Fira Code', monospace;
-        font-size: 44px;
-        fill: #39ff14;
-        text-anchor: middle;
-        font-weight: 800;
-        letter-spacing: 4px;
-        filter: drop-shadow(0 0 8px rgba(57, 255, 20, 0.6)) url(#glitch);
-      }}
-      .status-text {{
-        font-family: 'JetBrains Mono', 'Fira Code', monospace;
-        font-size: 13px;
-        fill: #8b949e;
-        text-anchor: middle;
-        letter-spacing: 1px;
-      }}
-      .status-highlight {{
-        fill: #39ff14;
-        font-weight: bold;
-      }}
-      .border-rect {{
-        stroke: #39ff14;
-        stroke-width: 1.5;
-        stroke-opacity: 0.3;
-        fill: url(#green-grad);
-        rx: 10px;
-      }}
+      .bg-rect {{ fill: url(#hdr-grad); stroke: #39ff14; stroke-width: 1.5; stroke-opacity: 0.25; rx: 10px; }}
+      .greeting {{ font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 12px; fill: #8b949e; letter-spacing: 2px; }}
+      .greeting-emoji {{ font-size: 14px; }}
+      .title-main {{ font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 36px; fill: #39ff14; font-weight: 800; letter-spacing: 6px; filter: url(#neon-glow); }}
+      .title-sub {{ font-family: 'JetBrains Mono', monospace; font-size: 13px; fill: #8b949e; letter-spacing: 1px; }}
+      .status-dot {{ fill: #39ff14; filter: url(#soft-glow); }}
+      .stat-label {{ font-family: 'JetBrains Mono', monospace; font-size: 9px; fill: #8b949e; letter-spacing: 1px; text-anchor: middle; }}
+      .stat-value {{ font-family: 'JetBrains Mono', monospace; font-size: 16px; fill: #c9d1d9; font-weight: bold; text-anchor: middle; }}
+      .divider {{ stroke: #30363d; stroke-width: 1; stroke-opacity: 0.5; }}
+      .cursor {{ fill: #39ff14; }}
+      .boot-text {{ font-family: 'JetBrains Mono', monospace; font-size: 11px; fill: #8b949e; }}
+      .boot-highlight {{ fill: #39ff14; font-weight: bold; }}
+      .typewriter {{ font-family: 'JetBrains Mono', monospace; font-size: 13px; fill: #39ff14; }}
     </style>
   </defs>
-  
-  <!-- Background Board -->
-  <rect x="2" y="2" width="796" height="196" class="border-rect" />
-  
-  <!-- Subtle decorative grid lines -->
-  <path d="M 20,0 L 20,200 M 780,0 L 780,200 M 0,20 L 800,20 M 0,180 L 800,180" stroke="#39ff14" stroke-opacity="0.08" stroke-width="1"/>
-  
-  <!-- Name with glitch -->
-  <text x="400" y="95" class="title-text">
-    BEZALEEL PAUL N
-  </text>
-  
-  <!-- Status line -->
-  <text x="400" y="145" class="status-text">
-    [ <tspan class="status-highlight">SYSTEM ONLINE</tspan> ]  |  Last deploy: {timestamp}  |  Building: <tspan class="status-highlight">{repo}</tspan>
-  </text>
-  
-  <!-- Blinking cursor -->
-  <rect x="710" y="133" width="8" height="15" fill="#39ff14">
-    <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
+
+  <rect x="2" y="2" width="796" height="216" class="bg-rect" />
+
+  <rect x="2" y="2" width="796" height="216" fill="url(#scanline)">
+    <animate attributeName="y1" values="0;220;0" dur="8s" repeatCount="indefinite"/>
   </rect>
-</svg>
-"""
-    
+
+  <circle cx="400" cy="110" r="180" fill="url(#glow-spot)" />
+
+  <line x1="0" y1="30" x2="800" y2="30" class="divider" />
+  <line x1="0" y1="190" x2="800" y2="190" class="divider" />
+
+  <text x="30" y="20" class="greeting">
+    <tspan class="greeting-emoji">{emoji}</tspan> {greeting}, I'M
+  </text>
+
+  <text x="30" y="75" class="title-main">BEZALEEL PAUL N</text>
+
+  <text x="30" y="100" class="title-sub">
+    <tspan fill="#39ff14" font-weight="bold">AI/ML</tspan>
+    <tspan fill="#30363d"> | </tspan>
+    <tspan fill="#39ff14" font-weight="bold">FULL-STACK</tspan>
+    <tspan fill="#30363d"> | </tspan>
+    <tspan fill="#39ff14" font-weight="bold">BUILDER</tspan>
+  </text>
+
+  <circle cx="34" cy="122" r="4" class="status-dot">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="45" y="126" class="boot-text">
+    <tspan class="boot-highlight">ACTIVE</tspan> · Building <tspan class="boot-highlight">{repo}</tspan>
+  </text>
+
+  <text x="30" y="148" class="boot-text" font-size="10">
+    $ whoami  →  bezaleel@forge:~$
+    <animate attributeName="opacity" values="1;0.5;1" dur="4s" repeatCount="indefinite"/>
+  </text>
+
+  <text x="30" y="168" class="typewriter">
+    <tspan>$_<animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></tspan>
+  </text>
+
+  <g transform="translate(580, 45)">
+    <rect x="0" y="0" width="190" height="140" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+    <text x="95" y="20" class="stat-label" fill="#39ff14">GITHUB VITALS</text>
+
+    <line x1="15" y1="28" x2="175" y2="28" stroke="#30363d" stroke-width="0.5" />
+
+    <text x="95" y="50" class="stat-label">PUBLIC REPOS</text>
+    <text x="95" y="70" class="stat-value">{stats["public_repos"]}</text>
+
+    <text x="50" y="100" class="stat-label" text-anchor="middle">FOLLOWERS</text>
+    <text x="50" y="120" class="stat-value">{stats["followers"]}</text>
+
+    <text x="140" y="100" class="stat-label" text-anchor="middle">FOLLOWING</text>
+    <text x="140" y="120" class="stat-value">{stats["following"]}</text>
+  </g>
+
+  <g transform="translate(30, 180)">
+    <text class="boot-text" font-size="9">
+      {timestamp} UTC  ·  Profile auto-updates every 6h
+    </text>
+  </g>
+
+  <rect x="655" y="185" width="120" height="18" rx="3" fill="#161b22" stroke="#30363d" stroke-width="0.5" />
+  <circle cx="670" cy="194" r="4" class="status-dot">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="682" y="198" font-family="'JetBrains Mono', monospace" font-size="9" fill="#8b949e">ALL MODULES OK</text>
+
+  {matrix_drop_elements}
+</svg>'''
+
     os.makedirs("assets", exist_ok=True)
     with open("assets/header.svg", "w", encoding="utf-8") as f:
         f.write(svg_content)
