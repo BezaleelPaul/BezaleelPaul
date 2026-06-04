@@ -172,7 +172,7 @@ def generate_cp_gauge():
 
   <g transform="translate(610, 55)">
     <circle cx="75" cy="75" r="70" fill="none" stroke="#161b22" stroke-width="6" />
-    <circle cx="75" cy="75" r="70" fill="none" stroke={rank_color} stroke-width="6" stroke-dasharray="440" stroke-dashoffset="{440 - int((gauge_rating / 3000.0) * 440)}" stroke-linecap="round" filter="url(#glow)">
+    <circle cx="75" cy="75" r="70" fill="none" stroke="{rank_color}" stroke-width="6" stroke-dasharray="440" stroke-dashoffset="{440 - int((gauge_rating / 3000.0) * 440)}" stroke-linecap="round" filter="url(#glow)">
       <animate attributeName="stroke-dashoffset" from="440" to="{440 - int((gauge_rating / 3000.0) * 440)}" dur="1.5s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
     </circle>
 

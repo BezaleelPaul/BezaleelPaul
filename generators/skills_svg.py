@@ -4,7 +4,7 @@ def generate_skills():
     skills_data = [
         {
             "category": "LANGUAGES",
-            "icon": "</>",
+            "icon": "&lt;/&gt;",
             "items": [
                 {"name": "Python", "level": 92, "color": "#3776AB"},
                 {"name": "JavaScript", "level": 82, "color": "#F7DF1E"},
