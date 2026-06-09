@@ -39,7 +39,7 @@
   "name"        : "Bezaleel Paul N",
   "alias"       : "BezForge",
   "location"    : "Bangalore, India",
-  "status"      : "🟢 Online — last pushed to markitdown 2d ago",
+  "status"      : "🟢 Online — last pushed to markitdown 3d ago",
   "focus"       : ["AI/ML", "Full-Stack", "Competitive Programming"],
   "personality" : "Builder · Creator · Thinker",
   "mission"     : "I code what motivates me — on the spot. I enjoy the arts,\n                   contemplative thought, and multi-faceted, intellectually\n                   demanding, and imaginatively rigorous projects."
