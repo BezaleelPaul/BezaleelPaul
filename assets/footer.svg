@@ -1,0 +1,39 @@
+<svg viewBox="0 0 800 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ft-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0d2a0d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .bg { fill: url(#ft-grad); stroke: #39ff14; stroke-width: 1.5; stroke-opacity: 0.15; rx: 8px; }
+      .divider { stroke: #30363d; stroke-width: 0.5; stroke-opacity: 0.5; }
+      .main-text { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 18px; fill: #39ff14; text-anchor: middle; font-weight: bold; letter-spacing: 4px; filter: drop-shadow(0 0 4px rgba(57, 255, 20, 0.4)); }
+      .sub-text { font-family: 'JetBrains Mono', monospace; font-size: 9px; fill: #8b949e; text-anchor: middle; letter-spacing: 1px; }
+      .cursor { fill: #39ff14; }
+    </style>
+  </defs>
+
+  <rect x="2" y="2" width="796" height="96" class="bg" />
+
+  <line x1="20" y1="25" x2="780" y2="25" class="divider" />
+  <line x1="20" y1="75" x2="780" y2="75" class="divider" />
+  <line x1="100" y1="25" x2="100" y2="75" class="divider" stroke-dasharray="2 3" />
+  <line x1="700" y1="25" x2="700" y2="75" class="divider" stroke-dasharray="2 3" />
+
+  <text x="400" y="52" class="main-text">
+    BUILD . LEARN . SHIP . REPEAT
+  </text>
+
+  <rect x="574" y="36" width="5" height="18" class="cursor">
+    <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="400" y="90" class="sub-text">
+    &#169; 2026 BEZALEEL PAUL N  ·  Last updated: 2026-06-11 06:27 UTC  ·  Profile auto-generates every 6h
+  </text>
+</svg>

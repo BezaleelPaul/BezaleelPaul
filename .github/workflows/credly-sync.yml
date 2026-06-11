@@ -1,0 +1,22 @@
+name: Auto-Sync Credly Badges
+
+on:
+  schedule:
+    # Triggers an update completely automatically every single day at midnight UTC
+    - cron: "0 0 * * *"
+  workflow_dispatch: # Allows you to push updates manually with one click
+
+jobs:
+  refresh-badges:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Fetch and Inject Badges
+        uses: pemtajo/badge-readme@main
+        with:
+          CREDLY_USER: bezaleel-paul
+          NUMBER_LAST_BADGES: 0 # Forces the engine to crawl and display ALL badges
