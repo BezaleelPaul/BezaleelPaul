@@ -27,6 +27,50 @@
 
 ---
 
+## `$ curl -s "https://github-contributions"`
+
+<div align="center">
+
+### Contribution Activity
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=BezaleelPaul&bg_color=0d1117&color=39ff14&line=39ff14&point=39ff14&area=true&area_color=39ff14&hide_border=true&custom_title=GitHub%20Contribution%20Graph&radius=8" width="95%" />
+
+<br/><br/>
+
+![Contribution Snake](https://github.com/BezaleelPaul/BezaleelPaul/raw/output/github-contribution-grid-snake.svg)
+
+<br/>
+
+<!-- Trophies removed — github-profile-trophy.vercel.app is permanently down with 402 error -->
+
+</div>
+
+---
+
+## `$ cat ./competitive-programming`
+
+<div align="center">
+
+[![Codeforces](https://img.shields.io/badge/Codeforces-BezaleelPaulN-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white&labelColor=161b22)](https://codeforces.com/profile/BezaleelPaulN)
+[![CodeChef](https://img.shields.io/badge/CodeChef-bezaleelpauln-5B4638?style=for-the-badge&logo=codechef&logoColor=white&labelColor=161b22)](https://www.codechef.com/users/bezaleelpauln)
+[![LeetCode](https://img.shields.io/badge/LeetCode-LavaElixir-FFA116?style=for-the-badge&logo=leetcode&logoColor=black&labelColor=161b22)](https://leetcode.com/LavaElixir)
+[![HackerRank](https://img.shields.io/badge/HackerRank-bezaleel321-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white&labelColor=161b22)](https://www.hackerrank.com/bezaleel321)
+[![Kaggle](https://img.shields.io/badge/Kaggle-bezaleelpaul-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white&labelColor=161b22)](https://www.kaggle.com/bezaleelpaul)
+
+<br/>
+
+![Competitive Programming Gauge](assets/cp_gauge.svg)
+
+<br/>
+
+**LeetCode Performance**
+
+<img src="https://leetcard.jacoblin.cool/LavaElixir?theme=dark&ext=heatmap&border=0&radius=15" />
+
+</div>
+
+---
+
 ## `$ whoami`
 
 ```bash
@@ -39,7 +83,7 @@
   "name"        : "Bezaleel Paul N",
   "alias"       : "BezForge",
   "location"    : "Bangalore, India",
-  "status"      : "🟢 Online — last pushed to BezaleelPaul 0m ago",
+  "status"      : "🟢 Online — last pushed to BezaleelPaul 2h ago",
   "focus"       : ["AI/ML", "Full-Stack", "Competitive Programming"],
   "personality" : "Builder · Creator · Thinker",
   "mission"     : "I code what motivates me — on the spot. I enjoy the arts,\n                   contemplative thought, and multi-faceted, intellectually\n                   demanding, and imaginatively rigorous projects."
@@ -146,30 +190,6 @@ Projects are continuously being built. Check back often, or visit my [GitHub rep
 
 ---
 
-## `$ cat ./competitive-programming`
-
-<div align="center">
-
-[![Codeforces](https://img.shields.io/badge/Codeforces-BezaleelPaulN-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white&labelColor=161b22)](https://codeforces.com/profile/BezaleelPaulN)
-[![CodeChef](https://img.shields.io/badge/CodeChef-bezaleelpauln-5B4638?style=for-the-badge&logo=codechef&logoColor=white&labelColor=161b22)](https://www.codechef.com/users/bezaleelpauln)
-[![LeetCode](https://img.shields.io/badge/LeetCode-LavaElixir-FFA116?style=for-the-badge&logo=leetcode&logoColor=black&labelColor=161b22)](https://leetcode.com/LavaElixir)
-[![HackerRank](https://img.shields.io/badge/HackerRank-bezaleel321-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white&labelColor=161b22)](https://www.hackerrank.com/bezaleel321)
-[![Kaggle](https://img.shields.io/badge/Kaggle-bezaleelpaul-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white&labelColor=161b22)](https://www.kaggle.com/bezaleelpaul)
-
-<br/>
-
-![Competitive Programming Gauge](assets/cp_gauge.svg)
-
-<br/>
-
-**LeetCode Performance**
-
-<img src="https://leetcard.jacoblin.cool/LavaElixir?theme=dark&ext=heatmap&border=0&radius=15" />
-
-</div>
-
----
-
 ## `$ ls ./certifications`
 
 <div align="center">
@@ -189,26 +209,6 @@ Projects are continuously being built. Check back often, or visit my [GitHub rep
 
 <!-- START_SECTION:badges -->
 <!-- END_SECTION:badges -->
-
-</div>
-
----
-
-## `$ curl -s "https://github-contributions"`
-
-<div align="center">
-
-### Contribution Activity
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=BezaleelPaul&bg_color=0d1117&color=39ff14&line=39ff14&point=39ff14&area=true&area_color=39ff14&hide_border=true&custom_title=GitHub%20Contribution%20Graph&radius=8" width="95%" />
-
-<br/><br/>
-
-![Contribution Snake](https://github.com/BezaleelPaul/BezaleelPaul/raw/output/github-contribution-grid-snake.svg)
-
-<br/>
-
-<!-- Trophies removed — github-profile-trophy.vercel.app is permanently down with 402 error -->
 
 </div>
 
