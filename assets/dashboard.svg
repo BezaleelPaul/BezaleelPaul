@@ -55,8 +55,8 @@
   <line x1="360" y1="130" x2="760" y2="130" class="chart-axis" />
   <line x1="360" y1="220" x2="760" y2="220" class="chart-axis" />
 
-  <polygon points="360,220 360,220 373,220 387,220 401,220 415,220 428,156 442,220 456,220 470,220 484,130 497,169 511,208 525,143 539,220 553,208 566,220 580,220 594,220 608,208 622,195 635,208 649,220 663,195 677,220 691,220 704,220 718,220 732,220 746,220 760,220 760,220" fill="url(#area-grad)" />
-  <polyline points="360,220 373,220 387,220 401,220 415,220 428,156 442,220 456,220 470,220 484,130 497,169 511,208 525,143 539,220 553,208 566,220 580,220 594,220 608,208 622,195 635,208 649,220 663,195 677,220 691,220 704,220 718,220 732,220 746,220 760,220" class="chart-line" />
+  <polygon points="360,220 360,220 373,220 387,220 401,220 415,156 428,220 442,220 456,220 470,130 484,169 497,208 511,143 525,220 539,208 553,220 566,220 580,220 594,208 608,195 622,208 635,220 649,195 663,220 677,220 691,220 704,220 718,220 732,220 746,220 760,220 760,220" fill="url(#area-grad)" />
+  <polyline points="360,220 373,220 387,220 401,220 415,156 428,220 442,220 456,220 470,130 484,169 497,208 511,143 525,220 539,208 553,220 566,220 580,220 594,208 608,195 622,208 635,220 649,195 663,220 677,220 691,220 704,220 718,220 732,220 746,220 760,220" class="chart-line" />
 
   <circle cx="760" cy="220" r="4" fill="#39ff14" filter="url(#glow)">
     <animate attributeName="r" values="4;6;4" dur="2s" repeatCount="indefinite"/>
@@ -71,25 +71,25 @@
     <rect x="373" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
     <rect x="386" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
     <rect x="399" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
-    <rect x="412" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
-    <rect x="425" y="240" width="10" height="10" fill="#00a300" opacity="0.9" rx="2"/>
+    <rect x="412" y="240" width="10" height="10" fill="#00a300" opacity="0.9" rx="2"/>
+    <rect x="425" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
     <rect x="438" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
     <rect x="451" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
-    <rect x="464" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
-    <rect x="477" y="240" width="10" height="10" fill="#39ff14" opacity="1" rx="2"/>
-    <rect x="490" y="240" width="10" height="10" fill="#00a300" opacity="0.9" rx="2"/>
-    <rect x="503" y="240" width="10" height="10" fill="#0e4429" opacity="0.7" rx="2"/>
-    <rect x="516" y="240" width="10" height="10" fill="#39ff14" opacity="1" rx="2"/>
-    <rect x="529" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
-    <rect x="542" y="240" width="10" height="10" fill="#0e4429" opacity="0.7" rx="2"/>
+    <rect x="464" y="240" width="10" height="10" fill="#39ff14" opacity="1" rx="2"/>
+    <rect x="477" y="240" width="10" height="10" fill="#00a300" opacity="0.9" rx="2"/>
+    <rect x="490" y="240" width="10" height="10" fill="#0e4429" opacity="0.7" rx="2"/>
+    <rect x="503" y="240" width="10" height="10" fill="#39ff14" opacity="1" rx="2"/>
+    <rect x="516" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
+    <rect x="529" y="240" width="10" height="10" fill="#0e4429" opacity="0.7" rx="2"/>
+    <rect x="542" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
     <rect x="555" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
     <rect x="568" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
-    <rect x="581" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
+    <rect x="581" y="240" width="10" height="10" fill="#0e4429" opacity="0.7" rx="2"/>
     <rect x="594" y="240" width="10" height="10" fill="#0e4429" opacity="0.7" rx="2"/>
     <rect x="607" y="240" width="10" height="10" fill="#0e4429" opacity="0.7" rx="2"/>
-    <rect x="620" y="240" width="10" height="10" fill="#0e4429" opacity="0.7" rx="2"/>
-    <rect x="633" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
-    <rect x="646" y="240" width="10" height="10" fill="#0e4429" opacity="0.7" rx="2"/>
+    <rect x="620" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
+    <rect x="633" y="240" width="10" height="10" fill="#0e4429" opacity="0.7" rx="2"/>
+    <rect x="646" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
     <rect x="659" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
     <rect x="672" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
     <rect x="685" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
@@ -97,7 +97,7 @@
     <rect x="711" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
     <rect x="724" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
     <rect x="737" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
-  <text x="365" y="262" font-family="'JetBrains Mono', monospace" font-size="8" fill="#8b949e" text-anchor="middle">05-23</text>
-    <text x="547" y="262" font-family="'JetBrains Mono', monospace" font-size="8" fill="#8b949e" text-anchor="middle">06-06</text>
-    <text x="742" y="262" font-family="'JetBrains Mono', monospace" font-size="8" fill="#8b949e" text-anchor="middle">06-21</text>
+  <text x="365" y="262" font-family="'JetBrains Mono', monospace" font-size="8" fill="#8b949e" text-anchor="middle">05-24</text>
+    <text x="547" y="262" font-family="'JetBrains Mono', monospace" font-size="8" fill="#8b949e" text-anchor="middle">06-07</text>
+    <text x="742" y="262" font-family="'JetBrains Mono', monospace" font-size="8" fill="#8b949e" text-anchor="middle">06-22</text>
 </svg>
