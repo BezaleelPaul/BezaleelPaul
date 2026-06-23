@@ -13,8 +13,8 @@
       .panel { stroke: #30363d; stroke-width: 1; fill: none; rx: 8px; }
       .sec-title { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 13px; fill: #39ff14; font-weight: bold; letter-spacing: 2px; }
       .stat-label { font-family: 'JetBrains Mono', monospace; font-size: 10px; fill: #8b949e; letter-spacing: 1px; }
-      .stat-val { font-family: 'JetBrains Mono', monospace; font-size: 20px; font-weight: 800; fill: #8b949e; filter: drop-shadow(0 0 4px #8b949e55); }
-      .stat-rank { font-family: 'JetBrains Mono', monospace; font-size: 14px; font-weight: bold; fill: #8b949e; }
+      .stat-val { font-family: 'JetBrains Mono', monospace; font-size: 20px; font-weight: 800; fill: #39ff14; filter: drop-shadow(0 0 4px #39ff1455); }
+      .stat-rank { font-family: 'JetBrains Mono', monospace; font-size: 14px; font-weight: bold; fill: #39ff14; }
       .stat-plain { font-family: 'JetBrains Mono', monospace; font-size: 14px; fill: #c9d1d9; }
       .lc-easy { fill: #00b8a3; }
       .lc-medium { fill: #ffc01e; }
@@ -22,7 +22,7 @@
       .dial-label { font-family: 'JetBrains Mono', monospace; font-size: 9px; fill: #8b949e; text-anchor: middle; }
       .dial-val { font-family: 'JetBrains Mono', monospace; font-size: 22px; font-weight: bold; fill: #c9d1d9; text-anchor: middle; }
       .dial-bg { stroke: #161b22; stroke-width: 8; fill: none; stroke-linecap: round; }
-      .dial-fill { stroke: #8b949e; stroke-width: 8; fill: none; stroke-linecap: round; filter: url(#glow); stroke-dasharray: 400; stroke-dashoffset: 400; }
+      .dial-fill { stroke: #39ff14; stroke-width: 8; fill: none; stroke-linecap: round; filter: url(#glow); stroke-dasharray: 400; stroke-dashoffset: 400; }
       .needle { stroke: #ff4444; stroke-width: 3; stroke-linecap: round; }
       .needle-cap { fill: #ff4444; stroke: #0d1117; stroke-width: 2; }
     </style>
@@ -37,11 +37,11 @@
   <text x="30" y="70" class="stat-label" fill="#39ff14" font-weight="bold" font-size="14">BezaleelPaulN</text>
 
   <text x="30" y="100" class="stat-label">CURRENT RATING</text>
-  <text x="30" y="125" class="stat-val">959</text>
-  <text x="130" y="123" class="stat-rank">[NEWBIE]</text>
+  <text x="30" y="125" class="stat-val">1380</text>
+  <text x="130" y="123" class="stat-rank">[PUPIL]</text>
 
   <text x="30" y="155" class="stat-label">PEAK RATING</text>
-  <text x="30" y="175" class="stat-plain">959 <tspan fill="#8b949e" font-weight="bold">[NEWBIE]</tspan></text>
+  <text x="30" y="175" class="stat-plain">1420 <tspan fill="#39ff14" font-weight="bold">[PUPIL]</tspan></text>
 
   <text x="30" y="205" class="stat-label" font-size="9" fill="#58a6ff">Syncs every 6 hours · Codeforces API</text>
 
@@ -72,13 +72,13 @@
   <g transform="translate(610, 55)">
     <path d="M 14.38,110 A 70,70 0 1 1 135.62,110" class="dial-bg" />
     <path d="M 14.38,110 A 70,70 0 1 1 135.62,110" class="dial-fill" stroke-dasharray="293" stroke-dashoffset="293">
-      <animate attributeName="stroke-dashoffset" from="293" to="200" dur="1.5s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
+      <animate attributeName="stroke-dashoffset" from="293" to="159" dur="1.5s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
     </path>
 
-    <text x="75" y="68" class="dial-val">959</text>
+    <text x="75" y="68" class="dial-val">1380</text>
     <text x="75" y="85" class="dial-label">CF RATING</text>
 
-    <line x1="75" y1="75" x2="75" y2="20" stroke="#ff4444" stroke-width="2.5" stroke-linecap="round" transform="rotate(-43.28 75 75)" />
+    <line x1="75" y1="75" x2="75" y2="20" stroke="#ff4444" stroke-width="2.5" stroke-linecap="round" transform="rotate(-9.599999999999994 75 75)" />
     <circle cx="75" cy="75" r="6" fill="#ff4444" />
     <circle cx="75" cy="75" r="2.5" fill="#0d1117" />
 
