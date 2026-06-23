@@ -38,7 +38,7 @@
   <text x="230" y="108" class="metric-val" text-anchor="middle">1</text>
 
   <text x="320" y="78" class="metric-title" text-anchor="middle">REPOS</text>
-  <text x="320" y="108" class="metric-val" text-anchor="middle">21</text>
+  <text x="320" y="108" class="metric-val" text-anchor="middle">22</text>
 
   <line x1="30" y1="125" x2="372" y2="125" stroke="#30363d" stroke-width="0.5" stroke-dasharray="3 3" />
 
