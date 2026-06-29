@@ -67,7 +67,7 @@
   <text x="556" y="144" font-family="'JetBrains Mono', monospace" font-size="11" fill="#c9d1d9">2</text>
 
   <text x="366" y="175" class="stat-label">GLOBAL RANKING</text>
-  <text x="366" y="195" class="stat-plain" font-size="13">#1,756,003</text>
+  <text x="366" y="195" class="stat-plain" font-size="13">#1,757,415</text>
 
   <g transform="translate(610, 55)">
     <path d="M 14.38,110 A 70,70 0 1 1 135.62,110" class="dial-bg" />
