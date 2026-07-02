@@ -33,13 +33,13 @@
   <line x1="30" y1="46" x2="322" y2="46" stroke="#30363d" stroke-width="0.5" />
 
   <text x="30" y="70" class="metric-title">TOTAL CONTRIBUTIONS (30D)</text>
-  <text x="30" y="96" class="metric-value metric-highlight">21</text>
+  <text x="30" y="96" class="metric-value metric-highlight">17</text>
 
   <text x="30" y="126" class="metric-title">CURRENT ACTIVE STREAK</text>
   <text x="30" y="152" class="metric-value metric-highlight">0 DAYS</text>
 
   <text x="30" y="182" class="metric-title">DAILY AVERAGE</text>
-  <text x="30" y="208" class="metric-value">0.7/DAY</text>
+  <text x="30" y="208" class="metric-value">0.6/DAY</text>
 
   <text x="30" y="238" class="metric-title">TODAY SO FAR</text>
   <text x="30" y="258" class="metric-value">0 COMMITS</text>
@@ -55,8 +55,8 @@
   <line x1="360" y1="130" x2="760" y2="130" class="chart-axis" />
   <line x1="360" y1="220" x2="760" y2="220" class="chart-axis" />
 
-  <polygon points="360,220 360,160 373,205 387,130 401,220 415,205 428,220 442,220 456,220 470,205 484,190 497,205 511,220 525,190 539,220 553,220 566,220 580,220 594,220 608,220 622,220 635,220 649,190 663,220 677,220 691,205 704,220 718,220 732,220 746,220 760,220 760,220" fill="url(#area-grad)" />
-  <polyline points="360,160 373,205 387,130 401,220 415,205 428,220 442,220 456,220 470,205 484,190 497,205 511,220 525,190 539,220 553,220 566,220 580,220 594,220 608,220 622,220 635,220 649,190 663,220 677,220 691,205 704,220 718,220 732,220 746,220 760,220" class="chart-line" />
+  <polygon points="360,220 360,205 373,130 387,220 401,205 415,220 428,220 442,220 456,205 470,190 484,205 497,220 511,190 525,220 539,220 553,220 566,220 580,220 594,220 608,220 622,220 635,190 649,220 663,220 677,205 691,220 704,220 718,220 732,220 746,220 760,220 760,220" fill="url(#area-grad)" />
+  <polyline points="360,205 373,130 387,220 401,205 415,220 428,220 442,220 456,205 470,190 484,205 497,220 511,190 525,220 539,220 553,220 566,220 580,220 594,220 608,220 622,220 635,190 649,220 663,220 677,205 691,220 704,220 718,220 732,220 746,220 760,220" class="chart-line" />
 
   <circle cx="760" cy="220" r="4" fill="#39ff14" filter="url(#glow)">
     <animate attributeName="r" values="4;6;4" dur="2s" repeatCount="indefinite"/>
@@ -67,19 +67,19 @@
 
   <text x="366" y="262" class="axis-label">30-DAY HEATMAP:</text>
 
-  <rect x="360" y="240" width="10" height="10" fill="#00a300" opacity="0.9" rx="2"/>
-    <rect x="373" y="240" width="10" height="10" fill="#0e4429" opacity="0.7" rx="2"/>
-    <rect x="386" y="240" width="10" height="10" fill="#39ff14" opacity="1" rx="2"/>
-    <rect x="399" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
-    <rect x="412" y="240" width="10" height="10" fill="#0e4429" opacity="0.7" rx="2"/>
+  <rect x="360" y="240" width="10" height="10" fill="#0e4429" opacity="0.7" rx="2"/>
+    <rect x="373" y="240" width="10" height="10" fill="#39ff14" opacity="1" rx="2"/>
+    <rect x="386" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
+    <rect x="399" y="240" width="10" height="10" fill="#0e4429" opacity="0.7" rx="2"/>
+    <rect x="412" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
     <rect x="425" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
     <rect x="438" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
-    <rect x="451" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
+    <rect x="451" y="240" width="10" height="10" fill="#0e4429" opacity="0.7" rx="2"/>
     <rect x="464" y="240" width="10" height="10" fill="#0e4429" opacity="0.7" rx="2"/>
     <rect x="477" y="240" width="10" height="10" fill="#0e4429" opacity="0.7" rx="2"/>
-    <rect x="490" y="240" width="10" height="10" fill="#0e4429" opacity="0.7" rx="2"/>
-    <rect x="503" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
-    <rect x="516" y="240" width="10" height="10" fill="#0e4429" opacity="0.7" rx="2"/>
+    <rect x="490" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
+    <rect x="503" y="240" width="10" height="10" fill="#0e4429" opacity="0.7" rx="2"/>
+    <rect x="516" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
     <rect x="529" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
     <rect x="542" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
     <rect x="555" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
@@ -87,17 +87,17 @@
     <rect x="581" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
     <rect x="594" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
     <rect x="607" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
-    <rect x="620" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
-    <rect x="633" y="240" width="10" height="10" fill="#0e4429" opacity="0.7" rx="2"/>
+    <rect x="620" y="240" width="10" height="10" fill="#0e4429" opacity="0.7" rx="2"/>
+    <rect x="633" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
     <rect x="646" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
-    <rect x="659" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
-    <rect x="672" y="240" width="10" height="10" fill="#0e4429" opacity="0.7" rx="2"/>
+    <rect x="659" y="240" width="10" height="10" fill="#0e4429" opacity="0.7" rx="2"/>
+    <rect x="672" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
     <rect x="685" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
     <rect x="698" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
     <rect x="711" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
     <rect x="724" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
     <rect x="737" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
-  <text x="365" y="262" font-family="'JetBrains Mono', monospace" font-size="8" fill="#8b949e" text-anchor="middle">06-02</text>
-    <text x="547" y="262" font-family="'JetBrains Mono', monospace" font-size="8" fill="#8b949e" text-anchor="middle">06-16</text>
-    <text x="742" y="262" font-family="'JetBrains Mono', monospace" font-size="8" fill="#8b949e" text-anchor="middle">07-01</text>
+  <text x="365" y="262" font-family="'JetBrains Mono', monospace" font-size="8" fill="#8b949e" text-anchor="middle">06-03</text>
+    <text x="547" y="262" font-family="'JetBrains Mono', monospace" font-size="8" fill="#8b949e" text-anchor="middle">06-17</text>
+    <text x="742" y="262" font-family="'JetBrains Mono', monospace" font-size="8" fill="#8b949e" text-anchor="middle">07-02</text>
 </svg>
