@@ -33,19 +33,19 @@
   <line x1="30" y1="46" x2="322" y2="46" stroke="#30363d" stroke-width="0.5" />
 
   <text x="30" y="70" class="metric-title">TOTAL CONTRIBUTIONS (30D)</text>
-  <text x="30" y="96" class="metric-value metric-highlight">5</text>
+  <text x="30" y="96" class="metric-value metric-highlight">3</text>
 
   <text x="30" y="126" class="metric-title">CURRENT ACTIVE STREAK</text>
   <text x="30" y="152" class="metric-value metric-highlight">0 DAYS</text>
 
   <text x="30" y="182" class="metric-title">DAILY AVERAGE</text>
-  <text x="30" y="208" class="metric-value">0.2/DAY</text>
+  <text x="30" y="208" class="metric-value">0.1/DAY</text>
 
   <text x="30" y="238" class="metric-title">TODAY SO FAR</text>
   <text x="30" y="258" class="metric-value">0 COMMITS</text>
 
   <text x="185" y="238" class="metric-title">BEST DAY</text>
-  <text x="185" y="258" class="metric-value" font-size="16">2 <tspan font-size="10" fill="#8b949e">(2026-06-14)</tspan></text>
+  <text x="185" y="258" class="metric-value" font-size="16">2 <tspan font-size="10" fill="#8b949e">(2026-06-23)</tspan></text>
 
   <rect x="352" y="16" width="432" height="248" class="panel" />
   <text x="366" y="38" class="sec-title">// ACTIVITY TRENDS &amp; HEATMAP</text>
@@ -55,8 +55,8 @@
   <line x1="360" y1="130" x2="760" y2="130" class="chart-axis" />
   <line x1="360" y1="220" x2="760" y2="220" class="chart-axis" />
 
-  <polygon points="360,220 360,130 373,220 387,220 401,220 415,220 428,220 442,220 456,220 470,220 484,130 497,220 511,220 525,175 539,220 553,220 566,220 580,220 594,220 608,220 622,220 635,220 649,220 663,220 677,220 691,220 704,220 718,220 732,220 746,220 760,220 760,220" fill="url(#area-grad)" />
-  <polyline points="360,130 373,220 387,220 401,220 415,220 428,220 442,220 456,220 470,220 484,130 497,220 511,220 525,175 539,220 553,220 566,220 580,220 594,220 608,220 622,220 635,220 649,220 663,220 677,220 691,220 704,220 718,220 732,220 746,220 760,220" class="chart-line" />
+  <polygon points="360,220 360,220 373,220 387,220 401,220 415,220 428,220 442,220 456,220 470,130 484,220 497,220 511,175 525,220 539,220 553,220 566,220 580,220 594,220 608,220 622,220 635,220 649,220 663,220 677,220 691,220 704,220 718,220 732,220 746,220 760,220 760,220" fill="url(#area-grad)" />
+  <polyline points="360,220 373,220 387,220 401,220 415,220 428,220 442,220 456,220 470,130 484,220 497,220 511,175 525,220 539,220 553,220 566,220 580,220 594,220 608,220 622,220 635,220 649,220 663,220 677,220 691,220 704,220 718,220 732,220 746,220 760,220" class="chart-line" />
 
   <circle cx="760" cy="220" r="4" fill="#39ff14" filter="url(#glow)">
     <animate attributeName="r" values="4;6;4" dur="2s" repeatCount="indefinite"/>
@@ -67,7 +67,7 @@
 
   <text x="366" y="262" class="axis-label">30-DAY HEATMAP:</text>
 
-  <rect x="360" y="240" width="10" height="10" fill="#0e4429" opacity="0.7" rx="2"/>
+  <rect x="360" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
     <rect x="373" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
     <rect x="386" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
     <rect x="399" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
@@ -75,11 +75,11 @@
     <rect x="425" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
     <rect x="438" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
     <rect x="451" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
-    <rect x="464" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
-    <rect x="477" y="240" width="10" height="10" fill="#0e4429" opacity="0.7" rx="2"/>
+    <rect x="464" y="240" width="10" height="10" fill="#0e4429" opacity="0.7" rx="2"/>
+    <rect x="477" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
     <rect x="490" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
-    <rect x="503" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
-    <rect x="516" y="240" width="10" height="10" fill="#0e4429" opacity="0.7" rx="2"/>
+    <rect x="503" y="240" width="10" height="10" fill="#0e4429" opacity="0.7" rx="2"/>
+    <rect x="516" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
     <rect x="529" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
     <rect x="542" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
     <rect x="555" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
@@ -97,7 +97,7 @@
     <rect x="711" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
     <rect x="724" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
     <rect x="737" y="240" width="10" height="10" fill="#161b22" opacity="1" rx="2"/>
-  <text x="365" y="262" font-family="'JetBrains Mono', monospace" font-size="8" fill="#8b949e" text-anchor="middle">06-14</text>
-    <text x="547" y="262" font-family="'JetBrains Mono', monospace" font-size="8" fill="#8b949e" text-anchor="middle">06-28</text>
-    <text x="742" y="262" font-family="'JetBrains Mono', monospace" font-size="8" fill="#8b949e" text-anchor="middle">07-13</text>
+  <text x="365" y="262" font-family="'JetBrains Mono', monospace" font-size="8" fill="#8b949e" text-anchor="middle">06-15</text>
+    <text x="547" y="262" font-family="'JetBrains Mono', monospace" font-size="8" fill="#8b949e" text-anchor="middle">06-29</text>
+    <text x="742" y="262" font-family="'JetBrains Mono', monospace" font-size="8" fill="#8b949e" text-anchor="middle">07-14</text>
 </svg>
