@@ -57,7 +57,7 @@
   <line x1="0" y1="190" x2="800" y2="190" class="divider" />
 
   <text x="30" y="20" class="greeting">
-    <tspan class="greeting-emoji">🌙</tspan> NIGHT OWL, I'M
+    <tspan class="greeting-emoji">☀️</tspan> GOOD MORNING, I'M
   </text>
 
   <text x="30" y="75" class="title-main">BEZALEEL PAUL N</text>
@@ -74,7 +74,7 @@
     <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
   </circle>
   <text x="45" y="126" class="boot-text">
-    <tspan class="boot-highlight">ACTIVE</tspan> · Building <tspan class="boot-highlight">SATHNUR-APK-FILES</tspan>
+    <tspan class="boot-highlight">ACTIVE</tspan> · Building <tspan class="boot-highlight">kicad-source-mirror</tspan>
   </text>
 
   <text x="30" y="148" class="boot-text" font-size="10">
@@ -104,7 +104,7 @@
 
   <g transform="translate(30, 180)">
     <text class="boot-text" font-size="9">
-      2026-07-31 01:55 UTC UTC  ·  Profile auto-updates every 6h
+      2026-07-31 08:35 UTC UTC  ·  Profile auto-updates every 6h
     </text>
   </g>
 
@@ -115,24 +115,24 @@
   <text x="682" y="198" font-family="'JetBrains Mono', monospace" font-size="9" fill="#8b949e">ALL MODULES OK</text>
 
   
-    <text x="122" y="13" fill="#39ff14" opacity="0.17634372555309966" font-family="monospace" font-size="8">
+    <text x="83" y="58" fill="#39ff14" opacity="0.14894410683801249" font-family="monospace" font-size="8">
+      4
+      <animate attributeName="y" values="38;202;38" dur="0.4758245301210861s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.14894410683801249;0" dur="0.4758245301210861s" repeatCount="indefinite"/>
+    </text>
+    <text x="34" y="44" fill="#39ff14" opacity="0.2564321921971178" font-family="monospace" font-size="8">
+      0
+      <animate attributeName="y" values="24;128;24" dur="0.4796637083708835s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.2564321921971178;0" dur="0.4796637083708835s" repeatCount="indefinite"/>
+    </text>
+    <text x="91" y="5" fill="#39ff14" opacity="0.23650675292445947" font-family="monospace" font-size="8">
+      B
+      <animate attributeName="y" values="-15;149;-15" dur="0.43683953720709295s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.23650675292445947;0" dur="0.43683953720709295s" repeatCount="indefinite"/>
+    </text>
+    <text x="130" y="56" fill="#39ff14" opacity="0.2139876844448615" font-family="monospace" font-size="8">
       9
-      <animate attributeName="y" values="-7;109;-7" dur="0.5657845802735945s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.17634372555309966;0" dur="0.5657845802735945s" repeatCount="indefinite"/>
-    </text>
-    <text x="82" y="107" fill="#39ff14" opacity="0.14698742496285105" font-family="monospace" font-size="8">
-      7
-      <animate attributeName="y" values="87;215;87" dur="0.7121922434920941s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.14698742496285105;0" dur="0.7121922434920941s" repeatCount="indefinite"/>
-    </text>
-    <text x="118" y="174" fill="#39ff14" opacity="0.32450319042037634" font-family="monospace" font-size="8">
-      F
-      <animate attributeName="y" values="154;282;154" dur="0.6365224351709666s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.32450319042037634;0" dur="0.6365224351709666s" repeatCount="indefinite"/>
-    </text>
-    <text x="52" y="153" fill="#39ff14" opacity="0.28436721016862554" font-family="monospace" font-size="8">
-      9
-      <animate attributeName="y" values="133;273;133" dur="0.5775345377284093s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.28436721016862554;0" dur="0.5775345377284093s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="36;164;36" dur="0.5713118155645378s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.2139876844448615;0" dur="0.5713118155645378s" repeatCount="indefinite"/>
     </text>
 </svg>
