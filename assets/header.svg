@@ -57,7 +57,7 @@
   <line x1="0" y1="190" x2="800" y2="190" class="divider" />
 
   <text x="30" y="20" class="greeting">
-    <tspan class="greeting-emoji">🌤️</tspan> GOOD AFTERNOON, I'M
+    <tspan class="greeting-emoji">🌅</tspan> GOOD EVENING, I'M
   </text>
 
   <text x="30" y="75" class="title-main">BEZALEEL PAUL N</text>
@@ -74,7 +74,7 @@
     <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
   </circle>
   <text x="45" y="126" class="boot-text">
-    <tspan class="boot-highlight">ACTIVE</tspan> · Building <tspan class="boot-highlight">esp32-ai</tspan>
+    <tspan class="boot-highlight">ACTIVE</tspan> · Building <tspan class="boot-highlight">kana-dojo</tspan>
   </text>
 
   <text x="30" y="148" class="boot-text" font-size="10">
@@ -93,7 +93,7 @@
     <line x1="15" y1="28" x2="175" y2="28" stroke="#30363d" stroke-width="0.5" />
 
     <text x="95" y="50" class="stat-label">PUBLIC REPOS</text>
-    <text x="95" y="70" class="stat-value">23</text>
+    <text x="95" y="70" class="stat-value">24</text>
 
     <text x="50" y="100" class="stat-label" text-anchor="middle">FOLLOWERS</text>
     <text x="50" y="120" class="stat-value">2</text>
@@ -104,7 +104,7 @@
 
   <g transform="translate(30, 180)">
     <text class="boot-text" font-size="9">
-      2026-07-31 13:41 UTC UTC  ·  Profile auto-updates every 6h
+      2026-07-31 19:08 UTC UTC  ·  Profile auto-updates every 6h
     </text>
   </g>
 
@@ -115,24 +115,19 @@
   <text x="682" y="198" font-family="'JetBrains Mono', monospace" font-size="9" fill="#8b949e">ALL MODULES OK</text>
 
   
-    <text x="70" y="44" fill="#39ff14" opacity="0.2021621392853285" font-family="monospace" font-size="8">
-      E
-      <animate attributeName="y" values="24;176;24" dur="0.6633402464536529s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.2021621392853285;0" dur="0.6633402464536529s" repeatCount="indefinite"/>
+    <text x="94" y="35" fill="#39ff14" opacity="0.13672400082258396" font-family="monospace" font-size="8">
+      0
+      <animate attributeName="y" values="15;179;15" dur="0.6695126374682637s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.13672400082258396;0" dur="0.6695126374682637s" repeatCount="indefinite"/>
     </text>
-    <text x="67" y="53" fill="#39ff14" opacity="0.3726226350032982" font-family="monospace" font-size="8">
-      D
-      <animate attributeName="y" values="33;149;33" dur="0.6219529325005646s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.3726226350032982;0" dur="0.6219529325005646s" repeatCount="indefinite"/>
+    <text x="135" y="120" fill="#39ff14" opacity="0.13657508924143066" font-family="monospace" font-size="8">
+      7
+      <animate attributeName="y" values="100;168;100" dur="0.37342450668464783s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.13657508924143066;0" dur="0.37342450668464783s" repeatCount="indefinite"/>
     </text>
-    <text x="143" y="35" fill="#39ff14" opacity="0.13825682532592098" font-family="monospace" font-size="8">
-      F
-      <animate attributeName="y" values="15;83;15" dur="0.7495116847180204s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.13825682532592098;0" dur="0.7495116847180204s" repeatCount="indefinite"/>
-    </text>
-    <text x="88" y="177" fill="#39ff14" opacity="0.3980197564382748" font-family="monospace" font-size="8">
-      4
-      <animate attributeName="y" values="157;261;157" dur="0.644145229659709s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.3980197564382748;0" dur="0.644145229659709s" repeatCount="indefinite"/>
+    <text x="57" y="38" fill="#39ff14" opacity="0.10279492272035674" font-family="monospace" font-size="8">
+      8
+      <animate attributeName="y" values="18;170;18" dur="0.6548687939030553s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.10279492272035674;0" dur="0.6548687939030553s" repeatCount="indefinite"/>
     </text>
 </svg>
