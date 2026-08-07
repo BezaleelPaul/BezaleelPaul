@@ -57,7 +57,7 @@
   <line x1="0" y1="190" x2="800" y2="190" class="divider" />
 
   <text x="30" y="20" class="greeting">
-    <tspan class="greeting-emoji">🌙</tspan> NIGHT OWL, I'M
+    <tspan class="greeting-emoji">☀️</tspan> GOOD MORNING, I'M
   </text>
 
   <text x="30" y="75" class="title-main">BEZALEEL PAUL N</text>
@@ -104,7 +104,7 @@
 
   <g transform="translate(30, 180)">
     <text class="boot-text" font-size="9">
-      2026-08-07 02:09 UTC UTC  ·  Profile auto-updates every 6h
+      2026-08-07 07:00 UTC UTC  ·  Profile auto-updates every 6h
     </text>
   </g>
 
@@ -115,24 +115,19 @@
   <text x="682" y="198" font-family="'JetBrains Mono', monospace" font-size="9" fill="#8b949e">ALL MODULES OK</text>
 
   
-    <text x="85" y="148" fill="#39ff14" opacity="0.39879716220018613" font-family="monospace" font-size="8">
+    <text x="32" y="131" fill="#39ff14" opacity="0.39299299433545043" font-family="monospace" font-size="8">
+      2
+      <animate attributeName="y" values="111;251;111" dur="0.3189813870759967s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.39299299433545043;0" dur="0.3189813870759967s" repeatCount="indefinite"/>
+    </text>
+    <text x="76" y="115" fill="#39ff14" opacity="0.31342820597298005" font-family="monospace" font-size="8">
       A
-      <animate attributeName="y" values="128;220;128" dur="0.363350413110961s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.39879716220018613;0" dur="0.363350413110961s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="95;259;95" dur="0.7121003273838347s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.31342820597298005;0" dur="0.7121003273838347s" repeatCount="indefinite"/>
     </text>
-    <text x="41" y="157" fill="#39ff14" opacity="0.2654672024736942" font-family="monospace" font-size="8">
-      3
-      <animate attributeName="y" values="137;241;137" dur="0.32687502102290933s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.2654672024736942;0" dur="0.32687502102290933s" repeatCount="indefinite"/>
-    </text>
-    <text x="52" y="144" fill="#39ff14" opacity="0.2065540176051119" font-family="monospace" font-size="8">
-      8
-      <animate attributeName="y" values="124;216;124" dur="0.4833455820790546s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.2065540176051119;0" dur="0.4833455820790546s" repeatCount="indefinite"/>
-    </text>
-    <text x="139" y="141" fill="#39ff14" opacity="0.10802653270140439" font-family="monospace" font-size="8">
-      9
-      <animate attributeName="y" values="121;225;121" dur="0.4865539277195977s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.10802653270140439;0" dur="0.4865539277195977s" repeatCount="indefinite"/>
+    <text x="63" y="55" fill="#39ff14" opacity="0.3797381538635082" font-family="monospace" font-size="8">
+      C
+      <animate attributeName="y" values="35;175;35" dur="0.5549237397860828s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.3797381538635082;0" dur="0.5549237397860828s" repeatCount="indefinite"/>
     </text>
 </svg>
