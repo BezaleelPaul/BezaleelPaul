@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-08T15:56:58Z",
+  "generated_at": "2026-08-08T18:23:10Z",
   "profile": {
     "name": "Bezaleel Paul N",
     "alias": "BezForge",
     "location": "Bangalore, India",
     "role": "AI/ML · Full-Stack · Builder",
-    "status": "last pushed to kana-dojo 7d ago",
+    "status": "last pushed to BezaleelPaul 2h ago",
     "open_to_work": true,
     "focus": [
       "AI/ML",
@@ -39,10 +39,10 @@
     ]
   },
   "dashboard": {
-    "total_30d": 14,
-    "streak": 0,
-    "today": 0,
-    "avg_per_day": 0.5,
+    "total_30d": 17,
+    "streak": 1,
+    "today": 3,
+    "avg_per_day": 0.6,
     "best_day": 12,
     "best_day_date": "2026-07-31",
     "series": [
@@ -164,11 +164,29 @@
       },
       {
         "date": "2026-08-08",
-        "count": 0
+        "count": 3
       }
     ]
   },
   "activity": [
+    {
+      "emoji": "📦",
+      "action": "Pushed 0 commit to",
+      "repo": "BezaleelPaul",
+      "time": "2h ago"
+    },
+    {
+      "emoji": "📦",
+      "action": "Pushed 0 commit to",
+      "repo": "bezaleelpaul.github.io",
+      "time": "2h ago"
+    },
+    {
+      "emoji": "📦",
+      "action": "Pushed 0 commit to",
+      "repo": "BezaleelPaul",
+      "time": "2h ago"
+    },
     {
       "emoji": "🔀",
       "action": "Merged PR in",
@@ -208,24 +226,6 @@
     {
       "emoji": "🌿",
       "action": "Created branch",
-      "repo": "kana-dojo",
-      "time": "7d ago"
-    },
-    {
-      "emoji": "📦",
-      "action": "Pushed 0 commit to",
-      "repo": "kana-dojo",
-      "time": "7d ago"
-    },
-    {
-      "emoji": "💻",
-      "action": "Activity in",
-      "repo": "kana-dojo",
-      "time": "7d ago"
-    },
-    {
-      "emoji": "🍴",
-      "action": "Forked",
       "repo": "kana-dojo",
       "time": "7d ago"
     }
