@@ -18,6 +18,7 @@ from generators.connect_svg import generate_connect_card
 from generators.footer_svg import generate_footer
 from generators.github_stats_svg import generate_github_stats
 from generators.activity_log_svg import generate_activity_log
+from generators.profile_data import generate_profile_data
 
 def get_live_status(username="BezaleelPaul"):
     url = f"https://api.github.com/users/{username}/events/public"
@@ -96,6 +97,7 @@ def main():
         (generate_footer, "Footer"),
         (generate_github_stats, "GitHub Stats"),
         (generate_activity_log, "Activity Log"),
+        (generate_profile_data, "Website Profile Data"),
     ]
 
     results = []

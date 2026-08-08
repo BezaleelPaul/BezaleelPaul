@@ -1,51 +1,53 @@
 import os
 
+SKILLS_DATA = [
+    {
+        "category": "LANGUAGES",
+        "icon": "&lt;/&gt;",
+        "items": [
+            {"name": "Python", "level": 92, "color": "#3776AB"},
+            {"name": "JavaScript", "level": 82, "color": "#F7DF1E"},
+            {"name": "TypeScript", "level": 65, "color": "#3178C6"},
+            {"name": "HTML / CSS", "level": 85, "color": "#E34F26"},
+            {"name": "C / C++", "level": 55, "color": "#00599C"},
+        ]
+    },
+    {
+        "category": "FRAMEWORKS",
+        "icon": "⚡",
+        "items": [
+            {"name": "React", "level": 72, "color": "#61DAFB"},
+            {"name": "Node.js", "level": 70, "color": "#339933"},
+            {"name": "FastAPI", "level": 62, "color": "#009688"},
+            {"name": "Flutter", "level": 50, "color": "#02569B"},
+            {"name": "Streamlit", "level": 68, "color": "#FF4B4B"},
+        ]
+    },
+    {
+        "category": "AI / ML",
+        "icon": "🧠",
+        "items": [
+            {"name": "TensorFlow", "level": 58, "color": "#FF6F00"},
+            {"name": "XGBoost", "level": 65, "color": "#39B54A"},
+            {"name": "OpenAI API", "level": 62, "color": "#74AA9C"},
+            {"name": "Scikit-learn", "level": 60, "color": "#F7931E"},
+        ]
+    },
+    {
+        "category": "TOOLS & OPS",
+        "icon": "🛠️",
+        "items": [
+            {"name": "Git & GitHub", "level": 90, "color": "#F05032"},
+            {"name": "Firebase", "level": 70, "color": "#FFCA28"},
+            {"name": "SQL / NoSQL", "level": 65, "color": "#4479A1"},
+            {"name": "Docker", "level": 45, "color": "#2496ED"},
+            {"name": "Linux CLI", "level": 75, "color": "#FCC624"},
+        ]
+    }
+]
+
 def generate_skills():
-    skills_data = [
-        {
-            "category": "LANGUAGES",
-            "icon": "&lt;/&gt;",
-            "items": [
-                {"name": "Python", "level": 92, "color": "#3776AB"},
-                {"name": "JavaScript", "level": 82, "color": "#F7DF1E"},
-                {"name": "TypeScript", "level": 65, "color": "#3178C6"},
-                {"name": "HTML / CSS", "level": 85, "color": "#E34F26"},
-                {"name": "C / C++", "level": 55, "color": "#00599C"},
-            ]
-        },
-        {
-            "category": "FRAMEWORKS",
-            "icon": "⚡",
-            "items": [
-                {"name": "React", "level": 72, "color": "#61DAFB"},
-                {"name": "Node.js", "level": 70, "color": "#339933"},
-                {"name": "FastAPI", "level": 62, "color": "#009688"},
-                {"name": "Flutter", "level": 50, "color": "#02569B"},
-                {"name": "Streamlit", "level": 68, "color": "#FF4B4B"},
-            ]
-        },
-        {
-            "category": "AI / ML",
-            "icon": "🧠",
-            "items": [
-                {"name": "TensorFlow", "level": 58, "color": "#FF6F00"},
-                {"name": "XGBoost", "level": 65, "color": "#39B54A"},
-                {"name": "OpenAI API", "level": 62, "color": "#74AA9C"},
-                {"name": "Scikit-learn", "level": 60, "color": "#F7931E"},
-            ]
-        },
-        {
-            "category": "TOOLS &amp; OPS",
-            "icon": "🛠️",
-            "items": [
-                {"name": "Git &amp; GitHub", "level": 90, "color": "#F05032"},
-                {"name": "Firebase", "level": 70, "color": "#FFCA28"},
-                {"name": "SQL / NoSQL", "level": 65, "color": "#4479A1"},
-                {"name": "Docker", "level": 45, "color": "#2496ED"},
-                {"name": "Linux CLI", "level": 75, "color": "#FCC624"},
-            ]
-        }
-    ]
+    skills_data = SKILLS_DATA
 
     card_width = 370
     card_height = 200
