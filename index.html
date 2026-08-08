@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Bezaleel Paul N — Software Developer, AI/ML Engineer & Builder. Portfolio with live GitHub analytics." />
+  <meta name="author" content="Bezaleel Paul N" />
+  <title>bezaleel@forge — Bezaleel Paul N</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>&#37;</text></svg>" />
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="nav" id="nav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="#top">bezaleel@forge</a>
+      <nav class="nav-links" id="nav-links">
+        <a href="#about">about</a>
+        <a href="#skills">skills</a>
+        <a href="#projects">projects</a>
+        <a href="#stats">stats</a>
+        <a href="#cp">cp</a>
+        <a href="#activity">activity</a>
+        <a href="#contact">contact</a>
+      </nav>
+      <button class="nav-burger" id="nav-burger" aria-label="menu">[=]</button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero section">
+      <div class="container">
+        <p class="hero-boot">[ SYSTEM BOOT COMPLETE ] <span id="hero-clock"></span></p>
+        <p class="hero-greeting" id="hero-greeting">GOOD EVENING, I'M</p>
+        <h1 class="hero-title">BEZALEEL PAUL N</h1>
+        <p class="hero-role">AI/ML <span class="dim">|</span> FULL-STACK <span class="dim">|</span> BUILDER</p>
+        <p class="hero-sub">
+          <span class="status-dot"></span> Open to opportunities &nbsp;·&nbsp; Bangalore, India
+        </p>
+        <div class="hero-type" id="hero-type">
+          <span class="prompt">$</span> <span id="typed"></span><span class="cursor">_</span>
+        </div>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#projects">view projects</a>
+          <a class="btn btn-ghost" href="mailto:bezaleel321@gmail.com">contact me</a>
+        </div>
+        <div class="hero-stats" id="hero-stats">
+          <div class="hero-stat"><span class="hs-val" data-field="repos">--</span><span class="hs-label">repos</span></div>
+          <div class="hero-stat"><span class="hs-val" data-field="followers">--</span><span class="hs-label">followers</span></div>
+          <div class="hero-stat"><span class="hs-val" data-field="stars">--</span><span class="hs-label">stars</span></div>
+          <div class="hero-stat"><span class="hs-val" data-field="streak">--</span><span class="hs-label">day streak</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="sec-title"><span class="sec-num">01 /</span> about</h2>
+        <div class="about-grid">
+          <div class="card about-text">
+            <p>Based in <span class="accent">Bangalore, India</span>. Open to opportunities in software engineering, AI/ML, and creative development.</p>
+            <p>I thrive at the intersection of logic and creativity — where clean code meets meaningful design. Whether it's a utility tool, a math visualizer, or an AI-powered app, I build things that actually solve problems.</p>
+            <p>Beyond code, I'm drawn to the arts, philosophy, and deep intellectual work. My best projects come from the sweet spot between rigor and imagination.</p>
+            <div class="tags" id="about-tags"></div>
+          </div>
+          <div class="card terminal">
+            <div class="term-bar">
+              <span class="term-dot red"></span><span class="term-dot yellow"></span><span class="term-dot green"></span>
+              <span class="term-title">~ bezaleel</span>
+            </div>
+            <div class="term-body">
+              <p><span class="prompt">$</span> whoami</p>
+              <p class="out"><span id="term-name">BezForge</span> — Builder &amp; Creator</p>
+              <p><span class="prompt">$</span> cat location.txt</p>
+              <p class="out">Bangalore, India</p>
+              <p><span class="prompt">$</span> echo $STATUS</p>
+              <p class="out">Open to new opportunities <span class="accent">✓</span></p>
+              <p><span class="prompt">$</span> cat interests.json</p>
+              <p class="out">{ code: "Python · JS · Dart",</p>
+              <p class="out indent">ai: "TF · OpenAI · Kaggle",</p>
+              <p class="out indent">passion: "Arts · Math · Philosophy" }</p>
+              <p><span class="prompt">$</span> <span class="cursor">_</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="container">
+        <h2 class="sec-title"><span class="sec-num">02 /</span> skills</h2>
+        <div class="skills-grid" id="skills-grid"><!-- rendered --></div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="sec-title"><span class="sec-num">03 /</span> projects</h2>
+        <div class="projects-grid" id="projects-grid"><!-- rendered --></div>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="section" id="stats">
+      <div class="container">
+        <h2 class="sec-title"><span class="sec-num">04 /</span> github stats</h2>
+        <div class="stats-grid" id="stats-grid"><!-- rendered --></div>
+        <div class="stats-bottom">
+          <div class="card chart-card">
+            <h3 class="card-title">// 30-DAY CONTRIBUTIONS</h3>
+            <div class="chart-wrap">
+              <svg id="chart" viewBox="0 0 700 220" preserveAspectRatio="none"></svg>
+            </div>
+            <div class="chart-legend">
+              <span>30d ago</span><span class="heatmap" id="heatmap"></span><span>today</span>
+            </div>
+          </div>
+          <div class="card top-repos-card">
+            <h3 class="card-title">// TOP REPOS</h3>
+            <ul class="top-repos" id="top-repos"><!-- rendered --></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CP -->
+    <section class="section" id="cp">
+      <div class="container">
+        <h2 class="sec-title"><span class="sec-num">05 /</span> competitive programming</h2>
+        <div class="cp-grid" id="cp-grid"><!-- rendered --></div>
+        <div class="cp-platforms" id="cp-platforms"><!-- rendered --></div>
+      </div>
+    </section>
+
+    <!-- ACTIVITY -->
+    <section class="section" id="activity">
+      <div class="container">
+        <h2 class="sec-title"><span class="sec-num">06 /</span> recent activity</h2>
+        <div class="card activity-card">
+          <ul class="activity-list" id="activity-list"><!-- rendered --></ul>
+          <p class="feed-note">Live feed from GitHub events &nbsp;·&nbsp; updates every 6 hours</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container">
+        <h2 class="sec-title"><span class="sec-num">07 /</span> connect</h2>
+        <div class="contact-grid">
+          <div class="card contact-intro">
+            <p>Open to collaboration, internships, and full-time opportunities. Whether it's a project idea, a role, or just a conversation about code — reach out.</p>
+            <div class="ping">
+              <p><span class="prompt">$</span> ping BezaleelPaul --verbose</p>
+              <p class="out">64 bytes: icmp_seq=1 ttl=64 time=~24h</p>
+              <p class="out">Status: <span class="accent">ONLINE</span> · Available for opportunities</p>
+            </div>
+            <a class="btn btn-primary" href="mailto:bezaleel321@gmail.com">bezaleel321@gmail.com</a>
+          </div>
+          <div class="socials" id="socials"><!-- rendered --></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Designed &amp; built by <span class="accent">BEZALEEL PAUL N</span> — Bangalore, India</p>
+      <p class="foot-meta">HTML · CSS · VANILLA JS · BUILT WITH INTENTION</p>
+      <p class="foot-meta" id="last-updated"></p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
