@@ -53,7 +53,7 @@
 
 [![Codeforces](https://img.shields.io/badge/Codeforces-BezaleelPaulN-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white&labelColor=161b22)](https://codeforces.com/profile/BezaleelPaulN)
 [![CodeChef](https://img.shields.io/badge/CodeChef-bezaleelpauln-5B4638?style=for-the-badge&logo=codechef&logoColor=white&labelColor=161b22)](https://www.codechef.com/users/bezaleelpauln)
-[![LeetCode](https://img.shields.io/badge/LeetCode-LavaElixir-FFA116?style=for-the-badge&logo=leetcode&logoColor=black&labelColor=161b22)](https://leetcode.com/LavaElixir)
+[![LeetCode](https://img.shields.io/badge/LeetCode-BezaleelPaulN-FFA116?style=for-the-badge&logo=leetcode&logoColor=black&labelColor=161b22)](https://leetcode.com/BezaleelPaulN)
 [![HackerRank](https://img.shields.io/badge/HackerRank-bezaleel321-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white&labelColor=161b22)](https://www.hackerrank.com/bezaleel321)
 [![Kaggle](https://img.shields.io/badge/Kaggle-bezaleelpaul-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white&labelColor=161b22)](https://www.kaggle.com/bezaleelpaul)
 
@@ -65,7 +65,7 @@
 
 **LeetCode Performance**
 
-<img src="https://leetcard.jacoblin.cool/LavaElixir?theme=dark&ext=heatmap&border=0&radius=15" />
+<img src="https://leetcard.jacoblin.cool/BezaleelPaulN?theme=dark&ext=heatmap&border=0&radius=15" />
 
 </div>
 
