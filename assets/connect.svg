@@ -97,7 +97,7 @@
     <circle cx="24" cy="21" r="10" fill="#FFA116" />
     <text x="20" y="25" font-family="Arial" font-weight="bold" font-size="11" fill="white" text-anchor="middle">L</text>
     <text x="46" y="26" class="link-text">LEETCODE</text>
-    <text x="46" y="38" font-family="'JetBrains Mono', monospace" font-size="7" fill="#8b949e">/LavaElixir</text>
+    <text x="46" y="38" font-family="'JetBrains Mono', monospace" font-size="7" fill="#8b949e">/BezaleelPaulN</text>
   </g>
 
   <g transform="translate(376, 182)">

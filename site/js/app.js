@@ -340,7 +340,7 @@
     var platforms = [
       { name: 'Codeforces', handle: 'BezaleelPaulN', url: 'https://codeforces.com/profile/BezaleelPaulN' },
       { name: 'CodeChef', handle: 'bezaleelpauln', url: 'https://www.codechef.com/users/bezaleelpauln' },
-      { name: 'LeetCode', handle: 'LavaElixir', url: 'https://leetcode.com/LavaElixir' },
+      { name: 'LeetCode', handle: 'BezaleelPaulN', url: 'https://leetcode.com/u/BezaleelPaulN/' },
       { name: 'HackerRank', handle: 'bezaleel321', url: 'https://www.hackerrank.com/bezaleel321' },
       { name: 'Kaggle', handle: 'bezaleelpaul', url: 'https://www.kaggle.com/bezaleelpaul' },
     ];

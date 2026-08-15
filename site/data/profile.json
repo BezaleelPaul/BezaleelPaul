@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-15T12:18:58Z",
+  "generated_at": "2026-08-15T15:23:03Z",
   "profile": {
     "name": "Bezaleel Paul N",
     "alias": "BezForge",
     "location": "Bangalore, India",
     "role": "AI/ML · Full-Stack · Builder",
-    "status": "last pushed to file_organizer_flutter 1h ago",
+    "status": "last pushed to file_organizer_flutter 4h ago",
     "open_to_work": true,
     "focus": [
       "AI/ML",
@@ -173,49 +173,49 @@
       "emoji": "📦",
       "action": "Pushed 0 commit to",
       "repo": "file_organizer_flutter",
-      "time": "1h ago"
+      "time": "4h ago"
     },
     {
       "emoji": "📦",
       "action": "Pushed 0 commit to",
       "repo": "file_organizer_flutter",
-      "time": "21h ago"
+      "time": "1d ago"
     },
     {
       "emoji": "📦",
       "action": "Pushed 0 commit to",
       "repo": "file_organizer_flutter",
-      "time": "21h ago"
+      "time": "1d ago"
     },
     {
       "emoji": "📦",
       "action": "Pushed 0 commit to",
       "repo": "file_organizer_flutter",
-      "time": "22h ago"
+      "time": "1d ago"
     },
     {
       "emoji": "📦",
       "action": "Pushed 0 commit to",
       "repo": "file_organizer_flutter",
-      "time": "22h ago"
+      "time": "1d ago"
     },
     {
       "emoji": "🌿",
       "action": "Created branch",
       "repo": "file_organizer_flutter",
-      "time": "22h ago"
+      "time": "1d ago"
     },
     {
       "emoji": "🌿",
       "action": "Created branch",
       "repo": "file_organizer_flutter",
-      "time": "22h ago"
+      "time": "1d ago"
     },
     {
       "emoji": "📦",
       "action": "Pushed 0 commit to",
       "repo": "BezaleelPaul",
-      "time": "23h ago"
+      "time": "1d ago"
     },
     {
       "emoji": "📦",
@@ -361,12 +361,12 @@
       "color": "#8b949e"
     },
     "leetcode": {
-      "username": "LavaElixir",
-      "totalSolved": 42,
-      "easy": 20,
-      "medium": 18,
-      "hard": 4,
-      "ranking": 500000
+      "username": "BezaleelPaulN",
+      "totalSolved": 188,
+      "easy": 78,
+      "medium": 14,
+      "hard": 2,
+      "ranking": 1750449
     }
   },
   "projects": [
@@ -471,8 +471,8 @@
     },
     {
       "name": "LeetCode",
-      "handle": "LavaElixir",
-      "url": "https://leetcode.com/LavaElixir",
+      "handle": "BezaleelPaulN",
+      "url": "https://leetcode.com/u/BezaleelPaulN/",
       "icon": "lc"
     },
     {

@@ -23,7 +23,7 @@ def fetch_codeforces_data(handle="BezaleelPaulN"):
         print(f"Error fetching Codeforces stats: {e}")
     return {"handle": handle, "rating": 1380, "maxRating": 1420, "rank": "PUPIL", "maxRank": "PUPIL"}
 
-def fetch_leetcode_data(username="LavaElixir"):
+def fetch_leetcode_data(username="BezaleelPaulN"):
     url = "https://leetcode.com/graphql"
     query = {
         "query": """
@@ -86,7 +86,7 @@ def get_rank_color(rank):
 
 def generate_cp_gauge():
     cf_handle = "BezaleelPaulN"
-    lc_username = "LavaElixir"
+    lc_username = "BezaleelPaulN"
     cf_data = fetch_codeforces_data(cf_handle)
     lc_data = fetch_leetcode_data(lc_username)
 

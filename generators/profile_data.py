@@ -72,7 +72,7 @@ SOCIALS = [
     {"name": "Portfolio", "handle": "bezaleelpaul.github.io", "url": "https://bezaleelpaul.github.io/", "icon": "pf"},
     {"name": "Kaggle", "handle": "bezaleelpaul", "url": "https://www.kaggle.com/bezaleelpaul", "icon": "kg"},
     {"name": "Codeforces", "handle": "BezaleelPaulN", "url": "https://codeforces.com/profile/BezaleelPaulN", "icon": "cf"},
-    {"name": "LeetCode", "handle": "LavaElixir", "url": "https://leetcode.com/LavaElixir", "icon": "lc"},
+    {"name": "LeetCode", "handle": "BezaleelPaulN", "url": "https://leetcode.com/u/BezaleelPaulN/", "icon": "lc"},
     {"name": "CodeChef", "handle": "bezaleelpauln", "url": "https://www.codechef.com/users/bezaleelpauln", "icon": "cc"},
     {"name": "HackerRank", "handle": "bezaleel321", "url": "https://www.hackerrank.com/bezaleel321", "icon": "hr"},
 ]
