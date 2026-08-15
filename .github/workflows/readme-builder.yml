@@ -35,8 +35,8 @@ jobs:
         with:
           github_user_name: BezaleelPaul
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=#39ff14&color_dots=#ebedf0,#9be9a8,#40c463,#30a14e,#39ff14
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#39ff14&color_dots=#161b22,#0e4429,#006d32,#26a641,#39ff14
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
