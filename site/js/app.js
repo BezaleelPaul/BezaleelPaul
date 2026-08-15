@@ -411,6 +411,55 @@
     lu.textContent = 'Last synced: ' + date;
   }
 
+  /* ---------- hacker matrix background ---------- */
+
+  function initMatrix() {
+    var canvas = document.getElementById('matrix-bg');
+    if (!canvas) return;
+    if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    var ctx = canvas.getContext('2d');
+    var CHARS = '0123456789ABCDEF@#$%&*+=;:<>/[]{}\\|~'.split('');
+    var FONT = 14;
+    var cols = 0, drops = [];
+    var fade = 'rgba(7, 10, 14, 0.09)';
+
+    function resize() {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+      cols = Math.floor(canvas.width / FONT);
+      drops = [];
+      for (var i = 0; i < cols; i++) {
+        drops[i] = Math.floor((Math.random() * -canvas.height) / FONT);
+      }
+    }
+    resize();
+    window.addEventListener('resize', resize);
+
+    var last = 0;
+    function draw(ts) {
+      if (ts - last > 50) {
+        ctx.fillStyle = fade;
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        ctx.font = FONT + 'px monospace';
+        for (var i = 0; i < drops.length; i++) {
+          var ch = CHARS[Math.floor(Math.random() * CHARS.length)];
+          var x = i * FONT;
+          var y = drops[i] * FONT;
+          ctx.fillStyle = i % 7 === 0 ? '#d8ffd0' : '#39ff14';
+          ctx.globalAlpha = 0.65;
+          ctx.fillText(ch, x, y);
+          ctx.globalAlpha = 1;
+          if (y > canvas.height && Math.random() > 0.975) drops[i] = 0;
+          drops[i]++;
+        }
+        last = ts;
+      }
+      requestAnimationFrame(draw);
+    }
+    requestAnimationFrame(draw);
+  }
+
   /* ---------- animations ---------- */
 
   function initReveal() {
@@ -454,6 +503,7 @@
   /* ---------- boot ---------- */
 
   function boot() {
+    initMatrix();
     initClock();
     typeLoop();
     initNav();
