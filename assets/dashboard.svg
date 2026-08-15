@@ -33,7 +33,7 @@
   <line x1="30" y1="46" x2="322" y2="46" stroke="#30363d" stroke-width="0.5" />
 
   <text x="30" y="70" class="metric-title">TOTAL CONTRIBUTIONS (30D)</text>
-  <text x="30" y="96" class="metric-value metric-highlight">26</text>
+  <text x="30" y="96" class="metric-value metric-highlight">27</text>
 
   <text x="30" y="126" class="metric-title">CURRENT ACTIVE STREAK</text>
   <text x="30" y="152" class="metric-value metric-highlight">2 DAYS</text>
@@ -42,7 +42,7 @@
   <text x="30" y="208" class="metric-value">0.9/DAY</text>
 
   <text x="30" y="238" class="metric-title">TODAY SO FAR</text>
-  <text x="30" y="258" class="metric-value">4 COMMITS</text>
+  <text x="30" y="258" class="metric-value">5 COMMITS</text>
 
   <text x="185" y="238" class="metric-title">BEST DAY</text>
   <text x="185" y="258" class="metric-value" font-size="16">12 <tspan font-size="10" fill="#8b949e">(2026-07-31)</tspan></text>
@@ -55,10 +55,10 @@
   <line x1="360" y1="130" x2="760" y2="130" class="chart-axis" />
   <line x1="360" y1="220" x2="760" y2="220" class="chart-axis" />
 
-  <polygon points="360,220 360,220 373,220 387,220 401,220 415,220 428,220 442,220 456,220 470,220 484,220 497,220 511,220 525,220 539,220 553,130 566,220 580,220 594,220 608,220 622,220 635,220 649,220 663,198 677,220 691,220 704,220 718,220 732,220 746,168 760,190 760,220" fill="url(#area-grad)" />
-  <polyline points="360,220 373,220 387,220 401,220 415,220 428,220 442,220 456,220 470,220 484,220 497,220 511,220 525,220 539,220 553,130 566,220 580,220 594,220 608,220 622,220 635,220 649,220 663,198 677,220 691,220 704,220 718,220 732,220 746,168 760,190" class="chart-line" />
+  <polygon points="360,220 360,220 373,220 387,220 401,220 415,220 428,220 442,220 456,220 470,220 484,220 497,220 511,220 525,220 539,220 553,130 566,220 580,220 594,220 608,220 622,220 635,220 649,220 663,198 677,220 691,220 704,220 718,220 732,220 746,168 760,183 760,220" fill="url(#area-grad)" />
+  <polyline points="360,220 373,220 387,220 401,220 415,220 428,220 442,220 456,220 470,220 484,220 497,220 511,220 525,220 539,220 553,130 566,220 580,220 594,220 608,220 622,220 635,220 649,220 663,198 677,220 691,220 704,220 718,220 732,220 746,168 760,183" class="chart-line" />
 
-  <circle cx="760" cy="190" r="4" fill="#39ff14" filter="url(#glow)">
+  <circle cx="760" cy="183" r="4" fill="#39ff14" filter="url(#glow)">
     <animate attributeName="r" values="4;6;4" dur="2s" repeatCount="indefinite"/>
   </circle>
 
