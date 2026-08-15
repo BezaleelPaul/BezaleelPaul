@@ -1,9 +1,10 @@
 import os
+import html
 
 SKILLS_DATA = [
     {
         "category": "LANGUAGES",
-        "icon": "&lt;/&gt;",
+        "icon": "</>",
         "items": [
             {"name": "Python", "level": 92, "color": "#3776AB"},
             {"name": "JavaScript", "level": 82, "color": "#F7DF1E"},
@@ -59,6 +60,8 @@ def generate_skills():
     total_height = rows * card_height + (rows - 1) * gap + 2 * padding
 
     def build_card(category, icon, items, cx, cy):
+        category = html.escape(category)
+        icon = html.escape(icon)
         lines = []
         lines.append(f'  <rect x="{cx}" y="{cy}" width="{card_width}" height="{card_height}" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1" />')
         lines.append(f'  <rect x="{cx}" y="{cy}" width="{card_width}" height="32" rx="8" fill="#161b22" />')
@@ -71,7 +74,7 @@ def generate_skills():
 
         for i, skill in enumerate(items):
             sy = cy + 48 + i * 29
-            name = skill["name"]
+            name = html.escape(skill["name"])
             level = skill["level"]
             color = skill["color"]
             target_w = int((level / 100.0) * bar_max_w)
