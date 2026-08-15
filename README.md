@@ -87,7 +87,7 @@
   "name"        : "Bezaleel Paul N",
   "alias"       : "BezForge",
   "location"    : "Bangalore, India",
-  "status"      : "🟢 Online — last pushed to file_organizer_flutter 4h ago",
+  "status"      : "🟢 Online — last pushed to BezaleelPaul 0m ago",
   "focus"       : ["AI/ML", "Full-Stack", "Competitive Programming"],
   "personality" : "Builder · Creator · Thinker",
   "mission"     : "I code what motivates me — on the spot. I enjoy the arts,\n                   contemplative thought, and multi-faceted, intellectually\n                   demanding, and imaginatively rigorous projects."
