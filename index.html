@@ -8,11 +8,16 @@
   <title>bezaleel@forge — Bezaleel Paul N</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>&#37;</text></svg>" />
 </head>
 <body>
+  <div class="custom-cursor-dot" id="cursor-dot"></div>
+  <div class="custom-cursor-ring" id="cursor-ring"></div>
+  <div id="scroll-progress" aria-hidden="true"></div>
+  <div class="glow-blob blob-1" aria-hidden="true"></div>
+  <div class="glow-blob blob-2" aria-hidden="true"></div>
   <canvas id="matrix-bg" aria-hidden="true"></canvas>
   <div class="noise"></div>
   <div class="scanlines" aria-hidden="true"></div>
@@ -29,7 +34,16 @@
         <a href="#activity">activity</a>
         <a href="#contact">contact</a>
       </nav>
-      <button class="nav-burger" id="nav-burger" aria-label="menu">[=]</button>
+      <div class="nav-controls">
+        <div class="theme-picker" id="theme-picker">
+          <button class="theme-dot active" data-theme="cyan" title="Cyber Cyan"></button>
+          <button class="theme-dot" data-theme="green" title="Matrix Green"></button>
+          <button class="theme-dot" data-theme="purple" title="Neon Purple"></button>
+          <button class="theme-dot" data-theme="gold" title="Solar Gold"></button>
+        </div>
+        <button class="sfx-toggle" id="sfx-toggle" title="Toggle Terminal Audio SFX">🔊</button>
+        <button class="nav-burger" id="nav-burger" aria-label="menu">[=]</button>
+      </div>
     </div>
   </header>
 
@@ -72,23 +86,39 @@
             <p>Beyond code, I'm drawn to the arts, philosophy, and deep intellectual work. My best projects come from the sweet spot between rigor and imagination.</p>
             <div class="tags" id="about-tags"></div>
           </div>
-          <div class="card terminal">
+          <div class="card terminal interactive-terminal">
             <div class="term-bar">
-              <span class="term-dot red"></span><span class="term-dot yellow"></span><span class="term-dot green"></span>
-              <span class="term-title">~ bezaleel</span>
+              <div class="term-dots">
+                <span class="term-dot red"></span><span class="term-dot yellow"></span><span class="term-dot green"></span>
+              </div>
+              <span class="term-title">~ bezaleel@forge: active_shell</span>
+              <span class="term-status-badge">ONLINE</span>
             </div>
-            <div class="term-body">
-              <p><span class="prompt">$</span> whoami</p>
-              <p class="out"><span id="term-name">BezForge</span> — Builder &amp; Creator</p>
-              <p><span class="prompt">$</span> cat location.txt</p>
-              <p class="out">Bangalore, India</p>
-              <p><span class="prompt">$</span> echo $STATUS</p>
-              <p class="out">Open to new opportunities <span class="accent">✓</span></p>
-              <p><span class="prompt">$</span> cat interests.json</p>
-              <p class="out">{ code: "Python · JS · Dart",</p>
-              <p class="out indent">ai: "TF · OpenAI · Kaggle",</p>
-              <p class="out indent">passion: "Arts · Math · Philosophy" }</p>
-              <p><span class="prompt">$</span> <span class="cursor">_</span></p>
+            <div class="term-body" id="terminal-body">
+              <div class="term-history" id="terminal-history">
+                <p class="term-welcome">BezForge Shell v2.4.0. Type <span class="accent">help</span> for a list of commands.</p>
+                <p><span class="prompt">$</span> whoami</p>
+                <p class="out"><span id="term-name">BezForge</span> — Builder &amp; Creator</p>
+                <p><span class="prompt">$</span> cat location.txt</p>
+                <p class="out">Bangalore, India</p>
+                <p><span class="prompt">$</span> cat interests.json</p>
+                <p class="out">{ code: "Python · JS · TypeScript", <br>
+                &nbsp;&nbsp;ai: "TF · XGBoost · OpenAI", <br>
+                &nbsp;&nbsp;passion: "Contemplation · Math · Philosophy" }</p>
+              </div>
+              <div class="term-input-line">
+                <span class="prompt">$</span>
+                <input type="text" id="terminal-input" autocomplete="off" placeholder="type a command..." aria-label="Terminal input"/>
+                <span class="cursor active-cursor">_</span>
+              </div>
+            </div>
+            <div class="term-chips">
+              <span class="chips-label">Quick actions:</span>
+              <button class="term-chip" data-cmd="help">help</button>
+              <button class="term-chip" data-cmd="skills">skills</button>
+              <button class="term-chip" data-cmd="projects">projects</button>
+              <button class="term-chip" data-cmd="neofetch">neofetch</button>
+              <button class="term-chip" data-cmd="clear">clear</button>
             </div>
           </div>
         </div>
@@ -182,6 +212,18 @@
       <p class="foot-meta" id="last-updated"></p>
     </div>
   </footer>
+
+  <button id="back-to-top" class="back-to-top" aria-label="Scroll back to top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+  </button>
+
+  <div id="project-modal" class="modal" aria-hidden="true">
+    <div class="modal-backdrop" id="modal-backdrop"></div>
+    <div class="modal-content card">
+      <button class="modal-close" id="modal-close" aria-label="Close modal">&times;</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
 
   <script src="js/app.js"></script>
 </body>
