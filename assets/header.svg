@@ -57,7 +57,7 @@
   <line x1="0" y1="190" x2="800" y2="190" class="divider" />
 
   <text x="30" y="20" class="greeting">
-    <tspan class="greeting-emoji">🌙</tspan> NIGHT OWL, I'M
+    <tspan class="greeting-emoji">☀️</tspan> GOOD MORNING, I'M
   </text>
 
   <text x="30" y="75" class="title-main">BEZALEEL PAUL N</text>
@@ -74,7 +74,7 @@
     <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
   </circle>
   <text x="45" y="126" class="boot-text">
-    <tspan class="boot-highlight">ACTIVE</tspan> · Building <tspan class="boot-highlight">tinyurl-sde-testing-suite</tspan>
+    <tspan class="boot-highlight">ACTIVE</tspan> · Building <tspan class="boot-highlight">bnmit-nadicare-health</tspan>
   </text>
 
   <text x="30" y="148" class="boot-text" font-size="10">
@@ -93,7 +93,7 @@
     <line x1="15" y1="28" x2="175" y2="28" stroke="#30363d" stroke-width="0.5" />
 
     <text x="95" y="50" class="stat-label">PUBLIC REPOS</text>
-    <text x="95" y="70" class="stat-value">25</text>
+    <text x="95" y="70" class="stat-value">27</text>
 
     <text x="50" y="100" class="stat-label" text-anchor="middle">FOLLOWERS</text>
     <text x="50" y="120" class="stat-value">2</text>
@@ -104,7 +104,7 @@
 
   <g transform="translate(30, 180)">
     <text class="boot-text" font-size="9">
-      2026-08-30 02:32 UTC UTC  ·  Profile auto-updates every 6h
+      2026-08-30 10:55 UTC UTC  ·  Profile auto-updates every 6h
     </text>
   </g>
 
@@ -115,19 +115,24 @@
   <text x="682" y="198" font-family="'JetBrains Mono', monospace" font-size="9" fill="#8b949e">ALL MODULES OK</text>
 
   
-    <text x="119" y="104" fill="#39ff14" opacity="0.10056505507238962" font-family="monospace" font-size="8">
-      3
-      <animate attributeName="y" values="84;212;84" dur="0.6657335951382366s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.10056505507238962;0" dur="0.6657335951382366s" repeatCount="indefinite"/>
+    <text x="32" y="64" fill="#39ff14" opacity="0.308381937577736" font-family="monospace" font-size="8">
+      C
+      <animate attributeName="y" values="44;172;44" dur="0.36039506978628283s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.308381937577736;0" dur="0.36039506978628283s" repeatCount="indefinite"/>
     </text>
-    <text x="99" y="52" fill="#39ff14" opacity="0.16789410348861467" font-family="monospace" font-size="8">
-      2
-      <animate attributeName="y" values="32;136;32" dur="0.5262741858395095s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.16789410348861467;0" dur="0.5262741858395095s" repeatCount="indefinite"/>
+    <text x="90" y="162" fill="#39ff14" opacity="0.3377066612025106" font-family="monospace" font-size="8">
+      8
+      <animate attributeName="y" values="142;282;142" dur="0.6581017112132168s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.3377066612025106;0" dur="0.6581017112132168s" repeatCount="indefinite"/>
     </text>
-    <text x="81" y="1" fill="#39ff14" opacity="0.19795928091586998" font-family="monospace" font-size="8">
-      3
-      <animate attributeName="y" values="-19;121;-19" dur="0.7707920584957034s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.19795928091586998;0" dur="0.7707920584957034s" repeatCount="indefinite"/>
+    <text x="76" y="139" fill="#39ff14" opacity="0.3843334405489949" font-family="monospace" font-size="8">
+      D
+      <animate attributeName="y" values="119;235;119" dur="0.7429055033729051s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.3843334405489949;0" dur="0.7429055033729051s" repeatCount="indefinite"/>
+    </text>
+    <text x="79" y="135" fill="#39ff14" opacity="0.34704438345931676" font-family="monospace" font-size="8">
+      9
+      <animate attributeName="y" values="115;231;115" dur="0.3228783170438061s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.34704438345931676;0" dur="0.3228783170438061s" repeatCount="indefinite"/>
     </text>
 </svg>
