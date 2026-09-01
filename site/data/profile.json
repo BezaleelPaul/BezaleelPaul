@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T22:12:08Z",
+  "generated_at": "2026-09-01T02:42:21Z",
   "profile": {
     "name": "Bezaleel Paul N",
     "alias": "BezForge",
@@ -40,16 +40,12 @@
   },
   "dashboard": {
     "total_30d": 29,
-    "streak": 2,
+    "streak": 0,
     "today": 0,
     "avg_per_day": 1.0,
     "best_day": 9,
     "best_day_date": "2026-08-30",
     "series": [
-      {
-        "date": "2026-08-02",
-        "count": 0
-      },
       {
         "date": "2026-08-03",
         "count": 0
@@ -164,6 +160,10 @@
       },
       {
         "date": "2026-08-31",
+        "count": 0
+      },
+      {
+        "date": "2026-09-01",
         "count": 0
       }
     ]
