@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T15:38:57Z",
+  "generated_at": "2026-09-02T20:18:16Z",
   "profile": {
     "name": "Bezaleel Paul N",
     "alias": "BezForge",
@@ -354,11 +354,11 @@
   "cp": {
     "codeforces": {
       "handle": "BezaleelPaulN",
-      "rating": 1380,
-      "maxRating": 1420,
-      "rank": "PUPIL",
-      "maxRank": "PUPIL",
-      "color": "#39ff14"
+      "rating": 959,
+      "maxRating": 959,
+      "rank": "NEWBIE",
+      "maxRank": "NEWBIE",
+      "color": "#8b949e"
     },
     "leetcode": {
       "username": "BezaleelPaulN",
