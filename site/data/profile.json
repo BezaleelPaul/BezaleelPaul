@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T20:18:09Z",
+  "generated_at": "2026-09-04T02:04:59Z",
   "profile": {
     "name": "Bezaleel Paul N",
     "alias": "BezForge",
@@ -46,10 +46,6 @@
     "best_day": 9,
     "best_day_date": "2026-08-30",
     "series": [
-      {
-        "date": "2026-08-05",
-        "count": 0
-      },
       {
         "date": "2026-08-06",
         "count": 0
@@ -164,6 +160,10 @@
       },
       {
         "date": "2026-09-03",
+        "count": 0
+      },
+      {
+        "date": "2026-09-04",
         "count": 0
       }
     ]
@@ -354,11 +354,11 @@
   "cp": {
     "codeforces": {
       "handle": "BezaleelPaulN",
-      "rating": 959,
-      "maxRating": 959,
-      "rank": "NEWBIE",
-      "maxRank": "NEWBIE",
-      "color": "#8b949e"
+      "rating": 1380,
+      "maxRating": 1420,
+      "rank": "PUPIL",
+      "maxRank": "PUPIL",
+      "color": "#39ff14"
     },
     "leetcode": {
       "username": "BezaleelPaulN",
