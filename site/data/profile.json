@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-14T11:16:38Z",
+  "generated_at": "2026-09-14T17:16:13Z",
   "profile": {
     "name": "Bezaleel Paul N",
     "alias": "BezForge",
     "location": "Bangalore, India",
     "role": "AI/ML · Full-Stack · Builder",
-    "status": "last pushed to Drishti-AI 1d ago",
+    "status": "last pushed to Drishti-AI 2d ago",
     "open_to_work": true,
     "focus": [
       "AI/ML",
@@ -18,7 +18,7 @@
     "stars": 3,
     "forks": 0,
     "watchers": 3,
-    "followers": 2,
+    "followers": 3,
     "following": 9,
     "repos": 29,
     "gists": 0,
@@ -173,61 +173,61 @@
       "emoji": "📦",
       "action": "Pushed 0 commit to",
       "repo": "Drishti-AI",
-      "time": "1d ago"
+      "time": "2d ago"
     },
     {
       "emoji": "📦",
       "action": "Pushed 0 commit to",
       "repo": "veltrix-sports",
-      "time": "6h ago"
+      "time": "12h ago"
     },
     {
       "emoji": "🗑️",
       "action": "Deleted branch in",
       "repo": "veltrix-sports",
-      "time": "7h ago"
+      "time": "13h ago"
     },
     {
       "emoji": "📦",
       "action": "Pushed 0 commit to",
       "repo": "veltrix-sports",
-      "time": "8h ago"
+      "time": "14h ago"
     },
     {
       "emoji": "📦",
       "action": "Pushed 0 commit to",
       "repo": "veltrix-sports",
-      "time": "11h ago"
+      "time": "17h ago"
     },
     {
       "emoji": "📦",
       "action": "Pushed 0 commit to",
       "repo": "veltrix-sports",
-      "time": "15h ago"
+      "time": "21h ago"
     },
     {
       "emoji": "📦",
       "action": "Pushed 0 commit to",
       "repo": "veltrix-sports",
-      "time": "16h ago"
+      "time": "22h ago"
     },
     {
       "emoji": "📦",
       "action": "Pushed 0 commit to",
       "repo": "veltrix-sports",
-      "time": "16h ago"
+      "time": "22h ago"
     },
     {
       "emoji": "📦",
       "action": "Pushed 0 commit to",
       "repo": "Drishti-AI",
-      "time": "19h ago"
+      "time": "1d ago"
     },
     {
       "emoji": "📦",
       "action": "Pushed 0 commit to",
       "repo": "Drishti-AI",
-      "time": "19h ago"
+      "time": "1d ago"
     }
   ],
   "skills": [
@@ -362,8 +362,8 @@
     },
     "leetcode": {
       "username": "BezaleelPaulN",
-      "totalSolved": 192,
-      "easy": 80,
+      "totalSolved": 200,
+      "easy": 84,
       "medium": 14,
       "hard": 2,
       "ranking": 1730643
