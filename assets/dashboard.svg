@@ -42,10 +42,10 @@
   <text x="30" y="208" class="metric-value">1.0/DAY</text>
 
   <text x="30" y="238" class="metric-title">TODAY SO FAR</text>
-  <text x="30" y="258" class="metric-value">3 COMMITS</text>
+  <text x="30" y="258" class="metric-value">4 COMMITS</text>
 
   <text x="185" y="238" class="metric-title">BEST DAY</text>
-  <text x="185" y="258" class="metric-value" font-size="16">14 <tspan font-size="10" fill="#8b949e">(2026-09-13)</tspan></text>
+  <text x="185" y="258" class="metric-value" font-size="16">13 <tspan font-size="10" fill="#8b949e">(2026-09-13)</tspan></text>
 
   <rect x="352" y="16" width="432" height="248" class="panel" />
   <text x="366" y="38" class="sec-title">// ACTIVITY TRENDS &amp; HEATMAP</text>
@@ -55,10 +55,10 @@
   <line x1="360" y1="130" x2="760" y2="130" class="chart-axis" />
   <line x1="360" y1="220" x2="760" y2="220" class="chart-axis" />
 
-  <polygon points="360,220 360,220 373,220 387,220 401,220 415,220 428,220 442,220 456,220 470,220 484,220 497,220 511,220 525,220 539,220 553,220 566,220 580,220 594,220 608,220 622,220 635,214 649,130 663,188 677,220 691,220 704,175 718,220 732,220 746,220 760,201 760,220" fill="url(#area-grad)" />
-  <polyline points="360,220 373,220 387,220 401,220 415,220 428,220 442,220 456,220 470,220 484,220 497,220 511,220 525,220 539,220 553,220 566,220 580,220 594,220 608,220 622,220 635,214 649,130 663,188 677,220 691,220 704,175 718,220 732,220 746,220 760,201" class="chart-line" />
+  <polygon points="360,220 360,220 373,220 387,220 401,220 415,220 428,220 442,220 456,220 470,220 484,220 497,220 511,220 525,220 539,220 553,220 566,220 580,220 594,220 608,220 622,220 635,214 649,130 663,186 677,220 691,220 704,172 718,220 732,220 746,220 760,193 760,220" fill="url(#area-grad)" />
+  <polyline points="360,220 373,220 387,220 401,220 415,220 428,220 442,220 456,220 470,220 484,220 497,220 511,220 525,220 539,220 553,220 566,220 580,220 594,220 608,220 622,220 635,214 649,130 663,186 677,220 691,220 704,172 718,220 732,220 746,220 760,193" class="chart-line" />
 
-  <circle cx="760" cy="201" r="4" fill="#39ff14" filter="url(#glow)">
+  <circle cx="760" cy="193" r="4" fill="#39ff14" filter="url(#glow)">
     <animate attributeName="r" values="4;6;4" dur="2s" repeatCount="indefinite"/>
   </circle>
 
