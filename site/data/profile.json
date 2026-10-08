@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-07T22:26:41Z",
+  "generated_at": "2026-10-08T03:38:35Z",
   "profile": {
     "name": "Bezaleel Paul N",
     "alias": "BezForge",
     "location": "Bangalore, India",
     "role": "AI/ML · Full-Stack · Builder",
-    "status": "last pushed to Drishti-AI 4h ago",
+    "status": "last pushed to ThinkingPods-Live 14h ago",
     "open_to_work": true,
     "focus": [
       "AI/ML",
@@ -40,16 +40,12 @@
   },
   "dashboard": {
     "total_30d": 30,
-    "streak": 7,
-    "today": 2,
+    "streak": 6,
+    "today": 0,
     "avg_per_day": 1.0,
     "best_day": 10,
     "best_day_date": "2026-10-05",
     "series": [
-      {
-        "date": "2026-09-08",
-        "count": 0
-      },
       {
         "date": "2026-09-09",
         "count": 0
@@ -140,7 +136,7 @@
       },
       {
         "date": "2026-10-01",
-        "count": 1
+        "count": 0
       },
       {
         "date": "2026-10-02",
@@ -164,7 +160,11 @@
       },
       {
         "date": "2026-10-07",
-        "count": 2
+        "count": 3
+      },
+      {
+        "date": "2026-10-08",
+        "count": 0
       }
     ]
   },
@@ -172,14 +172,20 @@
     {
       "emoji": "📦",
       "action": "Pushed 0 commit to",
+      "repo": "ThinkingPods-Live",
+      "time": "14h ago"
+    },
+    {
+      "emoji": "📦",
+      "action": "Pushed 0 commit to",
       "repo": "Drishti-AI",
-      "time": "4h ago"
+      "time": "10h ago"
     },
     {
       "emoji": "💻",
       "action": "Activity in",
       "repo": "Drishti-AI",
-      "time": "5h ago"
+      "time": "10h ago"
     },
     {
       "emoji": "📦",
@@ -198,12 +204,6 @@
       "action": "Pushed 0 commit to",
       "repo": "ThinkingPods-Live",
       "time": "2d ago"
-    },
-    {
-      "emoji": "📦",
-      "action": "Pushed 0 commit to",
-      "repo": "ThinkingPods-Live",
-      "time": "1d ago"
     },
     {
       "emoji": "📦",
