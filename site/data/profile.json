@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-25T10:24:56Z",
+  "generated_at": "2026-10-25T15:17:06Z",
   "profile": {
     "name": "Bezaleel Paul N",
     "alias": "BezForge",
     "location": "Bangalore, India",
     "role": "AI/ML · Full-Stack · Builder",
-    "status": "last pushed to campusos 4d ago",
+    "status": "last pushed to campusos 5d ago",
     "open_to_work": true,
     "focus": [
       "AI/ML",
@@ -25,11 +25,11 @@
     "created": "2023-09-16T14:45:35Z",
     "top_repos": [
       {
-        "name": "BezaleelPaul",
+        "name": "file_organizer_flutter",
         "stars": 1
       },
       {
-        "name": "file_organizer_flutter",
+        "name": "BezaleelPaul",
         "stars": 1
       },
       {
@@ -177,7 +177,7 @@
       "emoji": "📦",
       "action": "Pushed 0 commit to",
       "repo": "campusos",
-      "time": "4d ago"
+      "time": "5d ago"
     },
     {
       "emoji": "🌿",
@@ -201,37 +201,37 @@
       "emoji": "📦",
       "action": "Pushed 0 commit to",
       "repo": "Drishti-AI",
-      "time": "4d ago"
+      "time": "5d ago"
     },
     {
       "emoji": "📦",
       "action": "Pushed 0 commit to",
       "repo": "Drishti-AI",
-      "time": "11d ago"
+      "time": "12d ago"
     },
     {
       "emoji": "📦",
       "action": "Pushed 0 commit to",
       "repo": "file_organizer_flutter",
-      "time": "15d ago"
+      "time": "16d ago"
     },
     {
       "emoji": "📦",
       "action": "Pushed 0 commit to",
       "repo": "file_organizer_flutter",
-      "time": "15d ago"
+      "time": "16d ago"
     },
     {
       "emoji": "📦",
       "action": "Pushed 0 commit to",
       "repo": "file_organizer_flutter",
-      "time": "15d ago"
+      "time": "16d ago"
     },
     {
       "emoji": "📦",
       "action": "Pushed 0 commit to",
       "repo": "file_organizer_flutter",
-      "time": "15d ago"
+      "time": "16d ago"
     }
   ],
   "skills": [
@@ -370,7 +370,7 @@
       "easy": 116,
       "medium": 17,
       "hard": 2,
-      "ranking": 1307801
+      "ranking": 1308518
     }
   },
   "projects": [
