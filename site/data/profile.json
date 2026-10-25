@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-25T15:17:06Z",
+  "generated_at": "2026-10-25T20:09:36Z",
   "profile": {
     "name": "Bezaleel Paul N",
     "alias": "BezForge",
     "location": "Bangalore, India",
     "role": "AI/ML · Full-Stack · Builder",
-    "status": "last pushed to campusos 5d ago",
+    "status": "last pushed to file_organizer_flutter 4h ago",
     "open_to_work": true,
     "focus": [
       "AI/ML",
@@ -25,11 +25,11 @@
     "created": "2023-09-16T14:45:35Z",
     "top_repos": [
       {
-        "name": "file_organizer_flutter",
+        "name": "BezaleelPaul",
         "stars": 1
       },
       {
-        "name": "BezaleelPaul",
+        "name": "file_organizer_flutter",
         "stars": 1
       },
       {
@@ -44,8 +44,8 @@
   },
   "dashboard": {
     "total_30d": 30,
-    "streak": 0,
-    "today": 0,
+    "streak": 1,
+    "today": 1,
     "avg_per_day": 1.0,
     "best_day": 10,
     "best_day_date": "2026-10-09",
@@ -92,7 +92,7 @@
       },
       {
         "date": "2026-10-06",
-        "count": 5
+        "count": 4
       },
       {
         "date": "2026-10-07",
@@ -168,11 +168,17 @@
       },
       {
         "date": "2026-10-25",
-        "count": 0
+        "count": 1
       }
     ]
   },
   "activity": [
+    {
+      "emoji": "📦",
+      "action": "Pushed 0 commit to",
+      "repo": "file_organizer_flutter",
+      "time": "4h ago"
+    },
     {
       "emoji": "📦",
       "action": "Pushed 0 commit to",
@@ -183,19 +189,19 @@
       "emoji": "🌿",
       "action": "Created branch",
       "repo": "YouTubePlaylistThumbnailGrabber",
-      "time": "4d ago"
+      "time": "5d ago"
     },
     {
       "emoji": "🔀",
       "action": "Opened PR in",
       "repo": "YouTubePlaylistThumbnailGrabber",
-      "time": "4d ago"
+      "time": "5d ago"
     },
     {
       "emoji": "🍴",
       "action": "Forked",
       "repo": "YouTubePlaylistThumbnailGrabber",
-      "time": "4d ago"
+      "time": "5d ago"
     },
     {
       "emoji": "📦",
@@ -208,12 +214,6 @@
       "action": "Pushed 0 commit to",
       "repo": "Drishti-AI",
       "time": "12d ago"
-    },
-    {
-      "emoji": "📦",
-      "action": "Pushed 0 commit to",
-      "repo": "file_organizer_flutter",
-      "time": "16d ago"
     },
     {
       "emoji": "📦",
