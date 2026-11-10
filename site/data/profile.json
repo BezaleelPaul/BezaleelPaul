@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-10T00:59:06Z",
+  "generated_at": "2026-11-10T13:58:27Z",
   "profile": {
     "name": "Bezaleel Paul N",
     "alias": "BezForge",
     "location": "Bangalore, India",
     "role": "AI/ML · Full-Stack · Builder",
-    "status": "last pushed to Testingwebsite- 1d ago",
+    "status": "last pushed to Testingwebsite- 21h ago",
     "open_to_work": true,
     "focus": [
       "AI/ML",
@@ -25,11 +25,11 @@
     "created": "2023-09-16T14:45:35Z",
     "top_repos": [
       {
-        "name": "BezaleelPaul",
+        "name": "bezaleelpaul.github.io",
         "stars": 1
       },
       {
-        "name": "bezaleelpaul.github.io",
+        "name": "BezaleelPaul",
         "stars": 1
       },
       {
@@ -48,10 +48,10 @@
   },
   "dashboard": {
     "total_30d": 30,
-    "streak": 2,
-    "today": 0,
+    "streak": 3,
+    "today": 12,
     "avg_per_day": 1.0,
-    "best_day": 27,
+    "best_day": 12,
     "best_day_date": "2026-11-09",
     "series": [
       {
@@ -164,15 +164,15 @@
       },
       {
         "date": "2026-11-08",
-        "count": 3
+        "count": 6
       },
       {
         "date": "2026-11-09",
-        "count": 27
+        "count": 12
       },
       {
         "date": "2026-11-10",
-        "count": 0
+        "count": 12
       }
     ]
   },
@@ -181,61 +181,61 @@
       "emoji": "📦",
       "action": "Pushed 0 commit to",
       "repo": "Testingwebsite-",
+      "time": "21h ago"
+    },
+    {
+      "emoji": "🔀",
+      "action": "Closed PR in",
+      "repo": "bezaleelpaul.github.io",
+      "time": "2h ago"
+    },
+    {
+      "emoji": "🔀",
+      "action": "Opened PR in",
+      "repo": "bezaleelpaul.github.io",
+      "time": "2h ago"
+    },
+    {
+      "emoji": "📦",
+      "action": "Pushed 0 commit to",
+      "repo": "Testingwebsite-",
+      "time": "21h ago"
+    },
+    {
+      "emoji": "📦",
+      "action": "Pushed 0 commit to",
+      "repo": "Testingwebsite-",
       "time": "1d ago"
     },
     {
+      "emoji": "🔀",
+      "action": "Opened PR in",
+      "repo": "bezaleelpaul.github.io",
+      "time": "2h ago"
+    },
+    {
+      "emoji": "🔀",
+      "action": "Opened PR in",
+      "repo": "bezaleelpaul.github.io",
+      "time": "2h ago"
+    },
+    {
+      "emoji": "📦",
+      "action": "Pushed 0 commit to",
+      "repo": "Orbital-Observatory",
+      "time": "23h ago"
+    },
+    {
+      "emoji": "📦",
+      "action": "Pushed 0 commit to",
+      "repo": "Orbital-Observatory",
+      "time": "23h ago"
+    },
+    {
       "emoji": "📦",
       "action": "Pushed 0 commit to",
       "repo": "Testingwebsite-",
-      "time": "8h ago"
-    },
-    {
-      "emoji": "📦",
-      "action": "Pushed 0 commit to",
-      "repo": "Testingwebsite-",
-      "time": "9h ago"
-    },
-    {
-      "emoji": "📦",
-      "action": "Pushed 0 commit to",
-      "repo": "Testingwebsite-",
-      "time": "9h ago"
-    },
-    {
-      "emoji": "📦",
-      "action": "Pushed 0 commit to",
-      "repo": "Testingwebsite-",
-      "time": "9h ago"
-    },
-    {
-      "emoji": "📦",
-      "action": "Pushed 0 commit to",
-      "repo": "Orbital-Observatory",
-      "time": "10h ago"
-    },
-    {
-      "emoji": "📦",
-      "action": "Pushed 0 commit to",
-      "repo": "Orbital-Observatory",
-      "time": "10h ago"
-    },
-    {
-      "emoji": "🌿",
-      "action": "Created branch",
-      "repo": "Orbital-Observatory",
-      "time": "10h ago"
-    },
-    {
-      "emoji": "📦",
-      "action": "Pushed 0 commit to",
-      "repo": "Orbital-Observatory",
-      "time": "10h ago"
-    },
-    {
-      "emoji": "📦",
-      "action": "Pushed 0 commit to",
-      "repo": "Orbital-Observatory",
-      "time": "10h ago"
+      "time": "1d ago"
     }
   ],
   "skills": [
@@ -374,7 +374,7 @@
       "easy": 116,
       "medium": 17,
       "hard": 2,
-      "ranking": 1317271
+      "ranking": 1317765
     }
   },
   "projects": [
