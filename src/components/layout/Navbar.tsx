@@ -8,6 +8,7 @@ import gsap from 'gsap';
 const links = [
   { label: 'Profile', href: '#top' },
   { label: 'Work', href: '#work' },
+  { label: 'Project Archive', href: '/projects/' },
   { label: 'Studio', href: '/music-studio/' },
   { label: 'Experience', href: '#experience' },
   { label: 'Contact', href: '#contact' },
