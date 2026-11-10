@@ -222,10 +222,6 @@ export default function ProjectsPage() {
                       <span className="font-mono text-[9px] uppercase tracking-[0.08em] text-white/30">{project.status} / {String(index + 1).padStart(2, '0')}</span>
                     </div>
                   </div>
-                    <span className="font-mono text-[9px] uppercase tracking-[0.08em] text-white/30">
-                      {project.status} / {String(index + 1).padStart(2, '0')}
-                    </span>
-                  </div>
 
                   <div className="relative mt-5 aspect-[16/9] overflow-hidden border border-white/10 bg-[#14141D]">
                     <img
