@@ -1,0 +1,174 @@
+{
+  "generatedAt": "2026-11-01T13:47:15.490Z",
+  "user": {
+    "login": "BezaleelPaul",
+    "name": "Bezaleel Paul",
+    "publicRepos": 34,
+    "followers": 3,
+    "following": 10,
+    "bio": "B.Tech CSE Student @ CMR University | BS in Data Science @ IIT Madras | IEEE EXCOM Member & Webmaster | Class Representative | DSA & Cloud Computing Enthusiast "
+  },
+  "topRepositories": [
+    {
+      "name": "bezaleelpaul.github.io",
+      "stars": 0,
+      "forks": 0,
+      "language": "JavaScript",
+      "description": "No description provided.",
+      "url": "https://github.com/BezaleelPaul/bezaleelpaul.github.io",
+      "updatedAt": "2026-11-01T13:40:46Z",
+      "topics": []
+    },
+    {
+      "name": "BezaleelPaul",
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "description": "Config files for my GitHub profile.",
+      "url": "https://github.com/BezaleelPaul/BezaleelPaul",
+      "updatedAt": "2026-11-01T12:20:39Z",
+      "topics": [
+        "config",
+        "github-config"
+      ]
+    },
+    {
+      "name": "file_organizer_flutter",
+      "stars": 1,
+      "forks": 0,
+      "language": "Dart",
+      "description": "Mise: Local-first, safety-guaranteed file organizer & disk intelligence workstation with selective undo, duplicate treemap, and CLI for Windows, macOS, Linux, and Android.",
+      "url": "https://github.com/BezaleelPaul/file_organizer_flutter",
+      "updatedAt": "2026-10-25T15:13:34Z",
+      "topics": [
+        "cli",
+        "cross-platform",
+        "dart",
+        "desktop-app",
+        "file-organizer",
+        "flutter",
+        "offline-first"
+      ]
+    },
+    {
+      "name": "Drishti-AI",
+      "stars": 0,
+      "forks": 0,
+      "language": "Dart",
+      "description": "No description provided.",
+      "url": "https://github.com/BezaleelPaul/Drishti-AI",
+      "updatedAt": "2026-10-20T15:06:37Z",
+      "topics": []
+    },
+    {
+      "name": "ThinkingPods-Live",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "description": "No description provided.",
+      "url": "https://github.com/BezaleelPaul/ThinkingPods-Live",
+      "updatedAt": "2026-10-07T13:14:25Z",
+      "topics": []
+    },
+    {
+      "name": "multimodal-ai-healthcare",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "description": "No description provided.",
+      "url": "https://github.com/BezaleelPaul/multimodal-ai-healthcare",
+      "updatedAt": "2026-10-05T14:18:34Z",
+      "topics": []
+    },
+    {
+      "name": "opencode-autonomous-harness",
+      "stars": 0,
+      "forks": 0,
+      "language": "PowerShell",
+      "description": "Verification-gated autonomous loop for opencode: an agent must not be able to declare its own work complete.",
+      "url": "https://github.com/BezaleelPaul/opencode-autonomous-harness",
+      "updatedAt": "2026-10-04T14:54:59Z",
+      "topics": []
+    },
+    {
+      "name": "veltrix-sports-app",
+      "stars": 0,
+      "forks": 0,
+      "language": "Unknown",
+      "description": "Veltrix Sports - Flutter + Firebase endurance training app. Verification-gated autonomous development.",
+      "url": "https://github.com/BezaleelPaul/veltrix-sports-app",
+      "updatedAt": "2026-10-04T14:50:56Z",
+      "topics": []
+    },
+    {
+      "name": "veltrix-sports-web",
+      "stars": 0,
+      "forks": 0,
+      "language": "TypeScript",
+      "description": "No description provided.",
+      "url": "https://github.com/BezaleelPaul/veltrix-sports-web",
+      "updatedAt": "2026-09-09T16:26:50Z",
+      "topics": []
+    },
+    {
+      "name": "veltrix-sports",
+      "stars": 0,
+      "forks": 0,
+      "language": "Dart",
+      "description": "No description provided.",
+      "url": "https://github.com/BezaleelPaul/veltrix-sports",
+      "updatedAt": "2026-08-30T14:12:27Z",
+      "topics": []
+    }
+  ],
+  "recentActivity": [
+    {
+      "emoji": "📦",
+      "action": "Pushed 1 commit(s) to",
+      "repo": "file_organizer_flutter",
+      "time": "25/10/2026"
+    },
+    {
+      "emoji": "🌿",
+      "action": "Created branch in",
+      "repo": "YouTubePlaylistThumbnailGrabber",
+      "time": "20/10/2026"
+    },
+    {
+      "emoji": "🔀",
+      "action": "opened PR in",
+      "repo": "YouTubePlaylistThumbnailGrabber",
+      "time": "20/10/2026"
+    },
+    {
+      "emoji": "🍴",
+      "action": "Forked repository",
+      "repo": "YouTubePlaylistThumbnailGrabber",
+      "time": "20/10/2026"
+    },
+    {
+      "emoji": "📦",
+      "action": "Pushed 1 commit(s) to",
+      "repo": "Drishti-AI",
+      "time": "20/10/2026"
+    },
+    {
+      "emoji": "📦",
+      "action": "Pushed 1 commit(s) to",
+      "repo": "Drishti-AI",
+      "time": "13/10/2026"
+    },
+    {
+      "emoji": "📦",
+      "action": "Pushed 1 commit(s) to",
+      "repo": "file_organizer_flutter",
+      "time": "9/10/2026"
+    },
+    {
+      "emoji": "📦",
+      "action": "Pushed 1 commit(s) to",
+      "repo": "file_organizer_flutter",
+      "time": "9/10/2026"
+    }
+  ]
+}

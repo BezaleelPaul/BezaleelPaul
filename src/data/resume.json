@@ -1,0 +1,155 @@
+{
+  "name": "BEZALEEL PAUL",
+  "nameAccent": "N",
+  "title": "Applied AI & Software Engineering | SWE Intern Candidate",
+  "tagline": "Seeking SWE Internship",
+  "photo": "photo.jpg",
+  "terminal": [
+    "$ whoami",
+    "> Applied AI + Software Engineering",
+    "$ focus",
+    "> building and validating useful systems"
+  ],
+  "contact": [
+    [
+      "Location",
+      "Bangalore, Karnataka"
+    ],
+    [
+      "Phone",
+      "7892347356"
+    ],
+    [
+      "Email",
+      "bezaleel321@gmail.com"
+    ],
+    [
+      "LinkedIn",
+      "linkedin.com/in/bezaleel-pauln"
+    ],
+    [
+      "Portfolio",
+      "bezaleelpaul.github.io"
+    ],
+    [
+      "GitHub",
+      "github.com/BezaleelPaul"
+    ]
+  ],
+  "skills": [
+    [
+      "Languages",
+      [
+        "Dart",
+        "Python",
+        "JavaScript",
+        "HTML/CSS",
+        "C"
+      ]
+    ],
+    [
+      "Frameworks",
+      [
+        "Flutter",
+        "Flask",
+        "Streamlit",
+        "Tkinter",
+        "Bootstrap"
+      ]
+    ],
+    [
+      "ML / Data",
+      [
+        "LightGBM",
+        "XGBoost",
+        "Plotly"
+      ]
+    ],
+    [
+      "Tools",
+      [
+        "Git",
+        "GitHub",
+        "REST APIs",
+        "Firebase"
+      ]
+    ],
+    [
+      "Concepts",
+      [
+        "DSA",
+        "OOP",
+        "Mobile Architecture"
+      ]
+    ]
+  ],
+  "education": [
+    [
+      "B.Tech, Computer Science",
+      "CMR University",
+      "Sep 2025 – Present | Exp. 2029"
+    ],
+    [
+      "BS, Data Science & Applications",
+      "IIT Madras",
+      "Jun 2026 – Present | Exp. 2030"
+    ]
+  ],
+  "certifications": [
+    "AI Apps w/ Gemini & Imagen — Google, Apr 2026",
+    "Data Analytics with Python — NPTEL, Apr 2026",
+    "Claude Code in Action — Anthropic, Mar 2026",
+    "Flutter Software Training — CMR Univ., Feb 2026"
+  ],
+  "languages": [
+    [
+      "English",
+      "Professional"
+    ],
+    [
+      "Kannada",
+      "Conversational"
+    ],
+    [
+      "Hindi",
+      "Conversational"
+    ],
+    [
+      "Tamil",
+      "Conversational"
+    ],
+    [
+      "Malayalam",
+      "Understanding"
+    ]
+  ],
+  "coursework": [
+    "Data Structures & Algorithms",
+    "Object-Oriented Programming",
+    "Mobile App Architecture",
+    "RESTful API & Backend",
+    "Database Management Systems"
+  ],
+  "summary": "Second-year Computer Science undergraduate at CMR University and IIT Madras BS Data Science student, interested in applied AI and software engineering. Building practical projects across machine learning, explainability, mobile applications, and interactive web systems. Seeking a software engineering internship to contribute to real products while strengthening engineering fundamentals.",
+  "experience": [
+    {
+      "role": "EXCOM Member & Webmaster",
+      "org": "IEEE CMR University Student Branch",
+      "place": "CMR University, Bengaluru, India",
+      "bullets": [
+        "Engineered and maintained responsive web platforms for IEEE CMR Student Branch using Next.js and modern web tooling.",
+        "Organized technical workshops, hackathons, and webinars reaching 500+ student attendees across campus.",
+        "Mentored 60+ junior peers on Git, open-source development workflows, and cross-platform Flutter fundamentals."
+      ]
+    }
+  ],
+  "projects": [],
+  "projectsQR": {
+    "url": "https://bezaleelpaul.github.io/Testingwebsite-/projects/",
+    "label": "Scan to view all my projects",
+    "display": "bezaleelpaul.github.io/Testingwebsite-/projects",
+    "note": "Selected applied-AI, software engineering, Flutter, and web projects with source code and available demos"
+  },
+  "footer": "Open to Software Engineering / Applied AI Internships",
+  "extra": []
+}
