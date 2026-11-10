@@ -97,7 +97,7 @@ export default function ProjectsPage() {
                   onChange={(event) => setSearchQuery(event.target.value)}
                   aria-label="Search projects by name, description, or technology"
                   placeholder="Search projects or stack"
-                  className="w-full rounded-full border border-white/15 bg-[#14141D] py-2.5 pl-10 pr-4 font-mono text-[10px] text-ink placeholder:text-white/35 focus:border-ink focus:outline-none"
+                  className="w-full rounded-full border border-white/15 bg-[#14141D] py-2.5 pl-10 pr-4 font-mono text-[10px] text-white placeholder:text-white/35 focus:border-[#D7FF00] focus:outline-none"
                 />
               </div>
             </div>
@@ -219,7 +219,7 @@ export default function ProjectsPage() {
           ) : (
             <div className="py-24 text-center">
               <p className="eyebrow text-white/35">No results</p>
-              <h2 className="serif-display mt-4 text-5xl text-white">No matching projects.</h2>
+              <h2 className="font-display mt-4 text-5xl text-[#F7F8F2]">No matching projects.</h2>
               <p className="mx-auto mt-4 max-w-md text-sm leading-relaxed text-white/50">
                 Try a broader category or a different keyword.
               </p>
