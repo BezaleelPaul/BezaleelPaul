@@ -12,6 +12,7 @@ export function Preloader() {
     };
 
     if (reducedMotion) {
+      setPhase('exit');
       finish();
       return;
     }
