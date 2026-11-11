@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-11T13:14:00Z",
+  "generated_at": "2026-11-11T23:51:56Z",
   "profile": {
     "name": "Bezaleel Paul N",
     "alias": "BezForge",
     "location": "Bangalore, India",
     "role": "AI/ML · Full-Stack · Builder",
-    "status": "last pushed to Testingwebsite- 1d ago",
+    "status": "last pushed to bezaleelpaul.github.io 1d ago",
     "open_to_work": true,
     "focus": [
       "AI/ML",
@@ -25,11 +25,11 @@
     "created": "2023-09-16T14:45:35Z",
     "top_repos": [
       {
-        "name": "bezaleelpaul.github.io",
+        "name": "BezaleelPaul",
         "stars": 1
       },
       {
-        "name": "BezaleelPaul",
+        "name": "bezaleelpaul.github.io",
         "stars": 1
       },
       {
@@ -51,7 +51,7 @@
     "streak": 2,
     "today": 0,
     "avg_per_day": 1.0,
-    "best_day": 26,
+    "best_day": 25,
     "best_day_date": "2026-11-10",
     "series": [
       {
@@ -164,11 +164,11 @@
       },
       {
         "date": "2026-11-09",
-        "count": 4
+        "count": 5
       },
       {
         "date": "2026-11-10",
-        "count": 26
+        "count": 25
       },
       {
         "date": "2026-11-11",
@@ -180,6 +180,36 @@
     {
       "emoji": "📦",
       "action": "Pushed 0 commit to",
+      "repo": "bezaleelpaul.github.io",
+      "time": "1d ago"
+    },
+    {
+      "emoji": "📦",
+      "action": "Pushed 0 commit to",
+      "repo": "Testingwebsite-",
+      "time": "1d ago"
+    },
+    {
+      "emoji": "🌿",
+      "action": "Created branch",
+      "repo": "BezaleelPaul",
+      "time": "1d ago"
+    },
+    {
+      "emoji": "📦",
+      "action": "Pushed 0 commit to",
+      "repo": "Testingwebsite-",
+      "time": "1d ago"
+    },
+    {
+      "emoji": "📦",
+      "action": "Pushed 0 commit to",
+      "repo": "Testingwebsite-",
+      "time": "1d ago"
+    },
+    {
+      "emoji": "📦",
+      "action": "Pushed 0 commit to",
       "repo": "Testingwebsite-",
       "time": "1d ago"
     },
@@ -192,43 +222,13 @@
     {
       "emoji": "📦",
       "action": "Pushed 0 commit to",
-      "repo": "bezaleelpaul.github.io",
-      "time": "1d ago"
-    },
-    {
-      "emoji": "📦",
-      "action": "Pushed 0 commit to",
-      "repo": "Orbital-Observatory",
-      "time": "1d ago"
-    },
-    {
-      "emoji": "📦",
-      "action": "Pushed 0 commit to",
-      "repo": "Orbital-Observatory",
-      "time": "1d ago"
-    },
-    {
-      "emoji": "📦",
-      "action": "Pushed 0 commit to",
-      "repo": "Orbital-Observatory",
-      "time": "1d ago"
-    },
-    {
-      "emoji": "📦",
-      "action": "Pushed 0 commit to",
-      "repo": "bezaleelpaul.github.io",
-      "time": "1d ago"
-    },
-    {
-      "emoji": "📦",
-      "action": "Pushed 0 commit to",
       "repo": "Testingwebsite-",
       "time": "1d ago"
     },
     {
       "emoji": "📦",
       "action": "Pushed 0 commit to",
-      "repo": "BezaleelPaul",
+      "repo": "bezaleelpaul.github.io",
       "time": "1d ago"
     },
     {
