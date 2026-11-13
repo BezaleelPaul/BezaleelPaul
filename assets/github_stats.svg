@@ -29,7 +29,7 @@
   <line x1="30" y1="46" x2="372" y2="46" stroke="#30363d" stroke-width="0.5" />
 
   <text x="50" y="78" class="metric-title" text-anchor="middle">STARS EARNED</text>
-  <text x="50" y="108" class="metric-val metric-highlight" text-anchor="middle">6</text>
+  <text x="50" y="108" class="metric-val metric-highlight" text-anchor="middle">5</text>
 
   <text x="140" y="78" class="metric-title" text-anchor="middle">FORKS</text>
   <text x="140" y="108" class="metric-val" text-anchor="middle">0</text>
@@ -38,7 +38,7 @@
   <text x="230" y="108" class="metric-val" text-anchor="middle">4</text>
 
   <text x="320" y="78" class="metric-title" text-anchor="middle">REPOS</text>
-  <text x="320" y="108" class="metric-val" text-anchor="middle">37</text>
+  <text x="320" y="108" class="metric-val" text-anchor="middle">36</text>
 
   <line x1="30" y1="125" x2="372" y2="125" stroke="#30363d" stroke-width="0.5" stroke-dasharray="3 3" />
 
@@ -60,12 +60,12 @@
   <text x="432" y="108" class="repo-name">bezaleelpaul.github.io</text>
   <text x="760" y="108" class="repo-stars" text-anchor="end">★ 1</text>
   <circle cx="422" cy="132" r="3" fill="#39ff14" opacity="0.6" />
-  <text x="432" y="136" class="repo-name">Drishti-AI</text>
+  <text x="432" y="136" class="repo-name">file_organizer_flutter</text>
   <text x="760" y="136" class="repo-stars" text-anchor="end">★ 1</text>
   <circle cx="422" cy="160" r="3" fill="#39ff14" opacity="0.6" />
-  <text x="432" y="164" class="repo-name">file_organizer_flutter</text>
+  <text x="432" y="164" class="repo-name">kana-dojo</text>
   <text x="760" y="164" class="repo-stars" text-anchor="end">★ 1</text>
   <circle cx="422" cy="188" r="3" fill="#39ff14" opacity="0.6" />
-  <text x="432" y="192" class="repo-name">kana-dojo</text>
+  <text x="432" y="192" class="repo-name">File-Organizer</text>
   <text x="760" y="192" class="repo-stars" text-anchor="end">★ 1</text>
 </svg>
