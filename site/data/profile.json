@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-16T14:19:51Z",
+  "generated_at": "2026-11-17T01:17:57Z",
   "profile": {
     "name": "Bezaleel Paul N",
     "alias": "BezForge",
     "location": "Bangalore, India",
     "role": "AI/ML · Full-Stack · Builder",
-    "status": "last pushed to Drishti 2d ago",
+    "status": "last pushed to Drishti 3d ago",
     "open_to_work": true,
     "focus": [
       "AI/ML",
@@ -18,7 +18,7 @@
     "stars": 6,
     "forks": 0,
     "watchers": 6,
-    "followers": 5,
+    "followers": 4,
     "following": 12,
     "repos": 37,
     "gists": 0,
@@ -49,15 +49,11 @@
   "dashboard": {
     "total_30d": 30,
     "streak": 1,
-    "today": 1,
+    "today": 0,
     "avg_per_day": 1.0,
     "best_day": 15,
     "best_day_date": "2026-11-13",
     "series": [
-      {
-        "date": "2026-10-18",
-        "count": 0
-      },
       {
         "date": "2026-10-19",
         "count": 0
@@ -173,6 +169,10 @@
       {
         "date": "2026-11-16",
         "count": 1
+      },
+      {
+        "date": "2026-11-17",
+        "count": 0
       }
     ]
   },
@@ -181,49 +181,13 @@
       "emoji": "📦",
       "action": "Pushed 0 commit to",
       "repo": "Drishti",
-      "time": "2d ago"
+      "time": "3d ago"
     },
     {
       "emoji": "⭐",
       "action": "Starred",
       "repo": "Drishti",
-      "time": "7h ago"
-    },
-    {
-      "emoji": "📦",
-      "action": "Pushed 0 commit to",
-      "repo": "Drishti",
-      "time": "2d ago"
-    },
-    {
-      "emoji": "📦",
-      "action": "Pushed 0 commit to",
-      "repo": "Drishti",
-      "time": "2d ago"
-    },
-    {
-      "emoji": "📦",
-      "action": "Pushed 0 commit to",
-      "repo": "Drishti",
-      "time": "2d ago"
-    },
-    {
-      "emoji": "📦",
-      "action": "Pushed 0 commit to",
-      "repo": "Drishti",
-      "time": "2d ago"
-    },
-    {
-      "emoji": "📦",
-      "action": "Pushed 0 commit to",
-      "repo": "Drishti",
-      "time": "2d ago"
-    },
-    {
-      "emoji": "📦",
-      "action": "Pushed 0 commit to",
-      "repo": "Drishti",
-      "time": "2d ago"
+      "time": "18h ago"
     },
     {
       "emoji": "📦",
@@ -235,7 +199,43 @@
       "emoji": "📦",
       "action": "Pushed 0 commit to",
       "repo": "Drishti",
-      "time": "2d ago"
+      "time": "3d ago"
+    },
+    {
+      "emoji": "📦",
+      "action": "Pushed 0 commit to",
+      "repo": "Drishti",
+      "time": "3d ago"
+    },
+    {
+      "emoji": "📦",
+      "action": "Pushed 0 commit to",
+      "repo": "Drishti",
+      "time": "3d ago"
+    },
+    {
+      "emoji": "📦",
+      "action": "Pushed 0 commit to",
+      "repo": "Drishti",
+      "time": "3d ago"
+    },
+    {
+      "emoji": "📦",
+      "action": "Pushed 0 commit to",
+      "repo": "Drishti",
+      "time": "3d ago"
+    },
+    {
+      "emoji": "📦",
+      "action": "Pushed 0 commit to",
+      "repo": "Drishti",
+      "time": "3d ago"
+    },
+    {
+      "emoji": "📦",
+      "action": "Pushed 0 commit to",
+      "repo": "Drishti",
+      "time": "3d ago"
     }
   ],
   "skills": [
