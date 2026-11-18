@@ -26,39 +26,7 @@ I enjoy taking ideas from prototype to implementation, understanding the trade-o
 
 ## Selected work
 
-These are selected projects that best represent the areas I work in. Some are prototypes or ongoing projects; their status is described honestly in their repositories.
-
-### [Drishti — Explainable AI for Retinal Screening](https://github.com/BezaleelPaul/Drishti)
-**Python · Deep Learning · Explainable AI · Edge ML**
-
-An AI-assisted retinal screening prototype exploring image-quality assessment, diabetic-retinopathy grading, explainability, and offline-first deployment workflows.
-
-### [Orbital Observatory](https://github.com/BezaleelPaul/Orbital-Observatory)
-**TypeScript · Next.js · Three.js · Orbital Mechanics**
-
-An interactive 3D orbital simulation combining browser-based graphics with mathematical modelling and a custom orbital solver.
-
-### [TinyURL SDE Testing Suite](https://github.com/BezaleelPaul/tinyurl-sde-testing-suite)
-**Python · Software Testing · API · Security**
-
-A URL-shortener engineering and QA project focused on black-box and white-box testing, API behaviour, boundary cases, and security-oriented validation.
-
-### [Veltrix Sports](https://github.com/BezaleelPaul/veltrix-sports)
-**Flutter · Dart · Mobile Engineering**
-
-A team-built sports platform concept covering coaching, training plans, event discovery, and ticketing workflows.
-
-### [NadiCare — Cardio-Fitness Digital Twin](https://github.com/BezaleelPaul/bnmit-nadicare-health)
-**Python · Streamlit · Predictive Analytics**
-
-A prototype exploring cardiac fitness modelling, recovery estimation, physiological signals, and safety-oriented monitoring.
-
-### [Halonic](https://github.com/BezaleelPaul/halonic)
-**TypeScript · AI Agents · Developer Tools**
-
-An early-stage exploration of local-first agent workflows and developer tooling.
-
----
+I keep selected project details and works-in-progress off this public profile until they are ready to be shared. For projects cleared for public release, see my [public repositories](https://github.com/BezaleelPaul?tab=repositories).
 
 ## Technical toolkit
 
