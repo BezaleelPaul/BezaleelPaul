@@ -3,7 +3,7 @@ import json
 import random
 import urllib.request
 
-def fetch_codeforces_data(handle="BezaleelPaulN"):
+def fetch_codeforces_data(handle="BezaleelPaulN2228"):
     url = f"https://codeforces.com/api/user.info?handles={handle}"
     headers = {"User-Agent": "Mozilla/5.0"}
     req = urllib.request.Request(url, headers=headers)
@@ -22,9 +22,9 @@ def fetch_codeforces_data(handle="BezaleelPaulN"):
                     }
     except Exception as e:
         print(f"Error fetching Codeforces stats: {e}")
-    return {"handle": handle, "rating": 1380, "maxRating": 1420, "rank": "PUPIL", "maxRank": "PUPIL"}
+    return {"handle": handle, "rating": 0, "maxRating": 0, "rank": "UNAVAILABLE", "maxRank": "UNAVAILABLE"}
 
-def fetch_leetcode_data(username="BezaleelPaulN"):
+def fetch_leetcode_data(username="bezaleelpauln"):
     url = "https://leetcode.com/graphql"
     query = {
         "query": """
@@ -73,7 +73,7 @@ def fetch_leetcode_data(username="BezaleelPaulN"):
                     }
     except Exception as e:
         print(f"Error fetching LeetCode stats: {e}")
-    return {"username": username, "totalSolved": 42, "easy": 20, "medium": 18, "hard": 4, "ranking": 500000}
+    return {"username": username, "totalSolved": 0, "easy": 0, "medium": 0, "hard": 0, "ranking": 0}
 
 def get_rank_color(rank):
     r = rank.lower()
@@ -135,8 +135,8 @@ def generate_matrix_columns(width, height):
     return cols
 
 def generate_cp_gauge():
-    cf_handle = "BezaleelPaulN"
-    lc_username = "BezaleelPaulN"
+    cf_handle = "BezaleelPaulN2228"
+    lc_username = "bezaleelpauln"
     cf_data = fetch_codeforces_data(cf_handle)
     lc_data = fetch_leetcode_data(lc_username)
 
