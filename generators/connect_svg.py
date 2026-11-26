@@ -84,7 +84,7 @@ def generate_connect_card():
     <rect x="0" y="0" width="180" height="42" class="link-bg" />
     <circle cx="24" cy="21" r="10" fill="#39ff14" opacity="0.8" />
     <text x="46" y="26" class="link-text">PORTFOLIO</text>
-    <text x="46" y="38" font-family="\'JetBrains Mono\', monospace" font-size="7" fill="#8b949e">bezaleelpaul.github.io</text>
+    <text x="46" y="38" font-family="\'JetBrains Mono\', monospace" font-size="7" fill="#8b949e">bezaleelpaul.github.io/Testingwebsite-</text>
   </g>
 
   <g transform="translate(376, 126)">
