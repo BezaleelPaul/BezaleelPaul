@@ -52,125 +52,125 @@
   <circle cx="400" cy="160" r="290" fill="url(#glow-spot)" />
 
   
-    <text x="8" y="0" font-family="monospace" font-size="10" opacity="0.11943313842188591" filter="url(#soft-glow)">
-      <tspan x="8" dy="10" fill="#d8ffd0">@</tspan><tspan x="8" dy="10" fill="#39ff14">E</tspan><tspan x="8" dy="10" fill="#39ff14">]</tspan><tspan x="8" dy="10" fill="#39ff14">E</tspan><tspan x="8" dy="10" fill="#39ff14">C</tspan><tspan x="8" dy="10" fill="#39ff14">;</tspan><tspan x="8" dy="10" fill="#39ff14">]</tspan><tspan x="8" dy="10" fill="#39ff14">A</tspan><tspan x="8" dy="10" fill="#39ff14">D</tspan><tspan x="8" dy="10" fill="#39ff14">*</tspan><tspan x="8" dy="10" fill="#39ff14">]</tspan><tspan x="8" dy="10" fill="#39ff14">]</tspan><tspan x="8" dy="10" fill="#39ff14">4</tspan>
-      <animateTransform attributeName="transform" type="translate" values="0,-200;0,320" dur="2.7661217556806337s" begin="0.789964800136628s" repeatCount="indefinite"/>
+    <text x="8" y="0" font-family="monospace" font-size="10" opacity="0.1247530407878259" filter="url(#soft-glow)">
+      <tspan x="8" dy="10" fill="#d8ffd0">B</tspan><tspan x="8" dy="10" fill="#39ff14">.</tspan><tspan x="8" dy="10" fill="#39ff14">8</tspan><tspan x="8" dy="10" fill="#39ff14">B</tspan><tspan x="8" dy="10" fill="#39ff14">]</tspan><tspan x="8" dy="10" fill="#39ff14">+</tspan><tspan x="8" dy="10" fill="#39ff14">A</tspan><tspan x="8" dy="10" fill="#39ff14">3</tspan><tspan x="8" dy="10" fill="#39ff14">@</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,-160;0,320" dur="3.1792835077918102s" begin="1.9471077901709903s" repeatCount="indefinite"/>
     </text>
-    <text x="33" y="0" font-family="monospace" font-size="10" opacity="0.20188983206420963" filter="url(#soft-glow)">
-      <tspan x="33" dy="10" fill="#d8ffd0">6</tspan><tspan x="33" dy="10" fill="#39ff14">3</tspan><tspan x="33" dy="10" fill="#39ff14">5</tspan><tspan x="33" dy="10" fill="#39ff14">*</tspan><tspan x="33" dy="10" fill="#39ff14">4</tspan><tspan x="33" dy="10" fill="#39ff14">+</tspan><tspan x="33" dy="10" fill="#39ff14">6</tspan><tspan x="33" dy="10" fill="#39ff14">:</tspan><tspan x="33" dy="10" fill="#39ff14">F</tspan><tspan x="33" dy="10" fill="#39ff14">]</tspan>
-      <animateTransform attributeName="transform" type="translate" values="0,-170;0,320" dur="3.1165110530564752s" begin="0.7607336149868266s" repeatCount="indefinite"/>
+    <text x="28" y="0" font-family="monospace" font-size="10" opacity="0.1908007955952168" filter="url(#soft-glow)">
+      <tspan x="28" dy="10" fill="#d8ffd0">8</tspan><tspan x="28" dy="10" fill="#39ff14">8</tspan><tspan x="28" dy="10" fill="#39ff14">+</tspan><tspan x="28" dy="10" fill="#39ff14">E</tspan><tspan x="28" dy="10" fill="#39ff14">0</tspan><tspan x="28" dy="10" fill="#39ff14">.</tspan><tspan x="28" dy="10" fill="#39ff14">5</tspan><tspan x="28" dy="10" fill="#39ff14">*</tspan><tspan x="28" dy="10" fill="#39ff14">6</tspan><tspan x="28" dy="10" fill="#39ff14">.</tspan><tspan x="28" dy="10" fill="#39ff14">=</tspan><tspan x="28" dy="10" fill="#39ff14">%</tspan><tspan x="28" dy="10" fill="#39ff14">9</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,-200;0,320" dur="4.352314897215438s" begin="1.7344712036986216s" repeatCount="indefinite"/>
     </text>
-    <text x="65" y="0" font-family="monospace" font-size="10" opacity="0.16205433893151763" filter="url(#soft-glow)">
-      <tspan x="65" dy="10" fill="#d8ffd0">.</tspan><tspan x="65" dy="10" fill="#39ff14">D</tspan><tspan x="65" dy="10" fill="#39ff14">6</tspan><tspan x="65" dy="10" fill="#39ff14">8</tspan><tspan x="65" dy="10" fill="#39ff14">9</tspan><tspan x="65" dy="10" fill="#39ff14">2</tspan><tspan x="65" dy="10" fill="#39ff14">$</tspan><tspan x="65" dy="10" fill="#39ff14">6</tspan><tspan x="65" dy="10" fill="#39ff14">A</tspan><tspan x="65" dy="10" fill="#39ff14">4</tspan><tspan x="65" dy="10" fill="#39ff14">6</tspan>
-      <animateTransform attributeName="transform" type="translate" values="0,-180;0,320" dur="4.080593813783947s" begin="3.317002086526197s" repeatCount="indefinite"/>
+    <text x="48" y="0" font-family="monospace" font-size="10" opacity="0.16296057793466426" filter="url(#soft-glow)">
+      <tspan x="48" dy="10" fill="#d8ffd0">*</tspan><tspan x="48" dy="10" fill="#39ff14">.</tspan><tspan x="48" dy="10" fill="#39ff14">0</tspan><tspan x="48" dy="10" fill="#39ff14">[</tspan><tspan x="48" dy="10" fill="#39ff14">2</tspan><tspan x="48" dy="10" fill="#39ff14">3</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,-130;0,320" dur="4.3715990144560894s" begin="0.44183376488699s" repeatCount="indefinite"/>
     </text>
-    <text x="95" y="0" font-family="monospace" font-size="10" opacity="0.10047755215722162" filter="url(#soft-glow)">
-      <tspan x="95" dy="10" fill="#d8ffd0">C</tspan><tspan x="95" dy="10" fill="#39ff14">2</tspan><tspan x="95" dy="10" fill="#39ff14">]</tspan><tspan x="95" dy="10" fill="#39ff14">2</tspan><tspan x="95" dy="10" fill="#39ff14">;</tspan><tspan x="95" dy="10" fill="#39ff14">]</tspan><tspan x="95" dy="10" fill="#39ff14">0</tspan>
-      <animateTransform attributeName="transform" type="translate" values="0,-140;0,320" dur="2.7339043379983807s" begin="4.467957059729404s" repeatCount="indefinite"/>
+    <text x="81" y="0" font-family="monospace" font-size="10" opacity="0.2197628090112074" filter="url(#soft-glow)">
+      <tspan x="81" dy="10" fill="#d8ffd0">D</tspan><tspan x="81" dy="10" fill="#39ff14">?</tspan><tspan x="81" dy="10" fill="#39ff14">?</tspan><tspan x="81" dy="10" fill="#39ff14">$</tspan><tspan x="81" dy="10" fill="#39ff14">$</tspan><tspan x="81" dy="10" fill="#39ff14">E</tspan><tspan x="81" dy="10" fill="#39ff14">4</tspan><tspan x="81" dy="10" fill="#39ff14">*</tspan><tspan x="81" dy="10" fill="#39ff14">#</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,-160;0,320" dur="4.124540632027388s" begin="3.6283064166781123s" repeatCount="indefinite"/>
     </text>
-    <text x="113" y="0" font-family="monospace" font-size="10" opacity="0.2727639673820537" filter="url(#soft-glow)">
-      <tspan x="113" dy="10" fill="#d8ffd0">+</tspan><tspan x="113" dy="10" fill="#39ff14">7</tspan><tspan x="113" dy="10" fill="#39ff14">9</tspan><tspan x="113" dy="10" fill="#39ff14">*</tspan><tspan x="113" dy="10" fill="#39ff14">4</tspan><tspan x="113" dy="10" fill="#39ff14">*</tspan><tspan x="113" dy="10" fill="#39ff14">;</tspan><tspan x="113" dy="10" fill="#39ff14">1</tspan><tspan x="113" dy="10" fill="#39ff14">.</tspan>
-      <animateTransform attributeName="transform" type="translate" values="0,-160;0,320" dur="3.1783919020752434s" begin="0.36885571760669295s" repeatCount="indefinite"/>
+    <text x="107" y="0" font-family="monospace" font-size="10" opacity="0.15285856837750825" filter="url(#soft-glow)">
+      <tspan x="107" dy="10" fill="#d8ffd0">.</tspan><tspan x="107" dy="10" fill="#39ff14">1</tspan><tspan x="107" dy="10" fill="#39ff14">4</tspan><tspan x="107" dy="10" fill="#39ff14">:</tspan><tspan x="107" dy="10" fill="#39ff14">*</tspan><tspan x="107" dy="10" fill="#39ff14">F</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,-130;0,320" dur="2.7086845367397876s" begin="0.5410281786631774s" repeatCount="indefinite"/>
     </text>
-    <text x="145" y="0" font-family="monospace" font-size="10" opacity="0.17839667414436522" filter="url(#soft-glow)">
-      <tspan x="145" dy="10" fill="#d8ffd0">2</tspan><tspan x="145" dy="10" fill="#39ff14">A</tspan><tspan x="145" dy="10" fill="#39ff14">4</tspan><tspan x="145" dy="10" fill="#39ff14">7</tspan><tspan x="145" dy="10" fill="#39ff14">2</tspan><tspan x="145" dy="10" fill="#39ff14">D</tspan><tspan x="145" dy="10" fill="#39ff14">;</tspan>
-      <animateTransform attributeName="transform" type="translate" values="0,-140;0,320" dur="4.004173896601886s" begin="0.5115626209240802s" repeatCount="indefinite"/>
+    <text x="125" y="0" font-family="monospace" font-size="10" opacity="0.1440438814270148" filter="url(#soft-glow)">
+      <tspan x="125" dy="10" fill="#d8ffd0">F</tspan><tspan x="125" dy="10" fill="#39ff14">3</tspan><tspan x="125" dy="10" fill="#39ff14">B</tspan><tspan x="125" dy="10" fill="#39ff14">D</tspan><tspan x="125" dy="10" fill="#39ff14">=</tspan><tspan x="125" dy="10" fill="#39ff14">1</tspan><tspan x="125" dy="10" fill="#39ff14">1</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,-140;0,320" dur="2.9089140334703005s" begin="2.425854798505339s" repeatCount="indefinite"/>
     </text>
-    <text x="164" y="0" font-family="monospace" font-size="10" opacity="0.25312080684223415" filter="url(#soft-glow)">
-      <tspan x="164" dy="10" fill="#d8ffd0">A</tspan><tspan x="164" dy="10" fill="#39ff14">0</tspan><tspan x="164" dy="10" fill="#39ff14">2</tspan><tspan x="164" dy="10" fill="#39ff14">:</tspan><tspan x="164" dy="10" fill="#39ff14">D</tspan><tspan x="164" dy="10" fill="#39ff14">3</tspan><tspan x="164" dy="10" fill="#39ff14">4</tspan><tspan x="164" dy="10" fill="#39ff14">#</tspan><tspan x="164" dy="10" fill="#39ff14">]</tspan><tspan x="164" dy="10" fill="#39ff14">]</tspan><tspan x="164" dy="10" fill="#39ff14">6</tspan><tspan x="164" dy="10" fill="#39ff14">+</tspan><tspan x="164" dy="10" fill="#39ff14">[</tspan><tspan x="164" dy="10" fill="#39ff14">6</tspan>
-      <animateTransform attributeName="transform" type="translate" values="0,-210;0,320" dur="3.243300132368465s" begin="1.0152165989140653s" repeatCount="indefinite"/>
+    <text x="159" y="0" font-family="monospace" font-size="10" opacity="0.2238901107853165" filter="url(#soft-glow)">
+      <tspan x="159" dy="10" fill="#d8ffd0">:</tspan><tspan x="159" dy="10" fill="#39ff14">+</tspan><tspan x="159" dy="10" fill="#39ff14">+</tspan><tspan x="159" dy="10" fill="#39ff14">3</tspan><tspan x="159" dy="10" fill="#39ff14">[</tspan><tspan x="159" dy="10" fill="#39ff14">1</tspan><tspan x="159" dy="10" fill="#39ff14">A</tspan><tspan x="159" dy="10" fill="#39ff14">+</tspan><tspan x="159" dy="10" fill="#39ff14">2</tspan><tspan x="159" dy="10" fill="#39ff14">;</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,-170;0,320" dur="4.367111939653819s" begin="0.14690186396493854s" repeatCount="indefinite"/>
     </text>
-    <text x="193" y="0" font-family="monospace" font-size="10" opacity="0.21236471427982656" filter="url(#soft-glow)">
-      <tspan x="193" dy="10" fill="#d8ffd0">9</tspan><tspan x="193" dy="10" fill="#39ff14">D</tspan><tspan x="193" dy="10" fill="#39ff14">D</tspan><tspan x="193" dy="10" fill="#39ff14">#</tspan><tspan x="193" dy="10" fill="#39ff14">0</tspan><tspan x="193" dy="10" fill="#39ff14">7</tspan><tspan x="193" dy="10" fill="#39ff14">1</tspan><tspan x="193" dy="10" fill="#39ff14">.</tspan><tspan x="193" dy="10" fill="#39ff14">D</tspan>
-      <animateTransform attributeName="transform" type="translate" values="0,-160;0,320" dur="2.921994769496431s" begin="3.9281297516824636s" repeatCount="indefinite"/>
+    <text x="179" y="0" font-family="monospace" font-size="10" opacity="0.19618678487009905" filter="url(#soft-glow)">
+      <tspan x="179" dy="10" fill="#d8ffd0">D</tspan><tspan x="179" dy="10" fill="#39ff14">C</tspan><tspan x="179" dy="10" fill="#39ff14">:</tspan><tspan x="179" dy="10" fill="#39ff14">=</tspan><tspan x="179" dy="10" fill="#39ff14">:</tspan><tspan x="179" dy="10" fill="#39ff14">%</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,-130;0,320" dur="3.6507136136346725s" begin="2.832050999148976s" repeatCount="indefinite"/>
     </text>
-    <text x="224" y="0" font-family="monospace" font-size="10" opacity="0.23042349279083288" filter="url(#soft-glow)">
-      <tspan x="224" dy="10" fill="#d8ffd0">[</tspan><tspan x="224" dy="10" fill="#39ff14">#</tspan><tspan x="224" dy="10" fill="#39ff14">0</tspan><tspan x="224" dy="10" fill="#39ff14">1</tspan><tspan x="224" dy="10" fill="#39ff14">[</tspan><tspan x="224" dy="10" fill="#39ff14">#</tspan><tspan x="224" dy="10" fill="#39ff14">@</tspan>
-      <animateTransform attributeName="transform" type="translate" values="0,-140;0,320" dur="3.581248535880893s" begin="1.8638713231015611s" repeatCount="indefinite"/>
+    <text x="198" y="0" font-family="monospace" font-size="10" opacity="0.12597373231954537" filter="url(#soft-glow)">
+      <tspan x="198" dy="10" fill="#d8ffd0">@</tspan><tspan x="198" dy="10" fill="#39ff14">*</tspan><tspan x="198" dy="10" fill="#39ff14">?</tspan><tspan x="198" dy="10" fill="#39ff14">A</tspan><tspan x="198" dy="10" fill="#39ff14">8</tspan><tspan x="198" dy="10" fill="#39ff14">;</tspan><tspan x="198" dy="10" fill="#39ff14">+</tspan><tspan x="198" dy="10" fill="#39ff14">D</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,-150;0,320" dur="4.778140025677484s" begin="1.0174137530366996s" repeatCount="indefinite"/>
     </text>
-    <text x="251" y="0" font-family="monospace" font-size="10" opacity="0.18104113734322888" filter="url(#soft-glow)">
-      <tspan x="251" dy="10" fill="#d8ffd0">E</tspan><tspan x="251" dy="10" fill="#39ff14">[</tspan><tspan x="251" dy="10" fill="#39ff14">3</tspan><tspan x="251" dy="10" fill="#39ff14">@</tspan><tspan x="251" dy="10" fill="#39ff14">B</tspan><tspan x="251" dy="10" fill="#39ff14">?</tspan><tspan x="251" dy="10" fill="#39ff14">]</tspan>
-      <animateTransform attributeName="transform" type="translate" values="0,-140;0,320" dur="2.3349360827007715s" begin="2.5949633920383954s" repeatCount="indefinite"/>
+    <text x="230" y="0" font-family="monospace" font-size="10" opacity="0.1442947184493083" filter="url(#soft-glow)">
+      <tspan x="230" dy="10" fill="#d8ffd0">8</tspan><tspan x="230" dy="10" fill="#39ff14">5</tspan><tspan x="230" dy="10" fill="#39ff14">3</tspan><tspan x="230" dy="10" fill="#39ff14">2</tspan><tspan x="230" dy="10" fill="#39ff14">1</tspan><tspan x="230" dy="10" fill="#39ff14">%</tspan><tspan x="230" dy="10" fill="#39ff14">9</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,-140;0,320" dur="4.055453652842181s" begin="0.6196403056428307s" repeatCount="indefinite"/>
     </text>
-    <text x="282" y="0" font-family="monospace" font-size="10" opacity="0.14648744295296326" filter="url(#soft-glow)">
-      <tspan x="282" dy="10" fill="#d8ffd0">=</tspan><tspan x="282" dy="10" fill="#39ff14">;</tspan><tspan x="282" dy="10" fill="#39ff14">B</tspan><tspan x="282" dy="10" fill="#39ff14">]</tspan><tspan x="282" dy="10" fill="#39ff14">1</tspan><tspan x="282" dy="10" fill="#39ff14">E</tspan><tspan x="282" dy="10" fill="#39ff14">[</tspan><tspan x="282" dy="10" fill="#39ff14">;</tspan><tspan x="282" dy="10" fill="#39ff14">F</tspan><tspan x="282" dy="10" fill="#39ff14">B</tspan><tspan x="282" dy="10" fill="#39ff14">]</tspan><tspan x="282" dy="10" fill="#39ff14">0</tspan><tspan x="282" dy="10" fill="#39ff14">2</tspan>
-      <animateTransform attributeName="transform" type="translate" values="0,-200;0,320" dur="3.193563392694921s" begin="4.13217678485266s" repeatCount="indefinite"/>
+    <text x="257" y="0" font-family="monospace" font-size="10" opacity="0.22196663263978023" filter="url(#soft-glow)">
+      <tspan x="257" dy="10" fill="#d8ffd0">+</tspan><tspan x="257" dy="10" fill="#39ff14">D</tspan><tspan x="257" dy="10" fill="#39ff14">$</tspan><tspan x="257" dy="10" fill="#39ff14">E</tspan><tspan x="257" dy="10" fill="#39ff14">.</tspan><tspan x="257" dy="10" fill="#39ff14">?</tspan><tspan x="257" dy="10" fill="#39ff14">A</tspan><tspan x="257" dy="10" fill="#39ff14">0</tspan><tspan x="257" dy="10" fill="#39ff14">?</tspan><tspan x="257" dy="10" fill="#39ff14">B</tspan><tspan x="257" dy="10" fill="#39ff14">5</tspan><tspan x="257" dy="10" fill="#39ff14">A</tspan><tspan x="257" dy="10" fill="#39ff14">E</tspan><tspan x="257" dy="10" fill="#39ff14">.</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,-210;0,320" dur="4.0731775110985655s" begin="0.6881876238243143s" repeatCount="indefinite"/>
     </text>
-    <text x="314" y="0" font-family="monospace" font-size="10" opacity="0.12274048881236568" filter="url(#soft-glow)">
-      <tspan x="314" dy="10" fill="#d8ffd0">=</tspan><tspan x="314" dy="10" fill="#39ff14">B</tspan><tspan x="314" dy="10" fill="#39ff14">:</tspan><tspan x="314" dy="10" fill="#39ff14">+</tspan><tspan x="314" dy="10" fill="#39ff14">E</tspan><tspan x="314" dy="10" fill="#39ff14">*</tspan><tspan x="314" dy="10" fill="#39ff14">6</tspan><tspan x="314" dy="10" fill="#39ff14">@</tspan><tspan x="314" dy="10" fill="#39ff14">]</tspan><tspan x="314" dy="10" fill="#39ff14">6</tspan><tspan x="314" dy="10" fill="#39ff14">3</tspan><tspan x="314" dy="10" fill="#39ff14">3</tspan><tspan x="314" dy="10" fill="#39ff14">=</tspan>
-      <animateTransform attributeName="transform" type="translate" values="0,-200;0,320" dur="4.651648296982812s" begin="0.6036846461290825s" repeatCount="indefinite"/>
+    <text x="290" y="0" font-family="monospace" font-size="10" opacity="0.23617510997520216" filter="url(#soft-glow)">
+      <tspan x="290" dy="10" fill="#d8ffd0">5</tspan><tspan x="290" dy="10" fill="#39ff14">C</tspan><tspan x="290" dy="10" fill="#39ff14">]</tspan><tspan x="290" dy="10" fill="#39ff14">+</tspan><tspan x="290" dy="10" fill="#39ff14">C</tspan><tspan x="290" dy="10" fill="#39ff14">C</tspan><tspan x="290" dy="10" fill="#39ff14">.</tspan><tspan x="290" dy="10" fill="#39ff14">0</tspan><tspan x="290" dy="10" fill="#39ff14">F</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,-160;0,320" dur="3.4089969459119347s" begin="1.3293556346254316s" repeatCount="indefinite"/>
     </text>
-    <text x="341" y="0" font-family="monospace" font-size="10" opacity="0.14930993177545812" filter="url(#soft-glow)">
-      <tspan x="341" dy="10" fill="#d8ffd0">6</tspan><tspan x="341" dy="10" fill="#39ff14">#</tspan><tspan x="341" dy="10" fill="#39ff14">5</tspan><tspan x="341" dy="10" fill="#39ff14">3</tspan><tspan x="341" dy="10" fill="#39ff14">A</tspan><tspan x="341" dy="10" fill="#39ff14">:</tspan><tspan x="341" dy="10" fill="#39ff14">E</tspan>
-      <animateTransform attributeName="transform" type="translate" values="0,-140;0,320" dur="4.112891091735055s" begin="3.1868969664412905s" repeatCount="indefinite"/>
+    <text x="313" y="0" font-family="monospace" font-size="10" opacity="0.13113831182647265" filter="url(#soft-glow)">
+      <tspan x="313" dy="10" fill="#d8ffd0">*</tspan><tspan x="313" dy="10" fill="#39ff14">?</tspan><tspan x="313" dy="10" fill="#39ff14">@</tspan><tspan x="313" dy="10" fill="#39ff14">3</tspan><tspan x="313" dy="10" fill="#39ff14">;</tspan><tspan x="313" dy="10" fill="#39ff14">:</tspan><tspan x="313" dy="10" fill="#39ff14">+</tspan><tspan x="313" dy="10" fill="#39ff14">7</tspan><tspan x="313" dy="10" fill="#39ff14">#</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,-160;0,320" dur="3.968212835453391s" begin="2.905315266164002s" repeatCount="indefinite"/>
     </text>
-    <text x="361" y="0" font-family="monospace" font-size="10" opacity="0.1190090577862815" filter="url(#soft-glow)">
-      <tspan x="361" dy="10" fill="#d8ffd0">F</tspan><tspan x="361" dy="10" fill="#39ff14">D</tspan><tspan x="361" dy="10" fill="#39ff14">4</tspan><tspan x="361" dy="10" fill="#39ff14">.</tspan><tspan x="361" dy="10" fill="#39ff14">;</tspan><tspan x="361" dy="10" fill="#39ff14">F</tspan><tspan x="361" dy="10" fill="#39ff14">=</tspan>
-      <animateTransform attributeName="transform" type="translate" values="0,-140;0,320" dur="3.1757434208690163s" begin="4.464918448223177s" repeatCount="indefinite"/>
+    <text x="339" y="0" font-family="monospace" font-size="10" opacity="0.20819996168597732" filter="url(#soft-glow)">
+      <tspan x="339" dy="10" fill="#d8ffd0">?</tspan><tspan x="339" dy="10" fill="#39ff14">F</tspan><tspan x="339" dy="10" fill="#39ff14">%</tspan><tspan x="339" dy="10" fill="#39ff14">B</tspan><tspan x="339" dy="10" fill="#39ff14">B</tspan><tspan x="339" dy="10" fill="#39ff14">?</tspan><tspan x="339" dy="10" fill="#39ff14">=</tspan><tspan x="339" dy="10" fill="#39ff14">#</tspan><tspan x="339" dy="10" fill="#39ff14">E</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,-160;0,320" dur="4.522346758306533s" begin="1.6313770107689034s" repeatCount="indefinite"/>
     </text>
-    <text x="382" y="0" font-family="monospace" font-size="10" opacity="0.16388708367720048" filter="url(#soft-glow)">
-      <tspan x="382" dy="10" fill="#d8ffd0">]</tspan><tspan x="382" dy="10" fill="#39ff14">;</tspan><tspan x="382" dy="10" fill="#39ff14">$</tspan><tspan x="382" dy="10" fill="#39ff14">3</tspan><tspan x="382" dy="10" fill="#39ff14">?</tspan><tspan x="382" dy="10" fill="#39ff14">F</tspan><tspan x="382" dy="10" fill="#39ff14">A</tspan><tspan x="382" dy="10" fill="#39ff14">$</tspan><tspan x="382" dy="10" fill="#39ff14">;</tspan><tspan x="382" dy="10" fill="#39ff14">3</tspan><tspan x="382" dy="10" fill="#39ff14">D</tspan>
-      <animateTransform attributeName="transform" type="translate" values="0,-180;0,320" dur="2.2756784466398754s" begin="1.7444549008890644s" repeatCount="indefinite"/>
+    <text x="367" y="0" font-family="monospace" font-size="10" opacity="0.10641039987833534" filter="url(#soft-glow)">
+      <tspan x="367" dy="10" fill="#d8ffd0">?</tspan><tspan x="367" dy="10" fill="#39ff14">[</tspan><tspan x="367" dy="10" fill="#39ff14">6</tspan><tspan x="367" dy="10" fill="#39ff14">A</tspan><tspan x="367" dy="10" fill="#39ff14">:</tspan><tspan x="367" dy="10" fill="#39ff14">E</tspan><tspan x="367" dy="10" fill="#39ff14">@</tspan><tspan x="367" dy="10" fill="#39ff14">F</tspan><tspan x="367" dy="10" fill="#39ff14">F</tspan><tspan x="367" dy="10" fill="#39ff14">7</tspan><tspan x="367" dy="10" fill="#39ff14">3</tspan><tspan x="367" dy="10" fill="#39ff14">C</tspan><tspan x="367" dy="10" fill="#39ff14">3</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,-200;0,320" dur="3.9818026375302558s" begin="3.999885667592943s" repeatCount="indefinite"/>
     </text>
-    <text x="412" y="0" font-family="monospace" font-size="10" opacity="0.1616034021656882" filter="url(#soft-glow)">
-      <tspan x="412" dy="10" fill="#d8ffd0">[</tspan><tspan x="412" dy="10" fill="#39ff14">0</tspan><tspan x="412" dy="10" fill="#39ff14">#</tspan><tspan x="412" dy="10" fill="#39ff14">+</tspan><tspan x="412" dy="10" fill="#39ff14">2</tspan><tspan x="412" dy="10" fill="#39ff14">;</tspan><tspan x="412" dy="10" fill="#39ff14">3</tspan><tspan x="412" dy="10" fill="#39ff14">@</tspan><tspan x="412" dy="10" fill="#39ff14">*</tspan><tspan x="412" dy="10" fill="#39ff14">B</tspan><tspan x="412" dy="10" fill="#39ff14">F</tspan><tspan x="412" dy="10" fill="#39ff14">=</tspan><tspan x="412" dy="10" fill="#39ff14">2</tspan>
-      <animateTransform attributeName="transform" type="translate" values="0,-200;0,320" dur="3.80733032655022s" begin="3.9551195670703474s" repeatCount="indefinite"/>
+    <text x="397" y="0" font-family="monospace" font-size="10" opacity="0.11590171774392641" filter="url(#soft-glow)">
+      <tspan x="397" dy="10" fill="#d8ffd0">=</tspan><tspan x="397" dy="10" fill="#39ff14">6</tspan><tspan x="397" dy="10" fill="#39ff14">1</tspan><tspan x="397" dy="10" fill="#39ff14">]</tspan><tspan x="397" dy="10" fill="#39ff14">3</tspan><tspan x="397" dy="10" fill="#39ff14">3</tspan><tspan x="397" dy="10" fill="#39ff14">E</tspan><tspan x="397" dy="10" fill="#39ff14">5</tspan><tspan x="397" dy="10" fill="#39ff14">8</tspan><tspan x="397" dy="10" fill="#39ff14">3</tspan><tspan x="397" dy="10" fill="#39ff14">6</tspan><tspan x="397" dy="10" fill="#39ff14">6</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,-190;0,320" dur="4.343683870885386s" begin="4.447785496251676s" repeatCount="indefinite"/>
     </text>
-    <text x="434" y="0" font-family="monospace" font-size="10" opacity="0.24635851547646345" filter="url(#soft-glow)">
-      <tspan x="434" dy="10" fill="#d8ffd0">0</tspan><tspan x="434" dy="10" fill="#39ff14">#</tspan><tspan x="434" dy="10" fill="#39ff14">A</tspan><tspan x="434" dy="10" fill="#39ff14">F</tspan><tspan x="434" dy="10" fill="#39ff14">A</tspan><tspan x="434" dy="10" fill="#39ff14">[</tspan><tspan x="434" dy="10" fill="#39ff14">%</tspan><tspan x="434" dy="10" fill="#39ff14">6</tspan><tspan x="434" dy="10" fill="#39ff14">D</tspan><tspan x="434" dy="10" fill="#39ff14">0</tspan><tspan x="434" dy="10" fill="#39ff14">5</tspan><tspan x="434" dy="10" fill="#39ff14">$</tspan><tspan x="434" dy="10" fill="#39ff14">7</tspan><tspan x="434" dy="10" fill="#39ff14">@</tspan>
-      <animateTransform attributeName="transform" type="translate" values="0,-210;0,320" dur="4.765314459936657s" begin="3.5621282437092368s" repeatCount="indefinite"/>
+    <text x="431" y="0" font-family="monospace" font-size="10" opacity="0.2589713078428463" filter="url(#soft-glow)">
+      <tspan x="431" dy="10" fill="#d8ffd0">F</tspan><tspan x="431" dy="10" fill="#39ff14">0</tspan><tspan x="431" dy="10" fill="#39ff14">$</tspan><tspan x="431" dy="10" fill="#39ff14">#</tspan><tspan x="431" dy="10" fill="#39ff14">@</tspan><tspan x="431" dy="10" fill="#39ff14">;</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,-130;0,320" dur="4.032000690282758s" begin="1.681812166701359s" repeatCount="indefinite"/>
     </text>
-    <text x="465" y="0" font-family="monospace" font-size="10" opacity="0.20636769381301795" filter="url(#soft-glow)">
-      <tspan x="465" dy="10" fill="#d8ffd0">A</tspan><tspan x="465" dy="10" fill="#39ff14">*</tspan><tspan x="465" dy="10" fill="#39ff14">8</tspan><tspan x="465" dy="10" fill="#39ff14">$</tspan><tspan x="465" dy="10" fill="#39ff14">$</tspan><tspan x="465" dy="10" fill="#39ff14">5</tspan><tspan x="465" dy="10" fill="#39ff14">A</tspan><tspan x="465" dy="10" fill="#39ff14">?</tspan><tspan x="465" dy="10" fill="#39ff14">$</tspan>
-      <animateTransform attributeName="transform" type="translate" values="0,-160;0,320" dur="2.9721019590416535s" begin="1.2588088811711133s" repeatCount="indefinite"/>
+    <text x="463" y="0" font-family="monospace" font-size="10" opacity="0.16382622851043732" filter="url(#soft-glow)">
+      <tspan x="463" dy="10" fill="#d8ffd0">*</tspan><tspan x="463" dy="10" fill="#39ff14">2</tspan><tspan x="463" dy="10" fill="#39ff14">6</tspan><tspan x="463" dy="10" fill="#39ff14">]</tspan><tspan x="463" dy="10" fill="#39ff14">C</tspan><tspan x="463" dy="10" fill="#39ff14">C</tspan><tspan x="463" dy="10" fill="#39ff14">#</tspan><tspan x="463" dy="10" fill="#39ff14">D</tspan><tspan x="463" dy="10" fill="#39ff14">.</tspan><tspan x="463" dy="10" fill="#39ff14">.</tspan><tspan x="463" dy="10" fill="#39ff14">C</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,-180;0,320" dur="4.3320611403406115s" begin="4.191406465889252s" repeatCount="indefinite"/>
     </text>
-    <text x="493" y="0" font-family="monospace" font-size="10" opacity="0.21558127249941333" filter="url(#soft-glow)">
-      <tspan x="493" dy="10" fill="#d8ffd0">[</tspan><tspan x="493" dy="10" fill="#39ff14">:</tspan><tspan x="493" dy="10" fill="#39ff14">.</tspan><tspan x="493" dy="10" fill="#39ff14">]</tspan><tspan x="493" dy="10" fill="#39ff14">[</tspan><tspan x="493" dy="10" fill="#39ff14">@</tspan><tspan x="493" dy="10" fill="#39ff14">6</tspan><tspan x="493" dy="10" fill="#39ff14">[</tspan>
-      <animateTransform attributeName="transform" type="translate" values="0,-150;0,320" dur="3.987239922731982s" begin="1.4063248189125024s" repeatCount="indefinite"/>
+    <text x="497" y="0" font-family="monospace" font-size="10" opacity="0.2412804103057998" filter="url(#soft-glow)">
+      <tspan x="497" dy="10" fill="#d8ffd0">E</tspan><tspan x="497" dy="10" fill="#39ff14">0</tspan><tspan x="497" dy="10" fill="#39ff14">B</tspan><tspan x="497" dy="10" fill="#39ff14">0</tspan><tspan x="497" dy="10" fill="#39ff14">6</tspan><tspan x="497" dy="10" fill="#39ff14">$</tspan><tspan x="497" dy="10" fill="#39ff14">$</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,-140;0,320" dur="3.6220966903430747s" begin="3.6254267487854372s" repeatCount="indefinite"/>
     </text>
-    <text x="514" y="0" font-family="monospace" font-size="10" opacity="0.21739000966484784" filter="url(#soft-glow)">
-      <tspan x="514" dy="10" fill="#d8ffd0">0</tspan><tspan x="514" dy="10" fill="#39ff14">5</tspan><tspan x="514" dy="10" fill="#39ff14">+</tspan><tspan x="514" dy="10" fill="#39ff14">E</tspan><tspan x="514" dy="10" fill="#39ff14">E</tspan><tspan x="514" dy="10" fill="#39ff14">]</tspan><tspan x="514" dy="10" fill="#39ff14">=</tspan><tspan x="514" dy="10" fill="#39ff14">]</tspan>
-      <animateTransform attributeName="transform" type="translate" values="0,-150;0,320" dur="3.3176968133160996s" begin="3.075736371780746s" repeatCount="indefinite"/>
+    <text x="523" y="0" font-family="monospace" font-size="10" opacity="0.224977219083218" filter="url(#soft-glow)">
+      <tspan x="523" dy="10" fill="#d8ffd0">D</tspan><tspan x="523" dy="10" fill="#39ff14">[</tspan><tspan x="523" dy="10" fill="#39ff14">9</tspan><tspan x="523" dy="10" fill="#39ff14">D</tspan><tspan x="523" dy="10" fill="#39ff14">2</tspan><tspan x="523" dy="10" fill="#39ff14">:</tspan><tspan x="523" dy="10" fill="#39ff14">.</tspan><tspan x="523" dy="10" fill="#39ff14">C</tspan><tspan x="523" dy="10" fill="#39ff14">;</tspan><tspan x="523" dy="10" fill="#39ff14">0</tspan><tspan x="523" dy="10" fill="#39ff14">3</tspan><tspan x="523" dy="10" fill="#39ff14">;</tspan><tspan x="523" dy="10" fill="#39ff14">9</tspan><tspan x="523" dy="10" fill="#39ff14">[</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,-210;0,320" dur="3.2381473380106254s" begin="1.4488338670144574s" repeatCount="indefinite"/>
     </text>
-    <text x="543" y="0" font-family="monospace" font-size="10" opacity="0.1304005219189926" filter="url(#soft-glow)">
-      <tspan x="543" dy="10" fill="#d8ffd0">D</tspan><tspan x="543" dy="10" fill="#39ff14">4</tspan><tspan x="543" dy="10" fill="#39ff14">.</tspan><tspan x="543" dy="10" fill="#39ff14">@</tspan><tspan x="543" dy="10" fill="#39ff14">A</tspan><tspan x="543" dy="10" fill="#39ff14">?</tspan><tspan x="543" dy="10" fill="#39ff14">$</tspan><tspan x="543" dy="10" fill="#39ff14">;</tspan><tspan x="543" dy="10" fill="#39ff14">D</tspan><tspan x="543" dy="10" fill="#39ff14">F</tspan><tspan x="543" dy="10" fill="#39ff14">8</tspan><tspan x="543" dy="10" fill="#39ff14">4</tspan>
-      <animateTransform attributeName="transform" type="translate" values="0,-190;0,320" dur="3.94904871945845s" begin="3.148555824194377s" repeatCount="indefinite"/>
+    <text x="557" y="0" font-family="monospace" font-size="10" opacity="0.10854444675128867" filter="url(#soft-glow)">
+      <tspan x="557" dy="10" fill="#d8ffd0">4</tspan><tspan x="557" dy="10" fill="#39ff14">6</tspan><tspan x="557" dy="10" fill="#39ff14">$</tspan><tspan x="557" dy="10" fill="#39ff14">6</tspan><tspan x="557" dy="10" fill="#39ff14">#</tspan><tspan x="557" dy="10" fill="#39ff14">5</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,-130;0,320" dur="3.97367486187105s" begin="1.061514968218123s" repeatCount="indefinite"/>
     </text>
-    <text x="574" y="0" font-family="monospace" font-size="10" opacity="0.22330085716933296" filter="url(#soft-glow)">
-      <tspan x="574" dy="10" fill="#d8ffd0">=</tspan><tspan x="574" dy="10" fill="#39ff14">.</tspan><tspan x="574" dy="10" fill="#39ff14">%</tspan><tspan x="574" dy="10" fill="#39ff14">5</tspan><tspan x="574" dy="10" fill="#39ff14">*</tspan><tspan x="574" dy="10" fill="#39ff14">[</tspan><tspan x="574" dy="10" fill="#39ff14">=</tspan><tspan x="574" dy="10" fill="#39ff14">F</tspan><tspan x="574" dy="10" fill="#39ff14">[</tspan><tspan x="574" dy="10" fill="#39ff14">@</tspan><tspan x="574" dy="10" fill="#39ff14">?</tspan>
-      <animateTransform attributeName="transform" type="translate" values="0,-180;0,320" dur="2.660001165719712s" begin="3.560615507762062s" repeatCount="indefinite"/>
+    <text x="585" y="0" font-family="monospace" font-size="10" opacity="0.17343500697442873" filter="url(#soft-glow)">
+      <tspan x="585" dy="10" fill="#d8ffd0">5</tspan><tspan x="585" dy="10" fill="#39ff14">=</tspan><tspan x="585" dy="10" fill="#39ff14">A</tspan><tspan x="585" dy="10" fill="#39ff14">D</tspan><tspan x="585" dy="10" fill="#39ff14">6</tspan><tspan x="585" dy="10" fill="#39ff14">5</tspan><tspan x="585" dy="10" fill="#39ff14">#</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,-140;0,320" dur="2.3341796671588644s" begin="2.7310308850537437s" repeatCount="indefinite"/>
     </text>
-    <text x="598" y="0" font-family="monospace" font-size="10" opacity="0.13884461247063393" filter="url(#soft-glow)">
-      <tspan x="598" dy="10" fill="#d8ffd0">F</tspan><tspan x="598" dy="10" fill="#39ff14">#</tspan><tspan x="598" dy="10" fill="#39ff14">6</tspan><tspan x="598" dy="10" fill="#39ff14">1</tspan><tspan x="598" dy="10" fill="#39ff14">;</tspan><tspan x="598" dy="10" fill="#39ff14">%</tspan><tspan x="598" dy="10" fill="#39ff14">9</tspan><tspan x="598" dy="10" fill="#39ff14">E</tspan>
-      <animateTransform attributeName="transform" type="translate" values="0,-150;0,320" dur="3.150061490432135s" begin="4.406551116781136s" repeatCount="indefinite"/>
+    <text x="618" y="0" font-family="monospace" font-size="10" opacity="0.19124062691415383" filter="url(#soft-glow)">
+      <tspan x="618" dy="10" fill="#d8ffd0">@</tspan><tspan x="618" dy="10" fill="#39ff14">F</tspan><tspan x="618" dy="10" fill="#39ff14">$</tspan><tspan x="618" dy="10" fill="#39ff14">8</tspan><tspan x="618" dy="10" fill="#39ff14">:</tspan><tspan x="618" dy="10" fill="#39ff14">@</tspan><tspan x="618" dy="10" fill="#39ff14">$</tspan><tspan x="618" dy="10" fill="#39ff14">.</tspan><tspan x="618" dy="10" fill="#39ff14">6</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,-160;0,320" dur="3.5274759471381945s" begin="3.602038754026384s" repeatCount="indefinite"/>
     </text>
-    <text x="625" y="0" font-family="monospace" font-size="10" opacity="0.1676126749346975" filter="url(#soft-glow)">
-      <tspan x="625" dy="10" fill="#d8ffd0">C</tspan><tspan x="625" dy="10" fill="#39ff14">$</tspan><tspan x="625" dy="10" fill="#39ff14">7</tspan><tspan x="625" dy="10" fill="#39ff14">;</tspan><tspan x="625" dy="10" fill="#39ff14">A</tspan><tspan x="625" dy="10" fill="#39ff14">7</tspan><tspan x="625" dy="10" fill="#39ff14">9</tspan><tspan x="625" dy="10" fill="#39ff14">5</tspan><tspan x="625" dy="10" fill="#39ff14">6</tspan><tspan x="625" dy="10" fill="#39ff14">6</tspan><tspan x="625" dy="10" fill="#39ff14">F</tspan><tspan x="625" dy="10" fill="#39ff14">+</tspan>
-      <animateTransform attributeName="transform" type="translate" values="0,-190;0,320" dur="2.424199885510818s" begin="1.0540619873143025s" repeatCount="indefinite"/>
+    <text x="636" y="0" font-family="monospace" font-size="10" opacity="0.1532753383108832" filter="url(#soft-glow)">
+      <tspan x="636" dy="10" fill="#d8ffd0">D</tspan><tspan x="636" dy="10" fill="#39ff14">%</tspan><tspan x="636" dy="10" fill="#39ff14">#</tspan><tspan x="636" dy="10" fill="#39ff14">$</tspan><tspan x="636" dy="10" fill="#39ff14">$</tspan><tspan x="636" dy="10" fill="#39ff14">0</tspan><tspan x="636" dy="10" fill="#39ff14">B</tspan><tspan x="636" dy="10" fill="#39ff14">7</tspan><tspan x="636" dy="10" fill="#39ff14">[</tspan><tspan x="636" dy="10" fill="#39ff14">*</tspan><tspan x="636" dy="10" fill="#39ff14">#</tspan><tspan x="636" dy="10" fill="#39ff14">5</tspan><tspan x="636" dy="10" fill="#39ff14">:</tspan><tspan x="636" dy="10" fill="#39ff14">@</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,-210;0,320" dur="4.171730318055898s" begin="4.389343021797203s" repeatCount="indefinite"/>
     </text>
-    <text x="654" y="0" font-family="monospace" font-size="10" opacity="0.23289807998718295" filter="url(#soft-glow)">
-      <tspan x="654" dy="10" fill="#d8ffd0">$</tspan><tspan x="654" dy="10" fill="#39ff14">4</tspan><tspan x="654" dy="10" fill="#39ff14">F</tspan><tspan x="654" dy="10" fill="#39ff14">8</tspan><tspan x="654" dy="10" fill="#39ff14">=</tspan><tspan x="654" dy="10" fill="#39ff14">E</tspan><tspan x="654" dy="10" fill="#39ff14">.</tspan><tspan x="654" dy="10" fill="#39ff14">@</tspan><tspan x="654" dy="10" fill="#39ff14">A</tspan><tspan x="654" dy="10" fill="#39ff14">8</tspan><tspan x="654" dy="10" fill="#39ff14">3</tspan><tspan x="654" dy="10" fill="#39ff14">4</tspan><tspan x="654" dy="10" fill="#39ff14">A</tspan><tspan x="654" dy="10" fill="#39ff14">#</tspan>
-      <animateTransform attributeName="transform" type="translate" values="0,-210;0,320" dur="2.7327911967206835s" begin="3.339425698218459s" repeatCount="indefinite"/>
+    <text x="658" y="0" font-family="monospace" font-size="10" opacity="0.26046405024651587" filter="url(#soft-glow)">
+      <tspan x="658" dy="10" fill="#d8ffd0">6</tspan><tspan x="658" dy="10" fill="#39ff14">=</tspan><tspan x="658" dy="10" fill="#39ff14">;</tspan><tspan x="658" dy="10" fill="#39ff14">:</tspan><tspan x="658" dy="10" fill="#39ff14">8</tspan><tspan x="658" dy="10" fill="#39ff14">%</tspan><tspan x="658" dy="10" fill="#39ff14">]</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,-140;0,320" dur="3.956774851596042s" begin="1.5788553893462074s" repeatCount="indefinite"/>
     </text>
-    <text x="679" y="0" font-family="monospace" font-size="10" opacity="0.10311196479096899" filter="url(#soft-glow)">
-      <tspan x="679" dy="10" fill="#d8ffd0">+</tspan><tspan x="679" dy="10" fill="#39ff14">#</tspan><tspan x="679" dy="10" fill="#39ff14">2</tspan><tspan x="679" dy="10" fill="#39ff14">]</tspan><tspan x="679" dy="10" fill="#39ff14">+</tspan><tspan x="679" dy="10" fill="#39ff14">.</tspan><tspan x="679" dy="10" fill="#39ff14">E</tspan>
-      <animateTransform attributeName="transform" type="translate" values="0,-140;0,320" dur="2.4795442673348584s" begin="2.124210889741588s" repeatCount="indefinite"/>
+    <text x="683" y="0" font-family="monospace" font-size="10" opacity="0.11152174170887662" filter="url(#soft-glow)">
+      <tspan x="683" dy="10" fill="#d8ffd0">0</tspan><tspan x="683" dy="10" fill="#39ff14">#</tspan><tspan x="683" dy="10" fill="#39ff14">9</tspan><tspan x="683" dy="10" fill="#39ff14">@</tspan><tspan x="683" dy="10" fill="#39ff14">4</tspan><tspan x="683" dy="10" fill="#39ff14">%</tspan><tspan x="683" dy="10" fill="#39ff14">0</tspan><tspan x="683" dy="10" fill="#39ff14">#</tspan><tspan x="683" dy="10" fill="#39ff14">=</tspan><tspan x="683" dy="10" fill="#39ff14">5</tspan><tspan x="683" dy="10" fill="#39ff14">*</tspan><tspan x="683" dy="10" fill="#39ff14">@</tspan><tspan x="683" dy="10" fill="#39ff14">]</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,-200;0,320" dur="4.408896680805074s" begin="0.22902166954772363s" repeatCount="indefinite"/>
     </text>
-    <text x="700" y="0" font-family="monospace" font-size="10" opacity="0.26014203440054756" filter="url(#soft-glow)">
-      <tspan x="700" dy="10" fill="#d8ffd0">4</tspan><tspan x="700" dy="10" fill="#39ff14">C</tspan><tspan x="700" dy="10" fill="#39ff14">0</tspan><tspan x="700" dy="10" fill="#39ff14">D</tspan><tspan x="700" dy="10" fill="#39ff14">9</tspan><tspan x="700" dy="10" fill="#39ff14">#</tspan>
-      <animateTransform attributeName="transform" type="translate" values="0,-130;0,320" dur="2.5545701599090007s" begin="0.7105951226826455s" repeatCount="indefinite"/>
+    <text x="708" y="0" font-family="monospace" font-size="10" opacity="0.13158033727628393" filter="url(#soft-glow)">
+      <tspan x="708" dy="10" fill="#d8ffd0">.</tspan><tspan x="708" dy="10" fill="#39ff14">A</tspan><tspan x="708" dy="10" fill="#39ff14">8</tspan><tspan x="708" dy="10" fill="#39ff14">@</tspan><tspan x="708" dy="10" fill="#39ff14">?</tspan><tspan x="708" dy="10" fill="#39ff14">]</tspan><tspan x="708" dy="10" fill="#39ff14">8</tspan><tspan x="708" dy="10" fill="#39ff14">8</tspan><tspan x="708" dy="10" fill="#39ff14">#</tspan><tspan x="708" dy="10" fill="#39ff14">9</tspan><tspan x="708" dy="10" fill="#39ff14">9</tspan><tspan x="708" dy="10" fill="#39ff14">@</tspan><tspan x="708" dy="10" fill="#39ff14">*</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,-200;0,320" dur="2.858138125427841s" begin="2.1614359428671723s" repeatCount="indefinite"/>
     </text>
-    <text x="731" y="0" font-family="monospace" font-size="10" opacity="0.25814887620926424" filter="url(#soft-glow)">
-      <tspan x="731" dy="10" fill="#d8ffd0">$</tspan><tspan x="731" dy="10" fill="#39ff14">*</tspan><tspan x="731" dy="10" fill="#39ff14">1</tspan><tspan x="731" dy="10" fill="#39ff14">#</tspan><tspan x="731" dy="10" fill="#39ff14">7</tspan><tspan x="731" dy="10" fill="#39ff14">;</tspan><tspan x="731" dy="10" fill="#39ff14">=</tspan><tspan x="731" dy="10" fill="#39ff14">+</tspan><tspan x="731" dy="10" fill="#39ff14">=</tspan><tspan x="731" dy="10" fill="#39ff14">6</tspan><tspan x="731" dy="10" fill="#39ff14">F</tspan><tspan x="731" dy="10" fill="#39ff14">[</tspan><tspan x="731" dy="10" fill="#39ff14">@</tspan><tspan x="731" dy="10" fill="#39ff14">A</tspan>
-      <animateTransform attributeName="transform" type="translate" values="0,-210;0,320" dur="3.027702456705075s" begin="2.9172332460776804s" repeatCount="indefinite"/>
+    <text x="741" y="0" font-family="monospace" font-size="10" opacity="0.2632811405714745" filter="url(#soft-glow)">
+      <tspan x="741" dy="10" fill="#d8ffd0">F</tspan><tspan x="741" dy="10" fill="#39ff14">E</tspan><tspan x="741" dy="10" fill="#39ff14">5</tspan><tspan x="741" dy="10" fill="#39ff14">.</tspan><tspan x="741" dy="10" fill="#39ff14">=</tspan><tspan x="741" dy="10" fill="#39ff14">+</tspan><tspan x="741" dy="10" fill="#39ff14">8</tspan><tspan x="741" dy="10" fill="#39ff14">7</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,-150;0,320" dur="3.65766177468017s" begin="3.4128815673996984s" repeatCount="indefinite"/>
     </text>
-    <text x="755" y="0" font-family="monospace" font-size="10" opacity="0.2652551175133006" filter="url(#soft-glow)">
-      <tspan x="755" dy="10" fill="#d8ffd0">*</tspan><tspan x="755" dy="10" fill="#39ff14">4</tspan><tspan x="755" dy="10" fill="#39ff14">F</tspan><tspan x="755" dy="10" fill="#39ff14">2</tspan><tspan x="755" dy="10" fill="#39ff14">E</tspan><tspan x="755" dy="10" fill="#39ff14">8</tspan>
-      <animateTransform attributeName="transform" type="translate" values="0,-130;0,320" dur="3.957711072689702s" begin="0.34984681463279776s" repeatCount="indefinite"/>
+    <text x="767" y="0" font-family="monospace" font-size="10" opacity="0.10108237628286797" filter="url(#soft-glow)">
+      <tspan x="767" dy="10" fill="#d8ffd0">#</tspan><tspan x="767" dy="10" fill="#39ff14">2</tspan><tspan x="767" dy="10" fill="#39ff14">2</tspan><tspan x="767" dy="10" fill="#39ff14">6</tspan><tspan x="767" dy="10" fill="#39ff14">*</tspan><tspan x="767" dy="10" fill="#39ff14">*</tspan><tspan x="767" dy="10" fill="#39ff14">9</tspan><tspan x="767" dy="10" fill="#39ff14">*</tspan><tspan x="767" dy="10" fill="#39ff14">3</tspan><tspan x="767" dy="10" fill="#39ff14">0</tspan><tspan x="767" dy="10" fill="#39ff14">#</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,-180;0,320" dur="2.251924905230715s" begin="2.4048306349184156s" repeatCount="indefinite"/>
     </text>
-    <text x="786" y="0" font-family="monospace" font-size="10" opacity="0.14758722722360368" filter="url(#soft-glow)">
-      <tspan x="786" dy="10" fill="#d8ffd0">+</tspan><tspan x="786" dy="10" fill="#39ff14">5</tspan><tspan x="786" dy="10" fill="#39ff14">+</tspan><tspan x="786" dy="10" fill="#39ff14">$</tspan><tspan x="786" dy="10" fill="#39ff14">8</tspan><tspan x="786" dy="10" fill="#39ff14">C</tspan>
-      <animateTransform attributeName="transform" type="translate" values="0,-130;0,320" dur="4.268184793570203s" begin="4.042452010347014s" repeatCount="indefinite"/>
+    <text x="798" y="0" font-family="monospace" font-size="10" opacity="0.1812830761666263" filter="url(#soft-glow)">
+      <tspan x="798" dy="10" fill="#d8ffd0">F</tspan><tspan x="798" dy="10" fill="#39ff14">8</tspan><tspan x="798" dy="10" fill="#39ff14">B</tspan><tspan x="798" dy="10" fill="#39ff14">[</tspan><tspan x="798" dy="10" fill="#39ff14">4</tspan><tspan x="798" dy="10" fill="#39ff14">*</tspan><tspan x="798" dy="10" fill="#39ff14">[</tspan><tspan x="798" dy="10" fill="#39ff14">:</tspan><tspan x="798" dy="10" fill="#39ff14">?</tspan><tspan x="798" dy="10" fill="#39ff14">:</tspan><tspan x="798" dy="10" fill="#39ff14">=</tspan><tspan x="798" dy="10" fill="#39ff14">4</tspan>
+      <animateTransform attributeName="transform" type="translate" values="0,-190;0,320" dur="3.7447700263589883s" begin="0.0604491189538538s" repeatCount="indefinite"/>
     </text>
 
   <rect x="2" width="796" height="42" fill="#39ff14" opacity="0.035">
@@ -192,22 +192,22 @@
   <text x="30" y="68" class="sec-title">// CODEFORCES</text>
   <line x1="30" y1="76" x2="250" y2="76" class="sec-line" />
 
-  <text x="30" y="94" class="handle">BezaleelPaulN</text>
+  <text x="30" y="94" class="handle">BezaleelPaulN2228</text>
 
-  <rect x="30" y="104" width="58" height="20" rx="10" class="chip" stroke="#8b949e" stroke-opacity="0.6" />
-  <text x="59" y="118" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="bold" fill="#8b949e" text-anchor="middle">NEWBIE</text>
+  <rect x="30" y="104" width="93" height="20" rx="10" class="chip" stroke="#39ff14" stroke-opacity="0.6" />
+  <text x="76" y="118" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="bold" fill="#39ff14" text-anchor="middle">UNAVAILABLE</text>
 
   <text x="30" y="150" class="label">CURRENT RATING</text>
-  <text x="30" y="184" class="value-big">959</text>
+  <text x="30" y="184" class="value-big">0</text>
 
-  <text x="30" y="208" class="label">PEAK RATING  <tspan fill="#8b949e" font-weight="bold">959 [NEWBIE]</tspan></text>
+  <text x="30" y="208" class="label">PEAK RATING  <tspan fill="#39ff14" font-weight="bold">0 [UNAVAILABLE]</tspan></text>
 
   <text x="30" y="230" class="label">RANK PROGRESS → <tspan fill="#39ff14" font-weight="bold">PUPIL</tspan></text>
   <rect x="30" y="238" width="220" height="8" class="bar-track" />
-  <rect x="30" y="238" width="175" height="8" class="bar-fill" fill="#8b949e">
-    <animate attributeName="width" from="0" to="175" dur="1.6s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
+  <rect x="30" y="238" width="0" height="8" class="bar-fill" fill="#39ff14">
+    <animate attributeName="width" from="0" to="0" dur="1.6s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
   </rect>
-  <text x="258" y="245" font-family="'JetBrains Mono', monospace" font-size="9" fill="#8b949e" text-anchor="end">79.9%</text>
+  <text x="258" y="245" font-family="'JetBrains Mono', monospace" font-size="9" fill="#39ff14" text-anchor="end">0.0%</text>
 
   <text x="30" y="266" class="sub" font-size="9" fill="#58a6ff">next rank @ 1200 · CF API 6h</text>
 
@@ -219,14 +219,14 @@
 
   <path d="M 323.8,229 A 88,88 0 1 1 476.2,229" class="dial-bg" />
   <path d="M 323.8,229 A 88,88 0 1 1 476.2,229" class="dial-fill" stroke-dasharray="369" stroke-dashoffset="369">
-    <animate attributeName="stroke-dashoffset" from="369" to="251" dur="1.8s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
+    <animate attributeName="stroke-dashoffset" from="369" to="369" dur="1.8s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
   </path>
 
-  <text x="400" y="176" class="dial-val">959</text>
+  <text x="400" y="176" class="dial-val">0</text>
   <text x="400" y="194" class="dial-label">CF RATING</text>
 
-  <line x1="400" y1="185" x2="400" y2="115" class="needle" transform="rotate(-43.28 400 185)">
-    <animateTransform attributeName="transform" type="rotate" from="-120 400 185" to="-43.28 400 185" dur="1.8s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
+  <line x1="400" y1="185" x2="400" y2="115" class="needle" transform="rotate(-120.0 400 185)">
+    <animateTransform attributeName="transform" type="rotate" from="-120 400 185" to="-120.0 400 185" dur="1.8s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
   </line>
   <circle cx="400" cy="185" r="7" class="needle-cap" />
   <circle cx="400" cy="185" r="2.5" fill="#0d1117" />
@@ -243,7 +243,7 @@
   <text x="550" y="68" class="sec-title">// LEETCODE</text>
   <line x1="550" y1="76" x2="770" y2="76" class="sec-line" />
 
-  <text x="550" y="94" class="handle" fill="#FFA116">BezaleelPaulN</text>
+  <text x="550" y="94" class="handle" fill="#FFA116">bezaleelpauln</text>
 
   <text x="550" y="118" class="label">PROBLEMS SOLVED</text>
   <text x="550" y="152" class="value-big" fill="#FFA116" filter="url(#neon-glow)">274</text>

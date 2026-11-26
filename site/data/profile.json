@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-26T05:28:25Z",
+  "generated_at": "2026-11-26T05:31:19Z",
   "profile": {
     "name": "Bezaleel Paul N",
     "alias": "BezForge",
     "location": "Bangalore, India",
     "role": "AI/ML · Full-Stack · Builder",
-    "status": "last pushed to BezaleelPaul 0m ago",
+    "status": "last pushed to BezaleelPaul 3m ago",
     "open_to_work": true,
     "focus": [
       "AI/ML",
@@ -181,13 +181,13 @@
       "emoji": "🔀",
       "action": "Merged PR in",
       "repo": "BezaleelPaul",
-      "time": "0m ago"
+      "time": "3m ago"
     },
     {
       "emoji": "🔀",
       "action": "Opened PR in",
       "repo": "BezaleelPaul",
-      "time": "0m ago"
+      "time": "3m ago"
     },
     {
       "emoji": "💻",
@@ -361,12 +361,12 @@
   ],
   "cp": {
     "codeforces": {
-      "handle": "BezaleelPaulN",
-      "rating": 959,
-      "maxRating": 959,
-      "rank": "NEWBIE",
-      "maxRank": "NEWBIE",
-      "color": "#8b949e"
+      "handle": "BezaleelPaulN2228",
+      "rating": 0,
+      "maxRating": 0,
+      "rank": "UNAVAILABLE",
+      "maxRank": "UNAVAILABLE",
+      "color": "#39ff14"
     },
     "leetcode": {
       "username": "BezaleelPaulN",
@@ -449,8 +449,8 @@
   "socials": [
     {
       "name": "LinkedIn",
-      "handle": "bezaleel-paul",
-      "url": "https://www.linkedin.com/in/bezaleel-paul-7b114b307",
+      "handle": "bezaleel-pauln",
+      "url": "https://www.linkedin.com/in/bezaleel-pauln",
       "icon": "in"
     },
     {
@@ -461,8 +461,8 @@
     },
     {
       "name": "Portfolio",
-      "handle": "bezaleelpaul.github.io",
-      "url": "https://bezaleelpaul.github.io/",
+      "handle": "bezaleelpaul.github.io/Testingwebsite-",
+      "url": "https://bezaleelpaul.github.io/Testingwebsite-/",
       "icon": "pf"
     },
     {
@@ -473,14 +473,14 @@
     },
     {
       "name": "Codeforces",
-      "handle": "BezaleelPaulN",
-      "url": "https://codeforces.com/profile/BezaleelPaulN",
+      "handle": "BezaleelPaulN2228",
+      "url": "https://codeforces.com/profile/BezaleelPaulN2228",
       "icon": "cf"
     },
     {
       "name": "LeetCode",
-      "handle": "BezaleelPaulN",
-      "url": "https://leetcode.com/u/BezaleelPaulN/",
+      "handle": "bezaleelpauln",
+      "url": "https://leetcode.com/u/bezaleelpauln/",
       "icon": "lc"
     },
     {
