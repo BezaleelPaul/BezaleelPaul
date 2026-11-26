@@ -77,7 +77,7 @@ def generate_connect_card():
     <rect x="14" y="11" width="20" height="20" rx="4" fill="#0077B5" />
     <text x="20" y="25" font-family="Arial" font-weight="bold" font-size="13" fill="white" text-anchor="middle">in</text>
     <text x="46" y="26" class="link-text">LINKEDIN</text>
-    <text x="46" y="38" font-family="\'JetBrains Mono\', monospace" font-size="7" fill="#8b949e">/in/bezaleel-paul</text>
+    <text x="46" y="38" font-family="\'JetBrains Mono\', monospace" font-size="7" fill="#8b949e">/in/bezaleel-pauln</text>
   </g>
 
   <g transform="translate(572, 70)">
@@ -100,7 +100,7 @@ def generate_connect_card():
     <circle cx="24" cy="21" r="10" fill="#FFA116" />
     <text x="20" y="25" font-family="Arial" font-weight="bold" font-size="11" fill="white" text-anchor="middle">L</text>
     <text x="46" y="26" class="link-text">LEETCODE</text>
-    <text x="46" y="38" font-family="\'JetBrains Mono\', monospace" font-size="7" fill="#8b949e">/BezaleelPaulN</text>
+    <text x="46" y="38" font-family="\'JetBrains Mono\', monospace" font-size="7" fill="#8b949e">/bezaleelpauln</text>
   </g>
 
   <g transform="translate(376, 182)">
