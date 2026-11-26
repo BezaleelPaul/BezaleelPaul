@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-26T01:20:05Z",
+  "generated_at": "2026-11-26T05:28:25Z",
   "profile": {
     "name": "Bezaleel Paul N",
     "alias": "BezForge",
     "location": "Bangalore, India",
     "role": "AI/ML · Full-Stack · Builder",
-    "status": "last pushed to ai-autonomous-exploration-rover 55d ago",
+    "status": "last pushed to BezaleelPaul 0m ago",
     "open_to_work": true,
     "focus": [
       "AI/ML",
@@ -48,10 +48,10 @@
   },
   "dashboard": {
     "total_30d": 29,
-    "streak": 0,
-    "today": 0,
+    "streak": 1,
+    "today": 2,
     "avg_per_day": 1.0,
-    "best_day": 21,
+    "best_day": 20,
     "best_day_date": "2026-11-18",
     "series": [
       {
@@ -136,11 +136,11 @@
       },
       {
         "date": "2026-11-17",
-        "count": 4
+        "count": 3
       },
       {
         "date": "2026-11-18",
-        "count": 21
+        "count": 20
       },
       {
         "date": "2026-11-19",
@@ -172,11 +172,23 @@
       },
       {
         "date": "2026-11-26",
-        "count": 0
+        "count": 2
       }
     ]
   },
   "activity": [
+    {
+      "emoji": "🔀",
+      "action": "Merged PR in",
+      "repo": "BezaleelPaul",
+      "time": "0m ago"
+    },
+    {
+      "emoji": "🔀",
+      "action": "Opened PR in",
+      "repo": "BezaleelPaul",
+      "time": "0m ago"
+    },
     {
       "emoji": "💻",
       "action": "Activity in",
@@ -224,18 +236,6 @@
       "action": "Activity in",
       "repo": "Drishti",
       "time": "6d ago"
-    },
-    {
-      "emoji": "📦",
-      "action": "Pushed 0 commit to",
-      "repo": "Orbital-Observatory",
-      "time": "7d ago"
-    },
-    {
-      "emoji": "📦",
-      "action": "Pushed 0 commit to",
-      "repo": "bnmit-nadicare-health",
-      "time": "7d ago"
     }
   ],
   "skills": [
@@ -370,10 +370,10 @@
     },
     "leetcode": {
       "username": "BezaleelPaulN",
-      "totalSolved": 270,
+      "totalSolved": 274,
       "easy": 116,
-      "medium": 17,
-      "hard": 2,
+      "medium": 18,
+      "hard": 3,
       "ranking": 1325559
     }
   },
