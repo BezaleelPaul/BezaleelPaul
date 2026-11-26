@@ -55,7 +55,7 @@
 
 <div align="center">
 
-[![Codeforces](https://img.shields.io/badge/Codeforces-BezaleelPaulN-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white&labelColor=161b22)](https://codeforces.com/profile/BezaleelPaulN)
+[![Codeforces](https://img.shields.io/badge/Codeforces-BezaleelPaulN-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white&labelColor=161b22)](https://codeforces.com/profile/BezaleelPaulN2228)
 [![CodeChef](https://img.shields.io/badge/CodeChef-bezaleelpauln-5B4638?style=for-the-badge&logo=codechef&logoColor=white&labelColor=161b22)](https://www.codechef.com/users/bezaleelpauln)
 [![LeetCode](https://img.shields.io/badge/LeetCode-BezaleelPaulN-FFA116?style=for-the-badge&logo=leetcode&logoColor=black&labelColor=161b22)](https://leetcode.com/u/bezaleelpauln/)
 [![HackerRank](https://img.shields.io/badge/HackerRank-bezaleel321-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white&labelColor=161b22)](https://www.hackerrank.com/bezaleel321)
@@ -169,7 +169,7 @@ Project-specific details for ongoing work are intentionally kept private until p
 - User-friendly interactive UI
 - Live hosted on GitHub Pages
 
-[![Demo](https://img.shields.io/badge/LIVE_DEMO-161b22?style=for-the-badge&logo=googlechrome&logoColor=39ff14)](https://bezaleelpaul.github.io/BESCOM-Calculator/)
+[![Demo](https://img.shields.io/badge/LIVE_DEMO-161b22?style=for-the-badge&logo=googlechrome&logoColor=39ff14)](https://bezaleelpaul.github.io/Testingwebsite-/BESCOM-Calculator/)
 [![Repo](https://img.shields.io/badge/VIEW_REPO-161b22?style=for-the-badge&logo=github&logoColor=39ff14)](https://github.com/BezaleelPaul/BESCOM-Calculator)
 </details>
 
@@ -253,13 +253,13 @@ Projects are continuously being built. Check back often, or visit my [GitHub rep
 
 ![Connect](assets/connect.svg)
 
-[LinkedIn](https://www.linkedin.com/in/bezaleel-pauln) · [GitHub](https://github.com/BezaleelPaul) · [Portfolio](https://bezaleelpaul.github.io/) · [Email](mailto:bezaleel321@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/bezaleel-pauln) · [GitHub](https://github.com/BezaleelPaul) · [Portfolio](https://bezaleelpaul.github.io/Testingwebsite-/) · [Email](mailto:bezaleel321@gmail.com)
 
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-bezaleel--paul-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=161b22)](https://www.linkedin.com/in/bezaleel-pauln)
 [![Kaggle](https://img.shields.io/badge/Kaggle-bezaleelpaul-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white&labelColor=161b22)](https://www.kaggle.com/bezaleelpaul)
-[![Portfolio](https://img.shields.io/badge/Portfolio-bezaleelpaul.github.io-39ff14?style=for-the-badge&logo=githubpages&logoColor=black&labelColor=161b22)](https://bezaleelpaul.github.io/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-bezaleelpaul.github.io-39ff14?style=for-the-badge&logo=githubpages&logoColor=black&labelColor=161b22)](https://bezaleelpaul.github.io/Testingwebsite-/)
 [![Email](https://img.shields.io/badge/EMAIL_ME-161b22?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:bezaleel321@gmail.com)
 
 <br/>
