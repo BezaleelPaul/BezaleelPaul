@@ -69,7 +69,7 @@ PROJECTS = [
 SOCIALS = [
     {"name": "LinkedIn", "handle": "bezaleel-pauln", "url": "https://www.linkedin.com/in/bezaleel-pauln", "icon": "in"},
     {"name": "GitHub", "handle": "@BezaleelPaul", "url": "https://github.com/BezaleelPaul", "icon": "gh"},
-    {"name": "Portfolio", "handle": "bezaleelpaul.github.io", "url": "https://bezaleelpaul.github.io/", "icon": "pf"},
+    {"name": "Portfolio", "handle": "bezaleelpaul.github.io/Testingwebsite-", "url": "https://bezaleelpaul.github.io/Testingwebsite-/", "icon": "pf"},
     {"name": "Kaggle", "handle": "bezaleelpaul", "url": "https://www.kaggle.com/bezaleelpaul", "icon": "kg"},
     {"name": "Codeforces", "handle": "BezaleelPaulN2228", "url": "https://codeforces.com/profile/BezaleelPaulN2228", "icon": "cf"},
     {"name": "LeetCode", "handle": "bezaleelpauln", "url": "https://leetcode.com/u/bezaleelpauln/", "icon": "lc"},
