@@ -67,12 +67,12 @@ PROJECTS = [
 ]
 
 SOCIALS = [
-    {"name": "LinkedIn", "handle": "bezaleel-paul", "url": "https://www.linkedin.com/in/bezaleel-paul-7b114b307", "icon": "in"},
+    {"name": "LinkedIn", "handle": "bezaleel-pauln", "url": "https://www.linkedin.com/in/bezaleel-pauln", "icon": "in"},
     {"name": "GitHub", "handle": "@BezaleelPaul", "url": "https://github.com/BezaleelPaul", "icon": "gh"},
     {"name": "Portfolio", "handle": "bezaleelpaul.github.io", "url": "https://bezaleelpaul.github.io/", "icon": "pf"},
     {"name": "Kaggle", "handle": "bezaleelpaul", "url": "https://www.kaggle.com/bezaleelpaul", "icon": "kg"},
-    {"name": "Codeforces", "handle": "BezaleelPaulN", "url": "https://codeforces.com/profile/BezaleelPaulN", "icon": "cf"},
-    {"name": "LeetCode", "handle": "BezaleelPaulN", "url": "https://leetcode.com/u/BezaleelPaulN/", "icon": "lc"},
+    {"name": "Codeforces", "handle": "BezaleelPaulN2228", "url": "https://codeforces.com/profile/BezaleelPaulN2228", "icon": "cf"},
+    {"name": "LeetCode", "handle": "bezaleelpauln", "url": "https://leetcode.com/u/bezaleelpauln/", "icon": "lc"},
     {"name": "CodeChef", "handle": "bezaleelpauln", "url": "https://www.codechef.com/users/bezaleelpauln", "icon": "cc"},
     {"name": "HackerRank", "handle": "bezaleel321", "url": "https://www.hackerrank.com/bezaleel321", "icon": "hr"},
 ]
