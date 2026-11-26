@@ -86,11 +86,7 @@ A selection of public projects. Work that is still private or not ready for publ
 
 LeetCode snapshot shared on **26 November 2026**: **137 problems solved**, **186 submissions**. The live profile is the source of truth for future changes.
 
-Other coding profiles:
-- [Codeforces](https://codeforces.com/profile/BezaleelPaulN)
-- [CodeChef](https://www.codechef.com/users/bezaleelpauln)
-- [HackerRank](https://www.hackerrank.com/bezaleel321)
-- [Kaggle](https://www.kaggle.com/bezaleelpaul)
+Other coding-platform links will be added after their current handles are confirmed.
 
 ---
 
