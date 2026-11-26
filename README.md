@@ -99,6 +99,9 @@
 
 ## `$ cat ./hackathons-and-community`
 
+**Current chapter:** Second-year Computer Science student building across AI/ML, software engineering, and applied systems.
+
+
 | Event | Contribution / outcome |
 |---|---|
 | **Smart India Hackathon 2026 — Internal Hackathon** | Team Lead, Binary Architects (CMRU007); shortlisted from CMR University's internal hackathon. |
