@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-27T01:17:31Z",
+  "generated_at": "2026-11-27T15:51:28Z",
   "profile": {
     "name": "Bezaleel Paul N",
     "alias": "BezForge",
     "location": "Bangalore, India",
     "role": "AI/ML · Full-Stack · Builder",
-    "status": "last pushed to coa-study-notes 1d ago",
+    "status": "last pushed to BezaleelPaul 1d ago",
     "open_to_work": true,
     "focus": [
       "AI/ML",
@@ -20,7 +20,7 @@
     "watchers": 6,
     "followers": 4,
     "following": 12,
-    "repos": 40,
+    "repos": 41,
     "gists": 0,
     "created": "2023-09-16T14:45:35Z",
     "top_repos": [
@@ -132,7 +132,7 @@
       },
       {
         "date": "2026-11-17",
-        "count": 1
+        "count": 0
       },
       {
         "date": "2026-11-18",
@@ -168,7 +168,7 @@
       },
       {
         "date": "2026-11-26",
-        "count": 2
+        "count": 3
       },
       {
         "date": "2026-11-27",
@@ -178,46 +178,40 @@
   },
   "activity": [
     {
-      "emoji": "🌿",
-      "action": "Created branch",
-      "repo": "coa-study-notes",
+      "emoji": "📦",
+      "action": "Pushed 0 commit to",
+      "repo": "BezaleelPaul",
       "time": "1d ago"
     },
     {
       "emoji": "🌿",
       "action": "Created branch",
       "repo": "coa-study-notes",
-      "time": "1d ago"
+      "time": "2d ago"
+    },
+    {
+      "emoji": "🌿",
+      "action": "Created branch",
+      "repo": "coa-study-notes",
+      "time": "2d ago"
     },
     {
       "emoji": "🔀",
       "action": "Merged PR in",
       "repo": "BezaleelPaul",
-      "time": "19h ago"
+      "time": "1d ago"
     },
     {
       "emoji": "🔀",
       "action": "Opened PR in",
       "repo": "BezaleelPaul",
-      "time": "19h ago"
+      "time": "1d ago"
     },
     {
       "emoji": "💻",
       "action": "Activity in",
       "repo": "ai-autonomous-exploration-rover",
-      "time": "56d ago"
-    },
-    {
-      "emoji": "📦",
-      "action": "Pushed 0 commit to",
-      "repo": "Drishti",
-      "time": "7d ago"
-    },
-    {
-      "emoji": "📦",
-      "action": "Pushed 0 commit to",
-      "repo": "Drishti",
-      "time": "7d ago"
+      "time": "57d ago"
     },
     {
       "emoji": "📦",
@@ -234,8 +228,14 @@
     {
       "emoji": "📦",
       "action": "Pushed 0 commit to",
-      "repo": "bnmit-nadicare-health",
-      "time": "8d ago"
+      "repo": "Drishti",
+      "time": "9d ago"
+    },
+    {
+      "emoji": "📦",
+      "action": "Pushed 0 commit to",
+      "repo": "Drishti",
+      "time": "9d ago"
     }
   ],
   "skills": [
@@ -374,7 +374,7 @@
       "easy": 116,
       "medium": 18,
       "hard": 3,
-      "ranking": 1308101
+      "ranking": 1308636
     }
   },
   "projects": [
